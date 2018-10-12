@@ -1,96 +1,65 @@
+<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-# Scotch Box
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+</p>
 
-## [GET SCOTCH BOX PRO](https://box.scotch.io/pro)
+## About Laravel
 
-## [TUTORIAL](https://box.scotch.io)
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
 
-Just a Dead-Simple Local LAMP/LEMP Stack for Vagrant. **Making Vagrant EASY AS EATING CAKE for developers.**
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-![Scotch Box](https://box.scotch.io/img/pro-banner.png)
+Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
 
-Scotch Box is a pre-configured Vagrant Box with a full array of features to get you up and running with Vagrant in no time.
+## Learning Laravel
 
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of any modern web application framework, making it a breeze to get started learning the framework.
 
-## Scotch Box 3.5!
+If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
 
-3.5 is finally here!
+## Laravel Sponsors
 
-* Ubuntu 16.04!
-* PHP 7!
-* MySQL 5.7!
-* NGNIX Option!
-* Go lang in the box
-* PHPUnit in the box
-* Yarn
-* Improved email catching with MailHog
-* Vagrant Share working nicely finally
-* The box's build scripts
-* Customize your own boxes in minutes
-* Generally higher versions of things (Node.js, Ruby, etc.)!
+We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell):
 
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[British Software Development](https://www.britishsoftware.co)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- [UserInsights](https://userinsights.com)
+- [Fragrantica](https://www.fragrantica.com)
+- [SOFTonSOFA](https://softonsofa.com/)
+- [User10](https://user10.com)
+- [Soumettre.fr](https://soumettre.fr/)
+- [CodeBrisk](https://codebrisk.com)
+- [1Forge](https://1forge.com)
+- [TECPRESSO](https://tecpresso.co.jp/)
+- [Runtime Converter](http://runtimeconverter.com/)
+- [WebL'Agence](https://weblagence.com/)
+- [Invoice Ninja](https://www.invoiceninja.com)
+- [iMi digital](https://www.imi-digital.de/)
+- [Earthlink](https://www.earthlink.ro/)
+- [Steadfast Collective](https://steadfastcollective.com/)
 
-## License Required?!!!!?!
+## Contributing
 
-Still MIT License for the free version. The free version is still a beast.
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-Pro will help support the project, let you customize some things a bit more, and will help this project survive. If you're super pissed about this, in school, working for good causes, or hurting for cash, then email me at nick@scotch.io so I can get you setup with Pro no charge.
+## Security Vulnerabilities
 
-"Scotch Box Pro" is a paid version of the original Scotch Box. [Go Pro Now!](https://box.scotch.io/pro)
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+## License
 
-## Pro Features
-
-* NEW OS: **Ubuntu-17.10!**
-* NEW PHP: **PHP 7.2!**
-* NEW APACHE: 2.4.29
-* NEW NGINX: 1.13.8
-* NEW RUBY via RVM: 2.5.0
-* NEW NODE via NVM: 8.9.4
-* NEW BUILD SCRIPTS
-* Fixes a MongoDB and PHP bug
-* **Makes Laravel routing finally work out of the box with NGINX version**
-* Adds Drush (Launcher) even though you should do this through Composer these days
-* Updated WP-CLI version
-* Generally WAY higher versions of everything else
-
-![Scotch Box](https://box.scotch.io/img/terminal.png)
-
-## Documentation
-
-* Check out the official docs at: [box.scotch.io](https://box.scotch.io)
-* [Read the getting started article](https://scotch.io/bar-talk/introducing-scotch-box-a-vagrant-lamp-stack-that-just-works)
-* [Read the 2.0 release article](https://scotch.io/bar-talk/announcing-scotch-box-2-0-our-dead-simple-vagrant-lamp-stack-improved)
-* [Read the 2.5 release article](https://scotch.io/bar-talk/announcing-scotch-box-2-5)
-* [Read the 3.0 release article](https://scotch.io/bar-talk/announcing-scotch-box-30-and-scotch-box-pro)
-* [Read the 3.5 release article](https://scotch.io/bar-talk/announcing-scotch-box-v35-and-scotch-box-pro-v15-the-big-switcheroo)
-
-
-
-## WPDistillery
-
-![WPDistillery Logo](http://files.flurinduerst.ch/wpdistillery/wpdistillery_bright.png)
-
-WPDistillery is an amazing tool by [Flurin Dürst](https://twitter.com/flurinduerst) that kickstarts your WordPress installation on Scotch Box. It is actively maintained, has lots of features and gets you started in less than 5 minutes.
-
-All you have to do is clone the repo, customize the configuration file to your needs, and <b>vagrant up</b>. WPDistillery will do the rest:
-
-![WPDistillery Preview](http://files.flurinduerst.ch/wpdistillery/wpdistillery_terminal_small.png)
-
-To get started, visit [wpdistillery.org](https://wpdistillery.org) or check out the [Documentation](https://github.com/flurinduerst/WPDistillery).
-
-
-## More Information
-
-Check-out [box.scotch.io](https://box.scotch.io) to learn more.
-
-
-
-
-## Special Thank You
-
-Thanks to anyone who has supported this project.
-
-I was dark on this project for a little bit too long, as I got caught up with work and a million other things. I apologize for slowness to release updates. I'm hoping the Pro version can create a bit more motivation to dedicate time to this. I also finally have the build scripts available for download with the Pro version so you all can start addressing bugs yourselves with your own personalized boxes.
-
-Thanks to the community for bug fixes and provisioning tips. Special shout-out to [@maxpou](https://github.com/maxpou) for completely killing it with community responses. 
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
