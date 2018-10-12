@@ -1,5 +1,9 @@
 <?php
-Route::get('/', function () { return redirect('/admin/home'); });
+Route::get('/', function () { return view('pages/home'); });
+Route::get('/about', function() { return redirect('/about/netrunner'); });
+Route::get('/about/netrunner', function () { return view('pages/about/netrunner'); });
+Route::get('/about/nisei', function () { return view('pages/about/nisei'); });
+// Route::get('/about/nisei', ['uses' => 'Web\AboutController@show', 'as' => 'render.about-nisei']);
 
 // Authentication Routes...
 $this->get('login', 'Auth\LoginController@showLoginForm')->name('login');
@@ -17,6 +21,8 @@ $this->get('password/reset/{token}', 'Auth\ResetPasswordController@showResetForm
 $this->post('password/reset', 'Auth\ResetPasswordController@reset')->name('auth.password.reset');
 
 Route::group(['middleware' => ['auth'], 'prefix' => 'admin', 'as' => 'admin.'], function () {
+
+    Route::get('/', function() { return redirect('/admin/home'); });
     Route::get('/home', 'HomeController@index');
     
     Route::resource('roles', 'Admin\RolesController');
