@@ -6324,6 +6324,7 @@ a {
 
 .navbar {
   padding: 0.5rem 0;
+  height: 4rem;
   background-color: #f1f1f1;
   transition: all ease 0.5s; }
   .navbar a:hover, .navbar a:focus {
@@ -6363,7 +6364,36 @@ a {
 .nav-item {
   margin-left: 2rem; }
 
-.nav-link:hover, .nav-link:active {
-  border-bottom: 2px solid #c00303; }
+.nav-link {
+  position: relative; }
+  .nav-link:hover::before, .nav-link:active::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0rem;
+    left: 0;
+    height: 2px;
+    background-color: #c00303; }
+
+.main-title {
+  background: #f1f1f1;
+  margin-top: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #c00303;
+  position: relative;
+  background-image: url("/assets/images/creation.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .main-title h3 {
+    font-size: 33px;
+    color: #000000;
+    margin-bottom: 15px;
+    margin-top: 0; }
+  .main-title p {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 10px; }
 
 /*# sourceMappingURL=app.css.map */

@@ -3,5 +3,9 @@
 @section('page-title', 'Project NISEI')
 
 @section('content')
-	<h1>Project NISEI</h1>
+
+    @include('partials.main-title', [
+        'heading' => 'Project NISEI'
+    ])
+
 @stop
