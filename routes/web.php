@@ -3,7 +3,6 @@ Route::get('/', function () { return view('pages/home'); });
 Route::get('/about', function() { return redirect('/about/netrunner'); });
 Route::get('/about/netrunner', function () { return view('pages/about/netrunner'); });
 Route::get('/about/nisei', function () { return view('pages/about/nisei'); });
-// Route::get('/about/nisei', ['uses' => 'Web\AboutController@show', 'as' => 'render.about-nisei']);
 
 // Authentication Routes...
 $this->get('login', 'Auth\LoginController@showLoginForm')->name('login');
