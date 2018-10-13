@@ -6412,7 +6412,10 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 61px; } }
 
 .headline {
-  position: relative; }
+  position: relative;
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+  margin-top: 20px; }
   .headline::before {
     content: "";
     position: absolute;
@@ -6425,5 +6428,19 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     position: relative;
     padding-right: 0.5rem; }
+
+.board-member {
+  padding: 2rem 1rem;
+  text-align: center; }
+  .board-member span {
+    margin-bottom: 0.2rem;
+    display: block; }
+
+.board-member__position {
+  font-size: 16px; }
+
+.board-member__pronouns {
+  font-size: 14px;
+  color: #bdc3c7; }
 
 /*# sourceMappingURL=app.css.map */

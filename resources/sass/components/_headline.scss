@@ -1,6 +1,10 @@
 .headline {
     position: relative;
 
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
     &::before {
         content: "";
         position: absolute;

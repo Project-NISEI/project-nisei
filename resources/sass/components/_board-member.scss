@@ -1,0 +1,22 @@
+.board-member {
+    padding: 2rem 1rem;
+    text-align: center;
+
+    span {
+        margin-bottom: 0.2rem;
+        display: block;
+    }
+}
+
+.board-member__name {
+    
+}
+
+.board-member__position {
+    font-size: 16px;
+}
+
+.board-member__pronouns {
+    font-size: 14px;
+    color: #bdc3c7;
+}
