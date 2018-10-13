@@ -7,22 +7,16 @@ use App\User;
 
 class BoardComposer
 {
-    /**
-     * The user repository implementation.
-     *
-     * @var UserRepository
-     */
     protected $users;
 
     /**
      * Create a new profile composer.
      *
-     * @param  UserRepository  $users
+     * @param  User  $users
      * @return void
      */
     public function __construct(User $users)
     {
-        // Dependencies automatically resolved by service container...
         $this->users = $users;
     }
 
