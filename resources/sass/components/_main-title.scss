@@ -11,15 +11,12 @@
     background-repeat: no-repeat;
     background-position: center;
 
-    h3 {
-        font-size: 33px;
-        color: $text-color;
-        margin-bottom: 15px;
-        margin-top: 0;
-    }
-    p {
-        font-size: 16px;
-        color: $text-color;
-        margin-bottom: 10px;
+    h1 {
+        font-size: 43px;
+        margin-bottom: 0;
+
+        @include media-breakpoint-up(md) {
+            font-size: 61px;
+        }
     }
 }

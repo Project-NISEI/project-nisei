@@ -1,12 +1,12 @@
-@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
-// Variables
 @import 'variables';
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
 @import 'layouts/default';
 
 @import 'components/nav';
 @import 'components/main-title';
+@import 'components/headline';
+

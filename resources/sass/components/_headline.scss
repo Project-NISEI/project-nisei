@@ -1,0 +1,19 @@
+.headline {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        border-top: 2px solid #f1f1f1;
+    }
+
+    span {
+        background-color: white;
+        display: inline-block;
+        position: relative;
+        padding-right: 0.5rem;
+    }
+}

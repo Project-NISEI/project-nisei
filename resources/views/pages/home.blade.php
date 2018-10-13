@@ -10,7 +10,7 @@
 
     <div class="container">
         <div class="small-12">
-            <h4 class="headline">What we do</h4>
+            <h4 class="headline"><span>What we do</span></h4>
             <p>The Nextrunner International Support & Expansion Initiative (NISEI) is a fan-run organization to keep the game (Android: Netrunner) alive and thriving by establishing a new, non-FFG, means of supporting the player-base and creating content.</p>
             <hr>
             <h5>First time here here?</h5>

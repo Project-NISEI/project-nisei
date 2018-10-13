@@ -1,7 +1,9 @@
-// Used by the fixed navigation
+html {
+    font-size: 18px;
+}
+
 body {
     background-color: $brand-primary;
-    font-size: 18px;
 }
 
 hr {
@@ -9,5 +11,15 @@ hr {
 }
 
 a {
-    color: $link-color;;
+    color: $link-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 0.8em;
+}
+
+.container {
+    max-width: 1170px;
 }
