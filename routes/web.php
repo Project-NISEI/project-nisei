@@ -11,6 +11,10 @@ Route::get('/about/nisei', function () { return view('pages/about/nisei'); });
 Route::get('/blog',  ['uses' => 'Web\BlogController@index', 'as' => 'blog.index'] );
 Route::get('/blog/{slug}', ['uses' => 'Web\BlogController@detail', 'as' => 'blog.detail'] );
 
+Route::get('/op', function() { return redirect('/op/for-stores'); });
+Route::get('/op/for-stores', ['uses' => 'Web\OPController@indexForStores', 'as' => 'op.storeIndex'] );
+Route::get('/op/for-stores/{slug}', ['uses' => 'Web\OPController@detailForStores', 'as' => 'op.storeEvent'] );
+
 
 
 
