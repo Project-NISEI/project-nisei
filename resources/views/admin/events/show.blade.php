@@ -24,6 +24,14 @@
                             <th>@lang('quickadmin.events.fields.type')</th>
                             <td field-key='type'>{{ $event->type }}</td>
                         </tr>
+                        <tr>
+                            <th>@lang('quickadmin.events.fields.price')</th>
+                            <td field-key='author'>{{ $event->price }}</td>
+                        </tr>
+                        <tr>
+                            <th>@lang('quickadmin.events.fields.content')</th>
+                            <td field-key='content'>{!! $event->content !!}</td>
+                        </tr>
                     </table>
                 </div>
             </div>

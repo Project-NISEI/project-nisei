@@ -15,7 +15,7 @@ class Event extends Model
 {
     use SoftDeletes;
 
-    protected $fillable = ['name', 'slug', 'type'];
+    protected $fillable = ['name', 'slug', 'type', 'content', 'price'];
     protected $hidden = [];
     
     

@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddSlugToEventTable extends Migration
+class AddAdditionalFieldsToEventTable extends Migration
 {
     /**
      * Run the migrations.
@@ -15,6 +15,8 @@ class AddSlugToEventTable extends Migration
     {
         Schema::table('events', function (Blueprint $table) {
             $table->string('slug')->nullable();
+            $table->string('price')->nullable();
+            $table->text('content')->nullable();
         });
     }
 
@@ -27,6 +29,8 @@ class AddSlugToEventTable extends Migration
     {
         Schema::table('events', function (Blueprint $table) {
             $table->dropColumn('slug');
+            $table->dropColumn('price');
+            $table->dropColumn('content');
         });
     }
 }

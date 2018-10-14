@@ -46,7 +46,30 @@
                     @endif
                 </div>
             </div>
-            
+            <div class="row">
+                <div class="col-xs-12 form-group">
+                    {!! Form::label('price', trans('quickadmin.events.fields.price').'*', ['class' => 'control-label']) !!}
+                    {!! Form::text('price', old('price'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('price'))
+                        <p class="help-block">
+                            {{ $errors->first('price') }}
+                        </p>
+                    @endif
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 form-group">
+                    {!! Form::label('content', trans('quickadmin.events.fields.content').'*', ['class' => 'control-label']) !!}
+                    {!! Form::textarea('content', old('content'), ['class' => 'form-control editor', 'placeholder' => '', 'required' => '']) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('content'))
+                        <p class="help-block">
+                            {{ $errors->first('content') }}
+                        </p>
+                    @endif
+                </div>
+            </div>
         </div>
     </div>
 
@@ -54,3 +77,17 @@
     {!! Form::close() !!}
 @stop
 
+@section('javascript')
+    @parent
+    <script src="//cdn.ckeditor.com/4.5.4/full/ckeditor.js"></script>
+    <script>
+        $('.editor').each(function () {
+                  CKEDITOR.replace($(this).attr('id'),{
+                    filebrowserImageBrowseUrl: '/laravel-filemanager?type=Images',
+                    filebrowserImageUploadUrl: '/laravel-filemanager/upload?type=Images&_token={{csrf_token()}}',
+                    filebrowserBrowseUrl: '/laravel-filemanager?type=Files',
+                    filebrowserUploadUrl: '/laravel-filemanager/upload?type=Files&_token={{csrf_token()}}'
+            });
+        });
+    </script>
+@stop

@@ -36,6 +36,7 @@
                         <th>@lang('quickadmin.events.fields.name')</th>
                         <th>@lang('quickadmin.events.fields.slug')</th>
                         <th>@lang('quickadmin.events.fields.type')</th>
+                        <th>@lang('quickadmin.events.fields.price')</th>
                         @if( request('show_deleted') == 1 )
                         <th>&nbsp;</th>
                         @else
@@ -55,6 +56,7 @@
                                 <td field-key='name'>{{ $event->name }}</td>
                                 <td field-key='slug'>{{ $event->slug }}</td>
                                 <td field-key='type'>{{ $event->type }}</td>
+                                <td field-key='type'>{{ $event->price }}</td>
                                 @if( request('show_deleted') == 1 )
                                 <td>
                                     @can('event_delete')

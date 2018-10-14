@@ -52,6 +52,8 @@ return [
 			'name' => 'Name',
 			'slug' => 'Slug',
 			'type' => 'Type',
+			'content' => 'Content',
+			'price' => 'Price',
 		],
 	],
 	'qa_create' => 'Create',
