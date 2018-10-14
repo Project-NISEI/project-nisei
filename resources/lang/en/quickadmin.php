@@ -1,12 +1,59 @@
 <?php
 
 return [
-		'user-management' => [		'title' => 'User management',		'fields' => [		],	],
-		'roles' => [		'title' => 'Roles',		'fields' => [			'title' => 'Title',		],	],
-		'users' => [		'title' => 'Users',		'fields' => [			'name' => 'Name',			'email' => 'Email',			'password' => 'Password',			'role' => 'Role',			'remember-token' => 'Remember token',			'board-member' => 'Board member',			'position-name' => 'Position name',			'pronouns' => 'Pronouns',		],	],
-		'blog' => [		'title' => 'Blog',		'fields' => [			'title' => 'Title',			'slug' => 'Slug',			'published-at' => 'Published at',			'author' => 'Author',			'content' => 'Content',		],	],
-		'event-management' => [		'title' => 'Event management',		'fields' => [		],	],
-		'events' => [		'title' => 'Events',		'fields' => [			'name' => 'Name',			'type' => 'Type',		],	],
+	
+	'user-management' => [
+		'title' => 'User management',
+		'fields' => [
+		],
+	],
+	
+	'roles' => [
+		'title' => 'Roles',
+		'fields' => [
+			'title' => 'Title',
+		],
+	],
+	
+	'users' => [
+		'title' => 'Users',
+		'fields' => [
+			'name' => 'Name',
+			'email' => 'Email',
+			'password' => 'Password',
+			'role' => 'Role',
+			'remember-token' => 'Remember token',
+			'board-member' => 'Board member',
+			'position-name' => 'Position name',
+			'pronouns' => 'Pronouns',
+		],
+	],
+	
+	'blog' => [
+		'title' => 'Blog',
+		'fields' => [
+			'title' => 'Title',
+			'slug' => 'Slug',
+			'published-at' => 'Published at',
+			'author' => 'Author',
+			'content' => 'Content',
+		],
+	],
+	
+	'event-management' => [
+		'title' => 'Event management',
+		'fields' => [
+		],
+	],
+	
+	'events' => [
+		'title' => 'Events',
+		'fields' => [
+			'name' => 'Name',
+			'slug' => 'Slug',
+			'type' => 'Type',
+		],
+	],
 	'qa_create' => 'Create',
 	'qa_save' => 'Save',
 	'qa_edit' => 'Edit',

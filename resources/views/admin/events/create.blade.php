@@ -24,6 +24,18 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
+                    {!! Form::label('slug', trans('quickadmin.events.fields.slug').'*', ['class' => 'control-label']) !!}
+                    {!! Form::text('slug', old('slug'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('slug'))
+                        <p class="help-block">
+                            {{ $errors->first('slug') }}
+                        </p>
+                    @endif
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 form-group">
                     {!! Form::label('type', trans('quickadmin.events.fields.type').'*', ['class' => 'control-label']) !!}
                     {!! Form::select('type', $enum_type, old('type'), ['class' => 'form-control select2', 'required' => '']) !!}
                     <p class="help-block"></p>
