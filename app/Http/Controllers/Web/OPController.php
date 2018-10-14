@@ -22,6 +22,7 @@ class OPController extends Controller
     public function indexForStores(Request $request)
     {
         $events = DB::table('events')
+            ->select('name', 'slug', 'type')
             ->get();
 
         return view('pages.op.stores.index', [
@@ -33,7 +34,12 @@ class OPController extends Controller
     {
         $event = DB::table('events')
             ->where('slug', $slug)
-            ->get();
+            ->select('name', 'slug', 'type')
+            ->first();
+
+        if (!$event) {
+            return view('errors.404');
+        }
 
         return view('pages.op.stores.detail', [
             'event' => $event
