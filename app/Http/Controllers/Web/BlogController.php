@@ -4,28 +4,27 @@ namespace App\Http\Controllers\Web;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Blog;
+use Illuminate\Support\Facades\DB;
 
 class BlogController extends Controller
 {
-    protected $blog;
 
     /**
      * Create a new controller instance.
      *
      * @return void
      */
-    public function __construct(Blog $blog)
+    public function __construct()
     {
-        $this->blog = $blog;
+
     }
 
     public function index(Request $request)
     {
-        $articles = $this->blog::select('title', 'published_at', 'slug')
+        $articles = DB::table('blogs')
+            ->join('users', 'blogs.author_id', '=', 'users.id')
+            ->select('users.name as author_name', 'blogs.title', 'blogs.published_at', 'blogs.slug')
             ->get();
-
-        \Log::debug($articles);
 
         return view('pages.blog.listing', [
             'articles' => $articles
@@ -34,8 +33,10 @@ class BlogController extends Controller
 
     public function detail(Request $request, $slug)
     {
-        $article = $this->blog::select('title', 'published_at', 'content')
+        $article = DB::table('blogs')
             ->where('slug', $slug)
+            ->join('users', 'blogs.author_id', '=', 'users.id')
+            ->select('users.name as author_name', 'blogs.title', 'blogs.published_at', 'blogs.slug', 'blogs.content')
             ->first();
 
         if (!$article) {

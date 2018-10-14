@@ -37,7 +37,6 @@
                         <th>@lang('quickadmin.blog.fields.slug')</th>
                         <th>@lang('quickadmin.blog.fields.published-at')</th>
                         <th>@lang('quickadmin.blog.fields.author')</th>
-                        <th>@lang('quickadmin.blog.fields.content')</th>
                         @if( request('show_deleted') == 1 )
                         <th>&nbsp;</th>
                         @else
@@ -58,7 +57,6 @@
                                 <td field-key='slug'>{{ $blog->slug }}</td>
                                 <td field-key='published_at'>{{ $blog->published_at }}</td>
                                 <td field-key='author'>{{ $blog->author->name ?? '' }}</td>
-                                <td field-key='content'>{!! $blog->content !!}</td>
                                 @if( request('show_deleted') == 1 )
                                 <td>
                                     @can('blog_delete')
