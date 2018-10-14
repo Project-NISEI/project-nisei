@@ -1,0 +1,39 @@
+.form {
+    margin-bottom: 3rem;
+}
+
+.form-field {
+    display: block;
+    padding: 1rem 1rem 0;
+
+    label {
+        display: block;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    input[type=text], input[type=email], input[type=number], textarea {
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        border: 1px solid black;
+    }
+
+    input[type=submit] {
+        padding: 0.5rem 2rem;
+        background-color: $link-color;
+        outline: none;
+        border: 1px solid black;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        color: white;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+.form-field__meta {
+    font-size: 0.7rem;
+    transform: translateY(-0.5rem);
+    display: block;
+}

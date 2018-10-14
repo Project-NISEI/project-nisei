@@ -6447,12 +6447,60 @@ h1, h2, h3, h4, h5, h6 {
   padding: 1rem;
   border: 1px solid #e2e0e0;
   border-radius: 0.5rem;
-  color: #000000; }
+  color: #000000;
+  display: block; }
 
 .article-card__name {
   font-size: 2rem; }
 
 .article-card__meta {
   font-size: 0.7rem; }
+
+.event-card {
+  padding: 1rem;
+  border: 1px solid #e2e0e0;
+  border-radius: 0.5rem;
+  color: #000000;
+  display: block; }
+
+.event-card__name {
+  font-size: 2rem; }
+
+.event-card__type {
+  font-size: 1rem; }
+
+.event-card__price {
+  font-size: 1rem; }
+
+.form {
+  margin-bottom: 3rem; }
+
+.form-field {
+  display: block;
+  padding: 1rem 1rem 0; }
+  .form-field label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem; }
+  .form-field input[type=text], .form-field input[type=email], .form-field input[type=number], .form-field textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid black; }
+  .form-field input[type=submit] {
+    padding: 0.5rem 2rem;
+    background-color: #c00303;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: white;
+    margin: 0 auto;
+    display: block; }
+
+.form-field__meta {
+  font-size: 0.7rem;
+  transform: translateY(-0.5rem);
+  display: block; }
 
 /*# sourceMappingURL=app.css.map */

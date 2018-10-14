@@ -20,11 +20,16 @@
             <div class="row">
                 <div class="col-sm-12">
                     <h4 class="headline"><span>Available Kits</span></h4>
+                    <br>
                 </div>
                 @foreach ($events as $event)
-                    <a class="col-sm-12" href="/op/for-stores/{{ $event->slug }}">
-                        {{ $event->name }}
-                    </a>
+                    <div class="col-sm-12 col-lg-6">
+                        <a class="event-card" href="/op/for-stores/{{ $event->slug }}">
+                            <p class="event-card__name">{{ $event->name }}</p>
+                            <p class="event-card__type">Type: {{ $event->type }}</p>
+                            <p class="event-card__price">Price per kit: {{ $event->price }}</p>
+                        </a>
+                    </div>
                 @endforeach
             </div>
         </div>

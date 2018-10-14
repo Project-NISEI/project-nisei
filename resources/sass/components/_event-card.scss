@@ -1,4 +1,4 @@
-.article-card {
+.event-card {
     padding: 1rem;
     border: 1px solid #e2e0e0;
     border-radius: 0.5rem;
@@ -6,10 +6,14 @@
     display: block;
 }
 
-.article-card__name {
+.event-card__name {
     font-size: 2rem;
 }
 
-.article-card__meta {
-    font-size: 0.7rem;
+.event-card__type {
+    font-size: 1rem;
+}
+
+.event-card__price {
+    font-size: 1rem;
 }
