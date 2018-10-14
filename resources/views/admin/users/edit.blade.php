@@ -61,9 +61,9 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('board_member', trans('quickadmin.users.fields.board-member').'*', ['class' => 'control-label']) !!}
+                    {!! Form::label('board_member', trans('quickadmin.users.fields.board-member'), ['class' => 'control-label']) !!}
                     {!! Form::hidden('board_member', 0) !!}
-                    {!! Form::checkbox('board_member', 1, old('board_member', old('board_member')), ['required' => '']) !!}
+                    {!! Form::checkbox('board_member', 1, old('board_member', old('board_member'))) !!}
                     <p class="help-block"></p>
                     @if($errors->has('board_member'))
                         <p class="help-block">
