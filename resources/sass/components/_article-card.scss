@@ -1,0 +1,14 @@
+.article-card {
+    padding: 1rem;
+    border: 1px solid #e2e0e0;
+    border-radius: 0.5rem;
+    color: $text-color;
+}
+
+.article-card__name {
+    font-size: 2rem;
+}
+
+.article-card__meta {
+    font-size: 0.7rem;
+}

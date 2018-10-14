@@ -6443,4 +6443,16 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   color: #bdc3c7; }
 
+.article-card {
+  padding: 1rem;
+  border: 1px solid #e2e0e0;
+  border-radius: 0.5rem;
+  color: #000000; }
+
+.article-card__name {
+  font-size: 2rem; }
+
+.article-card__meta {
+  font-size: 0.7rem; }
+
 /*# sourceMappingURL=app.css.map */
