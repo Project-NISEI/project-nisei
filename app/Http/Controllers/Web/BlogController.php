@@ -26,7 +26,7 @@ class BlogController extends Controller
             ->select('users.name as author_name', 'blogs.title', 'blogs.published_at', 'blogs.slug')
             ->get();
 
-        return view('pages.blog.listing', [
+        return view('pages.blog.index', [
             'articles' => $articles
         ]);
     }
