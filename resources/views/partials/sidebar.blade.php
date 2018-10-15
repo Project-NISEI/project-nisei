@@ -52,7 +52,13 @@
                         <i class="fa fa-angle-left pull-right"></i>
                     </span>
                 </a>
-                <ul class="treeview-menu"> 
+                <ul class="treeview-menu">
+                    <li>
+                        <a href="{{ route('admin.categories.index') }}">
+                            <i class="fa fa-book"></i>
+                            <span>@lang('quickadmin.categories.title')</span>
+                        </a>
+                    </li>
                     <li>
                         <a href="{{ route('admin.blogs.index') }}">
                             <i class="fa fa-book"></i>

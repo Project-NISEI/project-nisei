@@ -6,8 +6,8 @@ use App\Blog;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
 use App\Http\Controllers\Controller;
-use App\Http\Requests\Admin\StoreBlogsRequest;
-use App\Http\Requests\Admin\UpdateBlogsRequest;
+use App\Http\Requests\Admin\StoreCategoriesRequest;
+use App\Http\Requests\Admin\UpdateCategoriesRequest;
 
 class BlogsController extends Controller
 {

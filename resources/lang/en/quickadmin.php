@@ -35,6 +35,14 @@ return [
 		],
 	],
 	
+	'categories' => [
+		'title' => 'Categories',
+		'fields' => [
+			'title' => 'Title',
+			'slug' => 'Slug',
+		],
+	],
+	
 	'blog' => [
 		'title' => 'Articles',
 		'fields' => [
