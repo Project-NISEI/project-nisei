@@ -1,11 +1,11 @@
 @extends('layouts.default')
 
-@section('page-title', 'Project NISEI')
+@section('page-title', 'NISEI')
 
 @section('content')
 
     @include('partials.main-title', [
-        'heading' => 'Project NISEI'
+        'heading' => 'NISEI'
     ])
 
     <div class="page-content">

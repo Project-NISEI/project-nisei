@@ -1,6 +1,6 @@
 @extends('layouts.default')
 
-@section('page-title', 'Project NISEI - What is Netrunner?')
+@section('page-title', 'NISEI - What is Netrunner?')
 
 @section('content')
 

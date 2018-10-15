@@ -1,6 +1,6 @@
 @extends('layouts.default')
 
-@section('page-title', 'Project NISEI - ' . $article->title)
+@section('page-title', 'NISEI - ' . $article->title)
 
 @section('content')
 

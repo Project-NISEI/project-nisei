@@ -1,11 +1,11 @@
 @extends('layouts.default')
 
-@section('page-title', 'Project NISEI - Who or what is Project NISEI?')
+@section('page-title', 'NISEI - Who or what is NISEI?')
 
 @section('content')
 
     @include('partials.main-title', [
-        'heading' => 'Who or what is Project NISEI?'
+        'heading' => 'Who or what is NISEI?'
     ])
 
     <div class="page-content">

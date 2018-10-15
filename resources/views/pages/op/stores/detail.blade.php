@@ -1,6 +1,6 @@
 @extends('layouts.default')
 
-@section('page-title', 'Project NISEI - ' . $event->name)
+@section('page-title', 'NISEI - ' . $event->name)
 
 @section('content')
 
