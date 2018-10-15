@@ -24,6 +24,7 @@ class BlogController extends Controller
         $articles = DB::table('blogs')
             ->join('users', 'blogs.author_id', '=', 'users.id')
             ->select('users.name as author_name', 'blogs.title', 'blogs.published_at', 'blogs.slug')
+            ->orderBy('published_at', 'desc')
             ->get();
 
         return view('pages.blog.index', [
