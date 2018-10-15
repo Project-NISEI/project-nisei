@@ -8,12 +8,11 @@ use Illuminate\Database\Eloquent\Model;
  *
  * @package App
  * @property string $title
+ * @property string $slug
 */
 class Category extends Model
 {
     protected $fillable = ['title', 'slug'];
     protected $hidden = [];
-    
-    
-    
+
 }

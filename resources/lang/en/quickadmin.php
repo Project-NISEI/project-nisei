@@ -50,6 +50,7 @@ return [
 			'slug' => 'Slug',
 			'published-at' => 'Published at',
 			'author' => 'Author',
+			'category' => 'Category',
 			'content' => 'Content',
 		],
 	],

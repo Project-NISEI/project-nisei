@@ -61,6 +61,18 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
+                    {!! Form::label('category_id', trans('quickadmin.blog.fields.category'), ['class' => 'control-label']) !!}
+                    {!! Form::select('category_id', $categories, old('category_id'), ['class' => 'form-control select2']) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('category_id'))
+                        <p class="help-block">
+                            {{ $errors->first('category_id') }}
+                        </p>
+                    @endif
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 form-group">
                     {!! Form::label('content', trans('quickadmin.blog.fields.content').'*', ['class' => 'control-label']) !!}
                     {!! Form::textarea('content', old('content'), ['class' => 'form-control editor', 'placeholder' => '', 'required' => '']) !!}
                     <p class="help-block"></p>

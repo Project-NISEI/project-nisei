@@ -12,14 +12,15 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  * @property string $title
  * @property string $slug
  * @property string $published_at
- * @property string $author
  * @property text $content
+ * @property string $author
+ * @property string $category
 */
 class Blog extends Model
 {
     use SoftDeletes;
 
-    protected $fillable = ['title', 'slug', 'published_at', 'content', 'author_id'];
+    protected $fillable = ['title', 'slug', 'published_at', 'content', 'author_id', 'category_id'];
     protected $hidden = [];
     
     
@@ -66,6 +67,20 @@ class Blog extends Model
     public function author()
     {
         return $this->belongsTo(User::class, 'author_id');
+    }
+
+    /**
+     * Set to null if empty
+     * @param $input
+     */
+    public function setCategoryIdAttribute($input)
+    {
+        $this->attributes['category_id'] = $input ? $input : null;
+    }
+    
+    public function category()
+    {
+        return $this->belongsTo(Category::class, 'category_id');
     }
     
 }

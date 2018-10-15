@@ -29,6 +29,10 @@
                             <td field-key='author'>{{ $blog->author->name ?? '' }}</td>
                         </tr>
                         <tr>
+                            <th>@lang('quickadmin.blog.fields.category')</th>
+                            <td field-key='author'>{{ $blog->category->title ?? '' }}</td>
+                        </tr>
+                        <tr>
                             <th>@lang('quickadmin.blog.fields.content')</th>
                             <td field-key='content'>{!! $blog->content !!}</td>
                         </tr>

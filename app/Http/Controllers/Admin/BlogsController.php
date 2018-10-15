@@ -6,8 +6,8 @@ use App\Blog;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
 use App\Http\Controllers\Controller;
-use App\Http\Requests\Admin\StoreCategoriesRequest;
-use App\Http\Requests\Admin\UpdateCategoriesRequest;
+use App\Http\Requests\Admin\StoreBlogsRequest;
+use App\Http\Requests\Admin\UpdateBlogsRequest;
 
 class BlogsController extends Controller
 {
@@ -47,8 +47,9 @@ class BlogsController extends Controller
         }
         
         $authors = \App\User::get()->pluck('name', 'id')->prepend(trans('quickadmin.qa_please_select'), '');
+        $categories = \App\Category::get()->pluck('name', 'id')->prepend(trans('quickadmin.qa_please_select'), '');
 
-        return view('admin.blogs.create', compact('authors'));
+        return view('admin.blogs.create', compact('authors', 'categories'));
     }
 
     /**
@@ -83,10 +84,11 @@ class BlogsController extends Controller
         }
         
         $authors = \App\User::get()->pluck('name', 'id')->prepend(trans('quickadmin.qa_please_select'), '');
+        $categories = \App\Category::get()->pluck('title', 'id')->prepend(trans('quickadmin.qa_please_select'), '');
 
         $blog = Blog::findOrFail($id);
 
-        return view('admin.blogs.edit', compact('blog', 'authors'));
+        return view('admin.blogs.edit', compact('blog', 'authors', 'categories'));
     }
 
     /**
