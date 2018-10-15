@@ -25,7 +25,7 @@
                 </div>
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8">
-                    {{ Form::open(array('url' => 'foo/bar', 'class' => 'form')) }}
+                    {{ Form::open(array('url' => 'paypal', 'class' => 'form')) }}
                         {{ csrf_field() }}
                         {{ Form::hidden('type_of_kit', $event->name, array('required' => 'true')) }}
                         <div class="form-field col-sm-12">

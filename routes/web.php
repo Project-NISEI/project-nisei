@@ -15,6 +15,9 @@ Route::get('/op', function() { return redirect('/op/for-stores'); });
 Route::get('/op/for-stores', ['uses' => 'Web\OPController@indexForStores', 'as' => 'op.storeIndex'] );
 Route::get('/op/for-stores/{slug}', ['uses' => 'Web\OPController@detailForStores', 'as' => 'op.storeEvent'] );
 
+Route::post('paypal', array('as' => 'paypal','uses' => 'Web\PaypalController@postPaymentWithpaypal',));
+Route::get('paypal', array('as' => 'status','uses' => 'Web\PaypalController@getPaymentStatus',));
+
 
 
 
