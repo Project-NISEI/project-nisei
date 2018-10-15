@@ -28,7 +28,7 @@
                     <p>Purchase successful! We'll be in touch to help you organise your event asap.</p>
                 </div>
                 <?php Session::forget('success');?>
-            @ else
+            @else
                 @if ($message = Session::get('error'))
                     <div>
                         <p>Whoops, something went wrong checking out via paypal. If this continues to go wrong, or if you think you've been debited and are seeing this error incorrectly please get in touch and we'll sort it out.</p>
