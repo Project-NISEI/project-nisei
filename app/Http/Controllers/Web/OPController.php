@@ -22,6 +22,7 @@ class OPController extends Controller
     public function indexForStores(Request $request)
     {
         $events = DB::table('events')
+            ->where('active', 1)
             ->select('name', 'slug', 'type', 'price')
             ->get();
 
@@ -34,6 +35,7 @@ class OPController extends Controller
     {
         $event = DB::table('events')
             ->where('slug', $slug)
+            ->where('active', 1)
             ->select('name', 'slug', 'type', 'price', 'content')
             ->first();
 
