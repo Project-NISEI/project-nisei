@@ -27,7 +27,8 @@
                 <div class="col-sm-8">
                     {{ Form::open(array('url' => 'paypal', 'class' => 'form')) }}
                         {{ csrf_field() }}
-                        {{ Form::hidden('type_of_kit', $event->name, array('required' => 'true')) }}
+                        {{ Form::hidden('kit_name', $event->name, array('required' => 'true')) }}
+                        {{ Form::hidden('kit_slug', $event->slug, array('required' => 'true')) }}
                         <div class="form-field col-sm-12">
                             {{ Form::label('to_name', 'TO Name *') }}
                             {{ Form::text('to_name', null, array('required' => 'true')) }}

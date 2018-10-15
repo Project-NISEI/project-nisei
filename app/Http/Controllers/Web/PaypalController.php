@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Web;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 use Validator;
 use URL;
@@ -42,6 +43,24 @@ class PaypalController extends Controller
     }
 
     /**
+     * Retrieve correct price for kit from db
+     *
+     */
+    private function getCorrectPrice($kit_slug) {
+
+        $event = DB::table('events')
+            ->where('slug', $kit_slug)
+            ->select('price')
+            ->first();
+
+        if ($event) {
+            return floatval($event->price);
+        }
+
+        return null;
+    }
+
+    /**
      * Store a details of payment with paypal.
      *
      * @param  \Illuminate\Http\Request  $request
@@ -52,24 +71,24 @@ class PaypalController extends Controller
         $payer = new Payer();
         $payer->setPaymentMethod('paypal');
 
-        $item_1 = new Item();
+        $price = $this->getCorrectPrice($request->kit_slug, max($request->number_of_kits, 1));
 
-        $item_1->setName('Item 1') /** item name **/
+        $item = new Item();
+        $item->setName($request->kit_name) /** item name **/
             ->setCurrency('USD')
-            ->setQuantity(1)
-            ->setPrice('2'); /** unit price **/
+            ->setQuantity(max($request->number_of_kits, 1))
+            ->setPrice($price); /** unit price **/
 
         $item_list = new ItemList();
-        $item_list->setItems(array($item_1));
+        $item_list->setItems(array($item));
 
         $amount = new Amount();
         $amount->setCurrency('USD')
-            ->setTotal('2');
+            ->setTotal($price * max($request->number_of_kits, 1));
 
         $transaction = new Transaction();
         $transaction->setAmount($amount)
-            ->setItemList($item_list)
-            ->setDescription('Your transaction description');
+            ->setItemList($item_list);
 
         $redirect_urls = new RedirectUrls();
         $redirect_urls->setReturnUrl(URL::route('status'))
