@@ -69,6 +69,7 @@ return [
 			'type' => 'Type',
 			'content' => 'Content',
 			'price' => 'Price',
+			'active' => 'Active',
 		],
 	],
 	'qa_create' => 'Create',

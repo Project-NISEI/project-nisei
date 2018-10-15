@@ -25,6 +25,10 @@
                             <td field-key='type'>{{ $event->type }}</td>
                         </tr>
                         <tr>
+                            <th>@lang('quickadmin.events.fields.active')</th>
+                            <td field-key='active'>{{ Form::checkbox("active", 1, $event->active == 1 ? true : false, ["disabled"]) }}</td>
+                        </tr>
+                        <tr>
                             <th>@lang('quickadmin.events.fields.price')</th>
                             <td field-key='author'>{{ $event->price }}</td>
                         </tr>

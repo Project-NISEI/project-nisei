@@ -36,6 +36,7 @@
                         <th>@lang('quickadmin.events.fields.name')</th>
                         <th>@lang('quickadmin.events.fields.slug')</th>
                         <th>@lang('quickadmin.events.fields.type')</th>
+                        <th>@lang('quickadmin.events.fields.active')</th>
                         <th>@lang('quickadmin.events.fields.price')</th>
                         @if( request('show_deleted') == 1 )
                         <th>&nbsp;</th>
@@ -56,6 +57,7 @@
                                 <td field-key='name'>{{ $event->name }}</td>
                                 <td field-key='slug'>{{ $event->slug }}</td>
                                 <td field-key='type'>{{ $event->type }}</td>
+                                <td field-key='active'>{{ Form::checkbox("active", 1, $event->active == 1 ? true : false, ["disabled"]) }}</td>
                                 <td field-key='type'>{{ $event->price }}</td>
                                 @if( request('show_deleted') == 1 )
                                 <td>

@@ -48,6 +48,19 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
+                    {!! Form::label('active', trans('quickadmin.events.fields.active'), ['class' => 'control-label']) !!}
+                    {!! Form::hidden('active', 0) !!}
+                    {!! Form::checkbox('active', 1, old('board_member', old('active'))) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('active'))
+                        <p class="help-block">
+                            {{ $errors->first('active') }}
+                        </p>
+                    @endif
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 form-group">
                     {!! Form::label('price', trans('quickadmin.events.fields.price').'*', ['class' => 'control-label']) !!}
                     {!! Form::text('price', old('price'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
                     <p class="help-block"></p>
