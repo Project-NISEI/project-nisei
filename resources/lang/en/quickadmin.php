@@ -28,9 +28,15 @@ return [
 			'pronouns' => 'Pronouns',
 		],
 	],
+
+	'blog-section' => [
+		'title' => 'Blog',
+		'fields' => [
+		],
+	],
 	
 	'blog' => [
-		'title' => 'Blog',
+		'title' => 'Articles',
 		'fields' => [
 			'title' => 'Title',
 			'slug' => 'Slug',

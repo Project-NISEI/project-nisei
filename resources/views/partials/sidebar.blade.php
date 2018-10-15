@@ -44,11 +44,22 @@
             </li>@endcan
             
             @can('blog_access')
-            <li>
-                <a href="{{ route('admin.blogs.index') }}">
+            <li class="treeview">
+                <a href="#">
                     <i class="fa fa-book"></i>
-                    <span>@lang('quickadmin.blog.title')</span>
+                    <span>@lang('quickadmin.blog-section.title')</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
                 </a>
+                <ul class="treeview-menu"> 
+                    <li>
+                        <a href="{{ route('admin.blogs.index') }}">
+                            <i class="fa fa-book"></i>
+                            <span>@lang('quickadmin.blog.title')</span>
+                        </a>
+                    </li>
+                </ul>
             </li>@endcan
             
             @can('event_management_access')
