@@ -27,7 +27,7 @@
                         <a class="event-card" href="/op/for-stores/{{ $event->slug }}">
                             <p class="event-card__name">{{ $event->name }}</p>
                             <p class="event-card__type">Type: {{ $event->type }}</p>
-                            <p class="event-card__price">Price per kit: {{ $event->price }}</p>
+                            <p class="event-card__price">Price per kit: ${{ $event->price }}</p>
                         </a>
                     </div>
                 @endforeach

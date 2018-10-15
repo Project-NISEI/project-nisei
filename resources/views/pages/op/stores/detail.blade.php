@@ -37,6 +37,9 @@
                 @endif
 
                 <div class="row">
+                    <p class="col-sm-12">Price per Kit: ${{ $event->price }}</p>
+                </div>
+                <div class="row">
                     {{ Form::open(array('url' => 'paypal', 'class' => 'form')) }}
                         {{ csrf_field() }}
                         {{ Form::hidden('kit_name', $event->name, array('required' => 'true')) }}
