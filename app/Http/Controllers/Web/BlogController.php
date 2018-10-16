@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Web;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
+use Carbon\Carbon;
 
 class BlogController extends Controller
 {
@@ -22,6 +23,7 @@ class BlogController extends Controller
     public function index(Request $request)
     {
         $articles = DB::table('blogs')
+            ->whereDate('published_at', '<=', Carbon::today()->toDateString())
             ->join('users', 'blogs.author_id', '=', 'users.id')
             ->select('users.name as author_name', 'blogs.title', 'blogs.published_at', 'blogs.slug')
             ->orderBy('published_at', 'desc')
