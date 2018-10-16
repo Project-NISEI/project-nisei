@@ -20,7 +20,7 @@ class Blog extends Model
 {
     use SoftDeletes;
 
-    protected $fillable = ['title', 'slug', 'published_at', 'content', 'author_id', 'category_id'];
+    protected $fillable = ['title', 'slug', 'published_at', 'listing_image', 'content', 'author_id', 'category_id'];
     protected $hidden = [];
     
     

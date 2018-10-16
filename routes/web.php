@@ -2,14 +2,12 @@
 
 // Front end routes
 
-Route::get('/', function () { return view('pages/home'); });
+Route::get('/', ['uses' => 'Web\BlogController@index', 'as' => 'blog.index'] );
+Route::get('/article/{slug}', ['uses' => 'Web\BlogController@detail', 'as' => 'blog.detail'] );
 
 Route::get('/about', function() { return redirect('/about/netrunner'); });
 Route::get('/about/netrunner', function () { return view('pages/about/netrunner'); });
 Route::get('/about/nisei', function () { return view('pages/about/nisei'); });
-
-Route::get('/blog',  ['uses' => 'Web\BlogController@index', 'as' => 'blog.index'] );
-Route::get('/blog/{slug}', ['uses' => 'Web\BlogController@detail', 'as' => 'blog.detail'] );
 
 Route::get('/op', function() { return redirect('/op/for-stores'); });
 Route::get('/op/for-stores', ['uses' => 'Web\OPController@indexForStores', 'as' => 'op.storeIndex'] );

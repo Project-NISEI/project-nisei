@@ -13,7 +13,7 @@
             <div class="row">
                 @foreach ($articles as $article)
                     <div class="col-sm-12 col-lg-6">
-                        <a class="article-card" href="/blog/{{ $article->slug }}">
+                        <a class="article-card" href="/article/{{ $article->slug }}">
                             <p class="article-card__name">{{ $article->title }}</p>
                             <p class="article-card__meta">By {{ $article->author_name }} | {{ $article->published_at }}</p>
                         </a>

@@ -167,7 +167,7 @@ return [
          * Package Service Providers...
          */
         Unisharp\LaravelFilemanager\LaravelFilemanagerServiceProvider::class,
-        
+        Yajra\Disqus\DisqusServiceProvider::class,
 
         /*
          * Application Service Providers...

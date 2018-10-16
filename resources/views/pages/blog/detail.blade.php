@@ -15,6 +15,12 @@
                     {!! $article->content !!}
                 </div>
             </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <br>
+                    <div id="disqus_thread"></div>
+                </div>
+            </div>
         </div>
     </div>
 @stop
