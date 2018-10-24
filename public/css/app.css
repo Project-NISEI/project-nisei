@@ -6448,7 +6448,12 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0.5rem;
   color: #000000;
   display: block;
-  margin: 15px 0; }
+  margin: 15px 0;
+  overflow: hidden; }
+
+.article-card__image {
+  width: calc(100% + 32px);
+  margin: -16px -16px 15px; }
 
 .article-card__name {
   font-size: 2rem; }

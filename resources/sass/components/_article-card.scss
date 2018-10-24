@@ -5,6 +5,12 @@
     color: $text-color;
     display: block;
     margin: 15px 0;
+    overflow: hidden;
+}
+
+.article-card__image {
+    width: calc(100% + 32px);
+    margin: -16px -16px 15px;
 }
 
 .article-card__name {
