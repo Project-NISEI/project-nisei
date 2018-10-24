@@ -11,12 +11,23 @@
     <div class="page-content">
         <div class="container">
             <div class="row">
-                @foreach ($faqs as $faq)
-                    <div class="col-sm-12">
-                        <h2>{{ $faq->question }}</h2>
-                        <p>{!! $faq->answer !!}</p>
-                    </div>
-                @endforeach
+                <div class="accordion col-sm-12" id="faqAccordion">
+                    @foreach ($faqs as $index=>$faq)
+                        <div class="card">
+                            <div class="card-header" id="heading{{ $index }}">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse{{ $index }}" aria-expanded="true" aria-controls="collapse{{ $index }}">
+                                        {{ $faq->question }}
+                                    </button>
+                                </h5>
+                             </div>
+
+                            <div id="collapse{{ $index }}" class="collapse {{ $index == 0 ? 'show' : 'collapsed'}}" aria-labelledby="heading{{ $index }}" data-parent="#faqAccordion">
+                                <div class="card-body">{!! $faq->answer !!}</div>
+                            </div>
+                        </div>
+                    @endforeach
+                </div>
             </div>
         </div>
     </div>
