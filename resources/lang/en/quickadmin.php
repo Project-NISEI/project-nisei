@@ -43,6 +43,14 @@ return [
 		],
 	],
 	
+	'faqs' => [
+		'title' => 'FAQs',
+		'fields' => [
+			'question' => 'Question',
+			'answer' => 'Answer',
+		],
+	],
+	
 	'blog' => [
 		'title' => 'Articles',
 		'fields' => [

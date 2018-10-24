@@ -4,13 +4,13 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Class FAQ
+ * Class Faq
  *
  * @package App
  * @property string $question
  * @property text $answer
 */
-class FAQ extends Model
+class Faq extends Model
 {
     protected $fillable = ['question', 'answer'];
     protected $hidden = [];
