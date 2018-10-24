@@ -72,6 +72,18 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
+                    {!! Form::label('listing_image', trans('quickadmin.blog.fields.listing_image'), ['class' => 'control-label']) !!}
+                    {!! Form::file('listing_image', ['class' => 'form-control']) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('listing_image'))
+                        <p class="help-block">
+                            {{ $errors->first('listing_image') }}
+                        </p>
+                    @endif
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 form-group">
                     {!! Form::label('content', trans('quickadmin.blog.fields.content').'*', ['class' => 'control-label']) !!}
                     {!! Form::textarea('content', old('content'), ['class' => 'form-control editor', 'placeholder' => '', 'required' => '']) !!}
                     <p class="help-block"></p>

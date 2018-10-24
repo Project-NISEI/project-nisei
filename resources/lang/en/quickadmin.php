@@ -52,6 +52,7 @@ return [
 			'author' => 'Author',
 			'category' => 'Category',
 			'content' => 'Content',
+			'listing_image' => 'Listing Image'
 		],
 	],
 	

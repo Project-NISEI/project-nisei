@@ -3,7 +3,7 @@
 @section('content')
     <h3 class="page-title">@lang('quickadmin.blog.title')</h3>
     
-    {!! Form::model($blog, ['method' => 'PUT', 'route' => ['admin.blogs.update', $blog->id]]) !!}
+    {!! Form::model($blog, ['method' => 'PUT', 'files' => true, 'route' => ['admin.blogs.update', $blog->id]]) !!}
 
     <div class="panel panel-default">
         <div class="panel-heading">
@@ -67,6 +67,21 @@
                     @if($errors->has('category_id'))
                         <p class="help-block">
                             {{ $errors->first('category_id') }}
+                        </p>
+                    @endif
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 form-group">
+                    {!! Form::label('listing_image', trans('quickadmin.blog.fields.listing_image'), ['class' => 'control-label']) !!}
+                    @if ($blog->listing_image)
+                        <img src="{{ $blog->listing_image }}" alt="" style="max-width: 100%; width: 300px;">
+                    @endif
+                    {!! Form::file('listing_image', ['class' => 'form-control']) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('listing_image'))
+                        <p class="help-block">
+                            {{ $errors->first('listing_image') }}
                         </p>
                     @endif
                 </div>

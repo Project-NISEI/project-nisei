@@ -29,6 +29,14 @@
                             <td field-key='author'>{{ $blog->author->name ?? '' }}</td>
                         </tr>
                         <tr>
+                            <th>@lang('quickadmin.blog.fields.listing_image')</th>
+                            @if ($blog->listing_image)
+                                <td field-key='listing_image'><img src="{{ $blog->listing_image }}" alt="" style="max-width: 100%; width: 300px;"></td>
+                            @else
+                                <td field-key="listing_image">-</td>
+                            @endif
+                        </tr>
+                        <tr>
                             <th>@lang('quickadmin.blog.fields.category')</th>
                             <td field-key='author'>{{ $blog->category->title ?? '' }}</td>
                         </tr>
