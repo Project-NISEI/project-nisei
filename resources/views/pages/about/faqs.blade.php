@@ -5,7 +5,7 @@
 @section('content')
 
     @include('partials.main-title', [
-        'heading' => 'FAQs?'
+        'heading' => 'FAQs'
     ])
 
     <div class="page-content">
