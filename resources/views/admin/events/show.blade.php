@@ -21,6 +21,14 @@
                             <td field-key='slug'>{{ $event->slug }}</td>
                         </tr>
                         <tr>
+                            <th>@lang('quickadmin.events.fields.listing_image')</th>
+                            @if ($event->listing_image)
+                                <td field-key='listing_image'><img src="{{ $event->listing_image }}" alt="" style="max-width: 100%; width: 300px;"></td>
+                            @else
+                                <td field-key="listing_image">-</td>
+                            @endif
+                        </tr>
+                        <tr>
                             <th>@lang('quickadmin.events.fields.type')</th>
                             <td field-key='type'>{{ $event->type }}</td>
                         </tr>

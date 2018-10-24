@@ -3,7 +3,7 @@
 @section('content')
     <h3 class="page-title">@lang('quickadmin.events.title')</h3>
     
-    {!! Form::model($event, ['method' => 'PUT', 'route' => ['admin.events.update', $event->id]]) !!}
+    {!! Form::model($event, ['method' => 'PUT', 'files' => 'true', 'route' => ['admin.events.update', $event->id]]) !!}
 
     <div class="panel panel-default">
         <div class="panel-heading">
@@ -31,6 +31,21 @@
                     @if($errors->has('slug'))
                         <p class="help-block">
                             {{ $errors->first('slug') }}
+                        </p>
+                    @endif
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 form-group">
+                    {!! Form::label('listing_image', trans('quickadmin.events.fields.listing_image'), ['class' => 'control-label']) !!}
+                    @if ($event->listing_image)
+                        <img src="{{ $event->listing_image }}" alt="" style="max-width: 100%; width: 300px;">
+                    @endif
+                    {!! Form::file('listing_image', ['class' => 'form-control']) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('listing_image'))
+                        <p class="help-block">
+                            {{ $errors->first('listing_image') }}
                         </p>
                     @endif
                 </div>

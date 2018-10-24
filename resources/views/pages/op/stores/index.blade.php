@@ -25,6 +25,9 @@
                 @foreach ($events as $event)
                     <div class="col-sm-12 col-lg-6">
                         <a class="event-card" href="/op/for-stores/{{ $event->slug }}">
+                            @if ($event->listing_image)
+                                <img src="{{ $event->listing_image }}" alt="{{ $event->name }}" class="event-card__image">
+                            @endif
                             <p class="event-card__name">{{ $event->name }}</p>
                             <p class="event-card__type">Type: {{ $event->type }}</p>
                             <p class="event-card__price">Price per kit: ${{ $event->price }}</p>

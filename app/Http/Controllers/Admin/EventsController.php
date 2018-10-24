@@ -97,10 +97,21 @@ class EventsController extends Controller
         if (! Gate::allows('event_edit')) {
             return abort(401);
         }
+
         $event = Event::findOrFail($id);
-        $event->update($request->all());
+        $requestData = $request->all();
 
+        if ($request->listing_image) {
+            $request->file('listing_image')->move(
+                base_path() . '/public/listing_images/', $request->listing_image->getClientOriginalName()
+            );
 
+            $requestData['listing_image'] = '/listing_images/' . $request->listing_image->getClientOriginalName();
+        } else {
+            $requestData['listing_image'] = $event->$listing_image;
+        }
+
+        $event->update($requestData);
 
         return redirect()->route('admin.events.index');
     }

@@ -6,6 +6,11 @@
     display: block;
 }
 
+.event-card__image {
+    width: calc(100% + 32px);
+    margin: -16px -16px 15px;
+}
+
 .event-card__name {
     font-size: 2rem;
 }

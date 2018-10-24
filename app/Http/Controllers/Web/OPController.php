@@ -23,7 +23,7 @@ class OPController extends Controller
     {
         $events = DB::table('events')
             ->where('active', 1)
-            ->select('name', 'slug', 'type', 'price')
+            ->select('name', 'slug', 'type', 'price', 'listing_image')
             ->get();
 
         return view('pages.op.stores.index', [

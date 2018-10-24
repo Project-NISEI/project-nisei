@@ -71,6 +71,7 @@ return [
 			'content' => 'Content',
 			'price' => 'Price',
 			'active' => 'Active',
+			'listing_image' => 'Listing Image',
 		],
 	],
 	'qa_create' => 'Create',

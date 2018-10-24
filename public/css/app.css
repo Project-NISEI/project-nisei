@@ -6387,7 +6387,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .page-content {
   font-size: 18px;
-  margin-top: 3rem; }
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
 
 .page-content__image {
   width: 100%; }
@@ -6467,6 +6468,10 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0.5rem;
   color: #000000;
   display: block; }
+
+.event-card__image {
+  width: calc(100% + 32px);
+  margin: -16px -16px 15px; }
 
 .event-card__name {
   font-size: 2rem; }
