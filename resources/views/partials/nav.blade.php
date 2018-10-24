@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md">
     <div class="container">
-        <a class="navbar-brand" href="/">Project NISEI</a>
+        <a class="navbar-brand" href="/">NISEI</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <div class="navbar-hamburger">
                 <span></span>
