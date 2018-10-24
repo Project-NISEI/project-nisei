@@ -91,7 +91,7 @@
             
             @can('faqs_access')
             <li>
-                <a href="{{ route('admin.faqs.index') }}}">
+                <a href="{{ route('admin.faqs.index') }}">
                     <i class="fa fa-question"></i>
                     <span class="title">@lang('quickadmin.faqs.title')</span>
                 </a>
