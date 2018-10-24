@@ -15,6 +15,7 @@ class ComposerServiceProvider extends ServiceProvider
     public function boot()
     {
         View::composer('pages.about.nisei', 'App\Http\ViewComposers\BoardComposer');
+        View::composer('pages.about.faqs', 'App\Http\ViewComposers\FAQComposer');
     }
 
     /**

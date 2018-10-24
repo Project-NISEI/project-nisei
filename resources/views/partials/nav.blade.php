@@ -21,6 +21,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="/about/netrunner">What is Netrunner?</a>
                         <a class="dropdown-item" href="/about/nisei">Who or what is Project NISEI?</a>
+                        <a class="dropdown-item" href="/about/faqs">FAQs</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
