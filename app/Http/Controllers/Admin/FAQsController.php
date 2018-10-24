@@ -6,8 +6,8 @@ use App\Faq;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
 use App\Http\Controllers\Controller;
-use App\Http\Requests\Admin\StoreFaqsRequest;
-use App\Http\Requests\Admin\UpdateFaqsRequest;
+use App\Http\Requests\Admin\StoreFAQsRequest;
+use App\Http\Requests\Admin\UpdateFAQsRequest;
 
 class FaqsController extends Controller
 {
@@ -51,10 +51,10 @@ class FaqsController extends Controller
     /**
      * Store a newly created Faq in storage.
      *
-     * @param  \App\Http\Requests\StoreFaqsRequest  $request
+     * @param  \App\Http\Requests\StoreFAQsRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StoreFaqsRequest $request)
+    public function store(StoreFAQsRequest $request)
     {
         if (! Gate::allows('faqs_create')) {
             return abort(401);
@@ -87,11 +87,11 @@ class FaqsController extends Controller
     /**
      * Update Faq in storage.
      *
-     * @param  \App\Http\Requests\UpdateFaqsRequest  $request
+     * @param  \App\Http\Requests\UpdateFAQsRequest  $request
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdateFaqsRequest $request, $id)
+    public function update(UpdateFAQsRequest $request, $id)
     {
         if (! Gate::allows('faqs_edit')) {
             return abort(401);
