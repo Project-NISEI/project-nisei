@@ -3,13 +3,21 @@
 namespace App\Http\ViewComposers;
 
 use Illuminate\View\View;
+use App\Faq;
 
 class FAQComposer
 {
+    protected $faqs;
 
-    public function __construct()
+    /**
+     * Create a new profile composer.
+     *
+     * @param  User  $faqs
+     * @return void
+     */
+    public function __construct(Faq $faqs)
     {
-        
+        $this->faqs = $faqs;
     }
 
     /**
@@ -20,6 +28,6 @@ class FAQComposer
      */
     public function compose(View $view)
     {
-        $view->test = "Some text";
+        $view->faqs = $this->faqs->all();
     }
 }

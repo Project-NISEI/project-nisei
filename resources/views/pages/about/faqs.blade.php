@@ -11,7 +11,12 @@
     <div class="page-content">
         <div class="container">
             <div class="row">
-                <p class="col-sm-12">{{ $test }}</p>
+                @foreach ($faqs as $faq)
+                    <div class="col-sm-12">
+                        <h2>{{ $faq->question }}</h2>
+                        <p>{!! $faq->answer !!}</p>
+                    </div>
+                @endforeach
             </div>
         </div>
     </div>
