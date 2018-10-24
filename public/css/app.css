@@ -6513,4 +6513,11 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(-0.5rem);
   display: block; }
 
+.article-content img {
+  width: auto !important;
+  height: auto !important;
+  max-width: 90%;
+  margin: 0 auto;
+  display: block; }
+
 /*# sourceMappingURL=app.css.map */
