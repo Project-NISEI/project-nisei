@@ -12,7 +12,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <p>Insert some intro content here, stores can purchase kits for active and upcoming waves of organised play.</p>
+                    <p>Purchase available prize kits below! All prices are in US dollars and include shipping.</p>
                 </div>
             </div>
         </div>
