@@ -24,8 +24,14 @@
                         <a class="dropdown-item" href="/about/faqs">FAQs</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/available-kits">Available Event Kits</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Organised Play
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/op/available-kits">Available Event Kits</a>
+                        <a class="dropdown-item" href="/op/resources">Resources</a>
+                    </div>
                 </li>
             </ul>
         </div>
