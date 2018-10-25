@@ -21,8 +21,10 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="/about/netrunner">What is Netrunner?</a>
                         <a class="dropdown-item" href="/about/nisei">Who or what is Project NISEI?</a>
+                        <a class="dropdown-item" href="/about/code-of-conduct">Code of Conduct</a>
                     </div>
                 </li>
+
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Organised Play

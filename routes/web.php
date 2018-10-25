@@ -8,6 +8,7 @@ Route::get('/article/{slug}', ['uses' => 'Web\BlogController@detail', 'as' => 'b
 Route::get('/about', function() { return redirect('/about/netrunner'); });
 Route::get('/about/netrunner', function () { return view('pages/about/netrunner'); });
 Route::get('/about/nisei', function () { return view('pages/about/nisei'); });
+Route::get('/about/code-of-conduct', function () { return view('pages/about/code-of-conduct'); });
 
 Route::get('/op', function() { return redirect('/op/for-stores'); });
 Route::get('/op/for-stores', ['uses' => 'Web\OPController@indexForStores', 'as' => 'op.storeIndex'] );
@@ -15,8 +16,6 @@ Route::get('/op/for-stores/{slug}', ['uses' => 'Web\OPController@detailForStores
 
 Route::post('paypal', array('as' => 'paypal','uses' => 'Web\PaypalController@postPaymentWithpaypal',));
 Route::get('paypal', array('as' => 'status','uses' => 'Web\PaypalController@getPaymentStatus',));
-
-
 
 
 // Admin routes
