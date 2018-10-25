@@ -1,9 +1,9 @@
 .main-title {
     background: #f1f1f1;
     margin-top: 0;
-    padding-top: 75px;
-    padding-bottom: 75px;
-    color: $link-color;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    color: white;
     position: relative;
 
     background-image: url('/assets/images/banner.png');
@@ -12,17 +12,21 @@
     background-position: center;
     background-color: black;
 
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+
+    .main-title__text-holder {
+        padding-left: 15%;
+    }
+
     @media (max-width: 1180px) {
         background-size: 1200px auto;
         background-position: left;
-    }
 
-    h1 {
-        font-size: 43px;
-        margin-bottom: 0;
-
-        @include media-breakpoint-up(md) {
-            font-size: 61px;
+        .main-title__text-holder {
+            padding-left: 130px;
         }
     }
 }
