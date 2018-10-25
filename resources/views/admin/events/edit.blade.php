@@ -90,6 +90,7 @@
             <div class="row">
                 <div class="col-xs-12 form-group">
                     {!! Form::label('price', trans('quickadmin.events.fields.price').'*', ['class' => 'control-label']) !!}
+                    <label>(All prices are in dollars)</label>
                     {!! Form::text('price', old('price'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
                     <p class="help-block"></p>
                     @if($errors->has('price'))
