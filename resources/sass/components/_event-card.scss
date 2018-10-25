@@ -7,8 +7,10 @@
 }
 
 .event-card__image {
-    width: calc(100% + 32px);
-    margin: -16px -16px 15px;
+    max-width: calc(100% + 32px);
+    max-height: 300px;
+    margin: 0 auto 15px;
+    display: block;
 }
 
 .event-card__name {

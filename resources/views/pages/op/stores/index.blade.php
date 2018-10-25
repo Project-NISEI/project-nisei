@@ -29,7 +29,6 @@
                                 <img src="{{ $event->listing_image }}" alt="{{ $event->name }}" class="event-card__image">
                             @endif
                             <p class="event-card__name">{{ $event->name }}</p>
-                            <p class="event-card__type">Type: {{ $event->type }}</p>
                             <p class="event-card__price">Price per kit: ${{ $event->price }}</p>
                         </a>
                     </div>
