@@ -108,7 +108,7 @@ class EventsController extends Controller
 
             $requestData['listing_image'] = '/listing_images/' . $request->listing_image->getClientOriginalName();
         } else {
-            $requestData['listing_image'] = $event->$listing_image;
+            $requestData['listing_image'] = $event->listing_image;
         }
 
         $event->update($requestData);
