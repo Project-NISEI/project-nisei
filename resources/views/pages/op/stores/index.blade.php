@@ -12,7 +12,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <p>Insert some intro content here, stores can purchase kits for active and upcoming waves of organised play.</p>
+                    <p>Purchase available prize kits below! All prices are in US dollars and include shipping.</p>
                 </div>
             </div>
         </div>
@@ -24,10 +24,13 @@
                 </div>
                 @foreach ($events as $event)
                     <div class="col-sm-12 col-lg-6">
-                        <a class="event-card" href="/op/for-stores/{{ $event->slug }}">
+                        <a class="event-card" href="/available-kits/{{ $event->slug }}">
+                            @if ($event->listing_image)
+                                <img src="{{ $event->listing_image }}" alt="{{ $event->name }}" class="event-card__image">
+                            @endif
                             <p class="event-card__name">{{ $event->name }}</p>
-                            <p class="event-card__type">Type: {{ $event->type }}</p>
-                            <p class="event-card__price">Price per kit: ${{ $event->price }}</p>
+                            <p class="event-card__info">Base price: ${{ $event->price }}</p>
+                            <p class="event-card__info">On sale until: {{ $event->expires_on }}</p>
                         </a>
                     </div>
                 @endforeach

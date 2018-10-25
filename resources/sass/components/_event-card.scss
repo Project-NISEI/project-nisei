@@ -6,14 +6,19 @@
     display: block;
 }
 
+.event-card__image {
+    max-width: calc(100% + 32px);
+    max-height: 300px;
+    margin: 0 auto 15px;
+    display: block;
+}
+
 .event-card__name {
     font-size: 2rem;
+    margin-bottom: 0.5rem;
 }
 
-.event-card__type {
+.event-card__info {
     font-size: 1rem;
-}
-
-.event-card__price {
-    font-size: 1rem;
+    margin-bottom: 0.5rem;
 }

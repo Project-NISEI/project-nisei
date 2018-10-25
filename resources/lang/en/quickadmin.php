@@ -43,6 +43,14 @@ return [
 		],
 	],
 	
+	'faqs' => [
+		'title' => 'FAQs',
+		'fields' => [
+			'question' => 'Question',
+			'answer' => 'Answer',
+		],
+	],
+	
 	'blog' => [
 		'title' => 'Articles',
 		'fields' => [
@@ -52,6 +60,7 @@ return [
 			'author' => 'Author',
 			'category' => 'Category',
 			'content' => 'Content',
+			'listing_image' => 'Listing Image'
 		],
 	],
 	
@@ -70,6 +79,8 @@ return [
 			'content' => 'Content',
 			'price' => 'Price',
 			'active' => 'Active',
+			'listing_image' => 'Listing Image',
+			'expires_on' => 'Expires On',
 		],
 	],
 	'qa_create' => 'Create',

@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md">
     <div class="container">
-        <a class="navbar-brand" href="/">Project NISEI</a>
+        <a class="navbar-brand" href="/">NISEI</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <div class="navbar-hamburger">
                 <span></span>
@@ -32,6 +32,11 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="/op/for-stores">For retailers/TOs</a> 
                     </div>
+                        <a class="dropdown-item" href="/about/faqs">FAQs</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/available-kits">Available Event Kits</a>
                 </li>
             </ul>
         </div>

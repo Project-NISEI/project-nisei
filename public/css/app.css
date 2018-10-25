@@ -6325,6 +6325,10 @@ hr {
 a {
   color: #c00303; }
 
+p {
+  margin-bottom: 1.5rem;
+  line-height: 1.8; }
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 1.1;
@@ -6387,7 +6391,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .page-content {
   font-size: 18px;
-  margin-top: 3rem; }
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
 
 .page-content__image {
   width: 100%; }
@@ -6448,7 +6453,12 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0.5rem;
   color: #000000;
   display: block;
-  margin: 15px 0; }
+  margin: 15px 0;
+  overflow: hidden; }
+
+.article-card__image {
+  width: calc(100% + 32px);
+  margin: -16px -16px 15px; }
 
 .article-card__name {
   font-size: 2rem; }
@@ -6463,14 +6473,19 @@ h1, h2, h3, h4, h5, h6 {
   color: #000000;
   display: block; }
 
+.event-card__image {
+  max-width: calc(100% + 32px);
+  max-height: 300px;
+  margin: 0 auto 15px;
+  display: block; }
+
 .event-card__name {
-  font-size: 2rem; }
+  font-size: 2rem;
+  margin-bottom: 0.5rem; }
 
-.event-card__type {
-  font-size: 1rem; }
-
-.event-card__price {
-  font-size: 1rem; }
+.event-card__info {
+  font-size: 1rem;
+  margin-bottom: 0.5rem; }
 
 .form {
   margin-bottom: 3rem; }
@@ -6501,6 +6516,13 @@ h1, h2, h3, h4, h5, h6 {
 .form-field__meta {
   font-size: 0.7rem;
   transform: translateY(-0.5rem);
+  display: block; }
+
+.article-content img {
+  width: auto !important;
+  height: auto !important;
+  max-width: 90%;
+  margin: 0 auto;
   display: block; }
 
 /*# sourceMappingURL=app.css.map */

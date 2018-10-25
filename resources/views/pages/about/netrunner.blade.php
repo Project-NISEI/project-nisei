@@ -11,12 +11,9 @@
     <div class="page-content">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-lg-7">
-                    <p>Android: Netrunner is a two-player Living Card Game® set in a dystopian, cyberpunk future where monolithic megacorps own and control the vast majority of human interests.</p>
-                    <p>While corporation players try to score points by advancing their agendas, they have to guard their intellectual properties from the elite and subversive hackers known as netrunners. Netrunners attempt to win the game by stealing the corp's agendas, by any means possible!</p>
-                </div>
-                <div class="col-sm-12 col-lg-5">
-                    <img class="page-content__image" src="/assets/images/revised-core.png" alt="Android: Netrunner Revised Core Set">
+                <div class="col-sm-12">
+                    <p>Netrunner is a two player, asymmetric card game set in a dystopian future where four megacorporations control almost every aspect of daily life. Fighting the Corp’s influence are Runners, legendary hackers who throw every tool they can muster to break into the corp’s servers…</p>
+                    <p>Central to this battle are agendas, aspects of the Corp’s plan to increase its profits, or control over society. The corp tries to advance them to completion before the runner can steal them from one of the heavily protected servers. Of course dead runners are not a threat, so an alternative plan for the corp is to flatline their opponent, while the runner can stall the corp long enough to run their R&D out of opportunities.</p>
                 </div>
             </div>
         </div>

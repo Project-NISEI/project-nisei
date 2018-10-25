@@ -3,7 +3,7 @@
 @section('content')
     <h3 class="page-title">@lang('quickadmin.events.title')</h3>
     
-    {!! Form::model($event, ['method' => 'PUT', 'route' => ['admin.events.update', $event->id]]) !!}
+    {!! Form::model($event, ['method' => 'PUT', 'files' => 'true', 'route' => ['admin.events.update', $event->id]]) !!}
 
     <div class="panel panel-default">
         <div class="panel-heading">
@@ -37,6 +37,21 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
+                    {!! Form::label('listing_image', trans('quickadmin.events.fields.listing_image'), ['class' => 'control-label']) !!}
+                    @if ($event->listing_image)
+                        <img src="{{ $event->listing_image }}" alt="" style="max-width: 100%; width: 300px;">
+                    @endif
+                    {!! Form::file('listing_image', ['class' => 'form-control']) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('listing_image'))
+                        <p class="help-block">
+                            {{ $errors->first('listing_image') }}
+                        </p>
+                    @endif
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 form-group">
                     {!! Form::label('type', trans('quickadmin.events.fields.type').'*', ['class' => 'control-label']) !!}
                     {!! Form::select('type', $enum_type, old('type'), ['class' => 'form-control select2', 'required' => '']) !!}
                     <p class="help-block"></p>
@@ -56,6 +71,18 @@
                     @if($errors->has('active'))
                         <p class="help-block">
                             {{ $errors->first('active') }}
+                        </p>
+                    @endif
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 form-group">
+                    {!! Form::label('expires_on', trans('quickadmin.events.fields.expires_on').'*', ['class' => 'control-label']) !!}
+                    {!! Form::text('expires_on', old('expires_on'), ['class' => 'form-control date', 'placeholder' => '', 'required' => '']) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('expires_on'))
+                        <p class="help-block">
+                            {{ $errors->first('expires_on') }}
                         </p>
                     @endif
                 </div>
@@ -103,6 +130,22 @@
                     filebrowserBrowseUrl: '/laravel-filemanager?type=Files',
                     filebrowserUploadUrl: '/laravel-filemanager/upload?type=Files&_token={{csrf_token()}}'
             });
+        });
+    </script>
+
+    <script src="{{ url('adminlte/plugins/datetimepicker/moment-with-locales.min.js') }}"></script>
+    <script src="{{ url('adminlte/plugins/datetimepicker/bootstrap-datetimepicker.min.js') }}"></script>
+    <script>
+        $(function(){
+            moment.updateLocale('{{ App::getLocale() }}', {
+                week: { dow: 1 } // Monday is the first day of the week
+            });
+            
+            $('.date').datetimepicker({
+                format: "{{ config('app.date_format_moment') }}",
+                locale: "{{ App::getLocale() }}",
+            });
+            
         });
     </script>
 @stop

@@ -24,8 +24,9 @@ class BlogController extends Controller
     {
         $articles = DB::table('blogs')
             ->whereDate('published_at', '<=', Carbon::today()->toDateString())
+            ->whereNull('deleted_at')
             ->join('users', 'blogs.author_id', '=', 'users.id')
-            ->select('users.name as author_name', 'blogs.title', 'blogs.published_at', 'blogs.slug')
+            ->select('users.name as author_name', 'blogs.title', 'blogs.published_at', 'blogs.slug', 'blogs.listing_image')
             ->orderBy('published_at', 'desc')
             ->get();
 

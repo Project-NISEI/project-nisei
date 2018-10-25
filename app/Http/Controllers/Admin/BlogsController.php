@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Blog;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
+use Illuminate\Support\Facades\Storage;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Admin\StoreBlogsRequest;
 use App\Http\Requests\Admin\UpdateBlogsRequest;
@@ -103,10 +104,21 @@ class BlogsController extends Controller
         if (! Gate::allows('blog_edit')) {
             return abort(401);
         }
+
         $blog = Blog::findOrFail($id);
-        $blog->update($request->all());
+        $requestData = $request->all();
 
+        if ($request->listing_image) {
+            $request->file('listing_image')->move(
+                base_path() . '/public/listing_images/', $request->listing_image->getClientOriginalName()
+            );
 
+            $requestData['listing_image'] = '/listing_images/' . $request->listing_image->getClientOriginalName();
+        } else {
+            $requestData['listing_image'] = $blog->$listing_image;
+        }
+
+        $blog->update($requestData);
 
         return redirect()->route('admin.blogs.index');
     }

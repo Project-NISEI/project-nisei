@@ -3,7 +3,7 @@ namespace App\Http\Requests\Admin;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class UpdateFAQsRequest extends FormRequest
+class StoreFAQsRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -23,9 +23,8 @@ class UpdateFAQsRequest extends FormRequest
     public function rules()
     {
         return [
-            
-            'title' => 'required|unique:categories,title,'.$this->route('category'),
-            'slug' => 'required|unique:categories,slug,'.$this->route('category'),
+            'question' => 'required|unique:faqs,question,'.$this->route('faqs'),
+            'answer' => 'required'.$this->route('faqs'),
         ];
     }
 }
