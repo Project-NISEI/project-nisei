@@ -80,6 +80,7 @@ return [
 			'price' => 'Price',
 			'active' => 'Active',
 			'listing_image' => 'Listing Image',
+			'expires_on' => 'Expires On',
 		],
 	],
 	'qa_create' => 'Create',

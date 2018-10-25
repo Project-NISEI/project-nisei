@@ -61,6 +61,18 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
+                    {!! Form::label('expires_on', trans('quickadmin.events.fields.expires_on').'*', ['class' => 'control-label']) !!}
+                    {!! Form::text('expires_on', old('expires_on'), ['class' => 'form-control date', 'placeholder' => '', 'required' => '']) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('expires_on'))
+                        <p class="help-block">
+                            {{ $errors->first('expires_on') }}
+                        </p>
+                    @endif
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 form-group">
                     {!! Form::label('price', trans('quickadmin.events.fields.price').'*', ['class' => 'control-label']) !!}
                     {!! Form::text('price', old('price'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
                     <p class="help-block"></p>
@@ -101,6 +113,22 @@
                     filebrowserBrowseUrl: '/laravel-filemanager?type=Files',
                     filebrowserUploadUrl: '/laravel-filemanager/upload?type=Files&_token={{csrf_token()}}'
             });
+        });
+    </script>
+
+    <script src="{{ url('adminlte/plugins/datetimepicker/moment-with-locales.min.js') }}"></script>
+    <script src="{{ url('adminlte/plugins/datetimepicker/bootstrap-datetimepicker.min.js') }}"></script>
+    <script>
+        $(function(){
+            moment.updateLocale('{{ App::getLocale() }}', {
+                week: { dow: 1 } // Monday is the first day of the week
+            });
+            
+            $('.date').datetimepicker({
+                format: "{{ config('app.date_format_moment') }}",
+                locale: "{{ App::getLocale() }}",
+            });
+            
         });
     </script>
 @stop

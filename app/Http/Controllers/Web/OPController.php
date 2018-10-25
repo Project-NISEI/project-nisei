@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Web;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
+use Carbon\Carbon;
 
 class OPController extends Controller
 {
@@ -23,8 +24,15 @@ class OPController extends Controller
     {
         $events = DB::table('events')
             ->where('active', 1)
-            ->select('name', 'slug', 'type', 'price', 'listing_image')
+            ->select('name', 'slug', 'type', 'price', 'listing_image', 'expires_on')
             ->get();
+
+        foreach ($events as $event) {
+            if ($event->expires_on) {
+                $event->expires_on = new Carbon($event->expires_on);
+                $event->expires_on = $event->expires_on->format('F j, Y');
+            }
+        }
 
         return view('pages.op.stores.index', [
             'events' => $events

@@ -37,6 +37,10 @@
                             <td field-key='active'>{{ Form::checkbox("active", 1, $event->active == 1 ? true : false, ["disabled"]) }}</td>
                         </tr>
                         <tr>
+                            <th>@lang('quickadmin.events.fields.expires_on')</th>
+                            <td field-key='published_at'>{{ $event->expires_on }}</td>
+                        </tr>
+                        <tr>
                             <th>@lang('quickadmin.events.fields.price')</th>
                             <td field-key='author'>{{ $event->price }}</td>
                         </tr>

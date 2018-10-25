@@ -29,7 +29,8 @@
                                 <img src="{{ $event->listing_image }}" alt="{{ $event->name }}" class="event-card__image">
                             @endif
                             <p class="event-card__name">{{ $event->name }}</p>
-                            <p class="event-card__price">Base price: ${{ $event->price }}</p>
+                            <p class="event-card__info">Base price: ${{ $event->price }}</p>
+                            <p class="event-card__info">On sale until: {{ $event->expires_on }}</p>
                         </a>
                     </div>
                 @endforeach

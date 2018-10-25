@@ -6483,11 +6483,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2rem;
   margin-bottom: 0.5rem; }
 
-.event-card__type {
-  font-size: 1rem; }
-
-.event-card__price {
-  font-size: 1rem; }
+.event-card__info {
+  font-size: 1rem;
+  margin-bottom: 0.5rem; }
 
 .form {
   margin-bottom: 3rem; }
