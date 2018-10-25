@@ -71,7 +71,9 @@ class PaypalController extends Controller
         $payer = new Payer();
         $payer->setPaymentMethod('paypal');
 
-        $price = $this->getCorrectPrice($request->kit_slug, max($request->number_of_kits, 1));
+        $price = max($this->getCorrectPrice($request->kit_slug), $request->requested_price);
+
+        \Log::debug($price);
 
         $item = new Item();
         $item->setName($request->kit_name) /** item name **/

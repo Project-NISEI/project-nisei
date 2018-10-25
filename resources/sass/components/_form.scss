@@ -37,3 +37,16 @@
     transform: translateY(-0.5rem);
     display: block;
 }
+
+.form-field__dollar-box {
+    padding-left: 2rem;
+    position: relative;
+
+    &::after {
+        content: "$";
+        position: absolute;
+        left: 0.5rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

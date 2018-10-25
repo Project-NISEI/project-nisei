@@ -6518,6 +6518,16 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(-0.5rem);
   display: block; }
 
+.form-field__dollar-box {
+  padding-left: 2rem;
+  position: relative; }
+  .form-field__dollar-box::after {
+    content: "$";
+    position: absolute;
+    left: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%); }
+
 .article-content img {
   width: auto !important;
   height: auto !important;

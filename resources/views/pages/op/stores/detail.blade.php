@@ -43,10 +43,14 @@
                     {{ Form::open(array('url' => 'paypal', 'class' => 'form')) }}
                         {{ csrf_field() }}
                         {{ Form::hidden('kit_name', $event->name, array('required' => 'true')) }}
-                        {{ Form::hidden('kit_slug', $event->slug, array('required' => 'true')) }}<!--
+                        {{ Form::hidden('kit_slug', $event->slug, array('required' => 'true')) }}
+                        <div class="form-field" style="display: inline-block; vertical-align: bottom; width: 15rem;">
+                            {{ Form::label('requested_price', 'Amount paid per kit*') }}
+                            {{ Form::number('requested_price', $event->price, array('min' => $event->price, 'class' => 'form-field__dollar-box')) }}
+                        </div><!--
                         @if ($event->type == 'GNK')
                             --><div class="form-field" style="display: inline-block; vertical-align: bottom; width: 15rem;">
-                                {{ Form::label('number_of_kits', 'Number of kits *') }}
+                                {{ Form::label('number_of_kits', 'Quantity *') }}
                                 {{ Form::number('number_of_kits', 1, array('required' => 'true')) }}
                             </div><!--
                         @endif
