@@ -24,7 +24,7 @@
                 </div>
                 @foreach ($events as $event)
                     <div class="col-sm-12 col-lg-6">
-                        <a class="event-card" href="/op/for-stores/{{ $event->slug }}">
+                        <a class="event-card" href="/available-kits/{{ $event->slug }}">
                             @if ($event->listing_image)
                                 <img src="{{ $event->listing_image }}" alt="{{ $event->name }}" class="event-card__image">
                             @endif
