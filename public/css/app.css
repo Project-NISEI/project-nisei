@@ -6541,4 +6541,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
   display: block; }
 
+.accordion .card-header button {
+  white-space: normal;
+  text-align: left; }
+
 /*# sourceMappingURL=app.css.map */
