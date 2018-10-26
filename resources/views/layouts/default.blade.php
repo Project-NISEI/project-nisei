@@ -7,7 +7,7 @@
 
     <title>@yield('page-title')</title>
 
-    <link rel="icon" type="image/ico" href="/favicon.ico">
+    <link rel="icon" type="image/ico" href="/favicon.png">
 
     <link rel="stylesheet" href="/css/app.css">
     <link rel="stylesheet" href="/css/app.css">	
