@@ -22,6 +22,7 @@
                         <a class="dropdown-item" href="/about/netrunner">What is Netrunner?</a>
                         <a class="dropdown-item" href="/about/nisei">Who or what is Project NISEI?</a>
                         <a class="dropdown-item" href="/about/faqs">FAQs</a>
+                        <a class="dropdown-item" href="/about/code-of-conduct">Code of Conduct</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">

@@ -8,6 +8,7 @@ Route::get('/article/{slug}', ['uses' => 'Web\BlogController@detail', 'as' => 'b
 Route::get('/about', function() { return redirect('/about/netrunner'); });
 Route::get('/about/netrunner', function () { return view('pages/about/netrunner'); });
 Route::get('/about/nisei', function () { return view('pages/about/nisei'); });
+Route::get('/about/code-of-conduct', function () { return view('pages/about/code-of-conduct'); });
 Route::get('/about/faqs', function () { return view('pages/about/faqs'); });
 
 Route::get('/op', function() { return redirect('/op/available-kits'); });
@@ -17,8 +18,6 @@ Route::get('/op/resources', function () { return view('pages/op/resources'); });
 
 Route::post('paypal', array('as' => 'paypal','uses' => 'Web\PaypalController@postPaymentWithpaypal',));
 Route::get('paypal', array('as' => 'status','uses' => 'Web\PaypalController@getPaymentStatus',));
-
-
 
 
 // Admin routes
