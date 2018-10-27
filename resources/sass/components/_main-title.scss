@@ -29,4 +29,12 @@
             padding-left: 130px;
         }
     }
+
+    @media (max-width: 600px) {
+        background-image: none;
+
+        .main-title__text-holder {
+            padding-left: 0;
+        }
+    }
 }
