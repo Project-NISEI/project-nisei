@@ -135,7 +135,7 @@
                     <h2>Attribution</h3>
                     <p><a href="https://wealljs.org/code-of-conduct" target="blank">WeAllJS Code of Conduct</a> and <a href="https://wealljs.org/enforcement" target="blank"> Enforcement Guidelines</a></p>
                     <p><a href="https://docs.google.com/document/d/1R661s6N1MfI3idqXMPGHkTLFGmwvI1iSpt5mW4b80BI/edit#heading=h.7hm64w5cy57e" target="blank">Stimhack Slack #uk channel Code of Conduct</a></p>
-                    <p><a href="https://geekfeminism.org/about/code-of-conduct/" target="blank">Geek Feminism Code of Conduct</a></p>/
+                    <p><a href="https://geekfeminism.org/about/code-of-conduct/" target="blank">Geek Feminism Code of Conduct</a></p>
                 </div>
             </div>
         </div>
