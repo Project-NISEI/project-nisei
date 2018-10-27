@@ -40,7 +40,7 @@ class BlogController extends Controller
         $article = DB::table('blogs')
             ->where('slug', $slug)
             ->join('users', 'blogs.author_id', '=', 'users.id')
-            ->select('users.name as author_name', 'blogs.title', 'blogs.published_at', 'blogs.slug', 'blogs.content')
+            ->select('users.name as author_name', 'blogs.title', 'blogs.published_at', 'blogs.slug', 'blogs.content', 'blogs.listing_image')
             ->first();
 
         if (!$article) {

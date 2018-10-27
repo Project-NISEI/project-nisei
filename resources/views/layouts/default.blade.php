@@ -5,6 +5,8 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <meta name="og:image" content="@yield('opengraph-image', url('/logo-large.png'))">
+
     <title>@yield('page-title')</title>
 
     <link rel="icon" type="image/ico" href="/favicon.png">
