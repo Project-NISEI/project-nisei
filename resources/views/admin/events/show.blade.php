@@ -42,7 +42,7 @@
                         </tr>
                         <tr>
                             <th>@lang('quickadmin.events.fields.price')</th>
-                            <td field-key='author'>{{ $event->price }}</td>
+                            <td field-key='author'>${{ $event->price }}</td>
                         </tr>
                         <tr>
                             <th>@lang('quickadmin.events.fields.content')</th>

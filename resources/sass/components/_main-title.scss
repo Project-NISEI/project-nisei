@@ -1,22 +1,32 @@
 .main-title {
     background: #f1f1f1;
     margin-top: 0;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    color: $link-color;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    color: white;
     position: relative;
 
-    background-image: url('/assets/images/creation.jpg');
-    background-size: cover;
+    background-image: url('/assets/images/banner.png');
+    background-size: 1160px auto;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: black;
 
     h1 {
-        font-size: 43px;
+        font-size: 3rem;
         margin-bottom: 0;
+    }
 
-        @include media-breakpoint-up(md) {
-            font-size: 61px;
+    .main-title__text-holder {
+        padding-left: 15%;
+    }
+
+    @media (max-width: 1180px) {
+        background-size: 1200px auto;
+        background-position: left;
+
+        .main-title__text-holder {
+            padding-left: 130px;
         }
     }
 }

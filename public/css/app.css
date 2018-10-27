@@ -6400,20 +6400,26 @@ h1, h2, h3, h4, h5, h6 {
 .main-title {
   background: #f1f1f1;
   margin-top: 0;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  color: #c00303;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  color: white;
   position: relative;
-  background-image: url("/assets/images/creation.jpg");
-  background-size: cover;
+  background-image: url("/assets/images/banner.png");
+  background-size: 1160px auto;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-color: black; }
   .main-title h1 {
-    font-size: 43px;
+    font-size: 3rem;
     margin-bottom: 0; }
-    @media (min-width: 768px) {
-      .main-title h1 {
-        font-size: 61px; } }
+  .main-title .main-title__text-holder {
+    padding-left: 15%; }
+  @media (max-width: 1180px) {
+    .main-title {
+      background-size: 1200px auto;
+      background-position: left; }
+      .main-title .main-title__text-holder {
+        padding-left: 130px; } }
 
 .headline {
   position: relative;
@@ -6518,11 +6524,25 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(-0.5rem);
   display: block; }
 
+.form-field__dollar-box {
+  padding-left: 2rem;
+  position: relative; }
+  .form-field__dollar-box::after {
+    content: "$";
+    position: absolute;
+    left: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%); }
+
 .article-content img {
   width: auto !important;
   height: auto !important;
   max-width: 90%;
   margin: 0 auto;
   display: block; }
+
+.accordion .card-header button {
+  white-space: normal;
+  text-align: left; }
 
 /*# sourceMappingURL=app.css.map */

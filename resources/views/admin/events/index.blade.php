@@ -58,7 +58,7 @@
                                 <td field-key='slug'>{{ $event->slug }}</td>
                                 <td field-key='type'>{{ $event->type }}</td>
                                 <td field-key='active'>{{ Form::checkbox("active", 1, $event->active == 1 ? true : false, ["disabled"]) }}</td>
-                                <td field-key='type'>{{ $event->price }}</td>
+                                <td field-key='type'>${{ $event->price }}</td>
                                 @if( request('show_deleted') == 1 )
                                 <td>
                                     @can('event_delete')

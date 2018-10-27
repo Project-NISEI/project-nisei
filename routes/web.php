@@ -11,9 +11,10 @@ Route::get('/about/nisei', function () { return view('pages/about/nisei'); });
 Route::get('/about/code-of-conduct', function () { return view('pages/about/code-of-conduct'); });
 Route::get('/about/faqs', function () { return view('pages/about/faqs'); });
 
-Route::get('/op', function() { return redirect('/op/for-stores'); });
-Route::get('/available-kits', ['uses' => 'Web\OPController@indexForStores', 'as' => 'op.storeIndex'] );
-Route::get('/available-kits/{slug}', ['uses' => 'Web\OPController@detailForStores', 'as' => 'op.storeEvent'] );
+Route::get('/op', function() { return redirect('/op/available-kits'); });
+Route::get('/op/available-kits', ['uses' => 'Web\OPController@indexForStores', 'as' => 'op.storeIndex'] );
+Route::get('/op/available-kits/{slug}', ['uses' => 'Web\OPController@detailForStores', 'as' => 'op.storeEvent'] );
+Route::get('/op/resources', function () { return view('pages/op/resources'); });
 
 Route::post('paypal', array('as' => 'paypal','uses' => 'Web\PaypalController@postPaymentWithpaypal',));
 Route::get('paypal', array('as' => 'status','uses' => 'Web\PaypalController@getPaymentStatus',));
