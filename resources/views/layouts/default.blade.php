@@ -12,6 +12,17 @@
     <link rel="stylesheet" href="/css/app.css">
     <link rel="stylesheet" href="/css/app.css">	
     <script src="/js/app.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128198151-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-128198151-1');
+    </script>
+
 </head>
 <body>
     @include('partials.nav')
