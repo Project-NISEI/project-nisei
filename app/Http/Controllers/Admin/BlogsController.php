@@ -115,7 +115,7 @@ class BlogsController extends Controller
 
             $requestData['listing_image'] = '/listing_images/' . $request->listing_image->getClientOriginalName();
         } else {
-            $requestData['listing_image'] = $blog->$listing_image;
+            $requestData['listing_image'] = $blog->listing_image;
         }
 
         $blog->update($requestData);
