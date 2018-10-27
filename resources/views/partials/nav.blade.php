@@ -21,22 +21,18 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="/about/netrunner">What is Netrunner?</a>
                         <a class="dropdown-item" href="/about/nisei">Who or what is Project NISEI?</a>
+                        <a class="dropdown-item" href="/about/faqs">FAQs</a>
                         <a class="dropdown-item" href="/about/code-of-conduct">Code of Conduct</a>
                     </div>
                 </li>
-
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Organised Play
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/op/for-stores">For retailers/TOs</a> 
+                        <a class="dropdown-item" href="/op/available-kits">Available Event Kits</a>
+                        <a class="dropdown-item" href="/op/resources">Resources</a>
                     </div>
-                        <a class="dropdown-item" href="/about/faqs">FAQs</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/available-kits">Available Event Kits</a>
                 </li>
             </ul>
         </div>
