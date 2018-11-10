@@ -38,7 +38,7 @@
                         <li>Attacking someone’s use of cards/playstyles/strategies.</li>
                         <li>Public or private harassment, deliberate intimidation, or threats.</li>
                         <li>Physical contact without consent.</li>
-                        <li>ublishing others’ private information, such as a physical or electronic address, without explicit permission. This includes any sort of “outing” of any aspect of someone’s identity without their explicit consent.</li>
+                        <li>Publishing others’ private information, such as a physical or electronic address, without explicit permission. This includes any sort of “outing” of any aspect of someone’s identity without their explicit consent.</li>
                         <li>Publishing screenshots or quotes, especially from private channels, without all quoted users’ explicit consent.</li>
                         <li>Unsolicited explanations under the assumption that someone doesn’t already know it. Ask before you teach! Don’t assume what people’s knowledge gaps are. For example, someone is browsing sleeves. Don’t go up to them and tell them everything you know about sleeves. If someone needs to know the difference between Ultra Pro and Dragon Shield, they will ask.</li>
                         <li>Deliberately using incorrect pronouns for a person, especially after being informed of the correct ones. If you’re unsure, use gender-neutral language.</li>
@@ -84,7 +84,7 @@
                     <hr />
                     <h2>Who Watches the Watchers?</h2>
                     <p>Admins and other leaders who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the community’s leadership. These may include anything from removal from the admin team to a permanent ban from the community.</p>
-                    <p>If a NISEI team member, admin, moderator, tournament organiser, or any other representative of the organisation, is in contravention of this document or you believe they have engaged in any other unacceptable behaviour, please report them directly to a NISEI board member. List of board members and their contact information can be found on the NISEI website. An anonymous report can also be submitted here on the NISEI website. [link when website goes live]</p>
+                    <p>If a NISEI team member, admin, moderator, tournament organiser, or any other representative of the organisation, is in contravention of this document or you believe they have engaged in any other unacceptable behaviour, please report them directly to a NISEI board member. List of board members and their contact information can be found on the NISEI website. An anonymous report can also be submitted here on the NISEI website. (coming shortly)</p>
                     <p>If a board member is in contravention of this document or you believe they have engaged in any other unacceptable behaviour, please report the incident directly to the president and/or the Equality, Diversity, and Inclusion Team Lead.</p>
                     <hr />
                     <h2>Enforcement Examples</h2>
