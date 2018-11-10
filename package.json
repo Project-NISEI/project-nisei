@@ -1,18 +1,19 @@
 {
-    "private": true,
-    "scripts": {
-        "build:js": "webpack --progress --hide-modules --config=webpack.config.js",
-        "build:sass": "node-sass --source-map true resources/sass/ -o public/css",
-        "watch:sass": "npm run build:sass && npm run build:sass -- -w"
-    },
-    "devDependencies": {
-        "axios": "^0.18",
-        "bootstrap": "^4.0.0",
-        "cross-env": "^5.1",
-        "jquery": "^3.2",
-        "laravel-mix": "^2.0",
-        "lodash": "^4.17.5",
-        "popper.js": "^1.12",
-        "node-sass": "*"
-    }
+  "private": true,
+  "scripts": {
+    "build:js": "webpack --progress --hide-modules --config=webpack.config.js",
+    "build:sass": "node-sass --source-map true resources/sass/ -o public/css",
+    "watch:sass": "npm run build:sass && npm run build:sass -- -w"
+  },
+  "devDependencies": {
+    "axios": "^0.18",
+    "bootstrap": "^4.0.0",
+    "cross-env": "^5.1",
+    "jquery": "^3.2",
+    "laravel-mix": "^2.0",
+    "lodash": "^4.17.5",
+    "masonry-layout": "^4.2.2",
+    "node-sass": "*",
+    "popper.js": "^1.12"
+  }
 }

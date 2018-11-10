@@ -10,9 +10,9 @@
 
     <div class="page-content">
         <div class="container">
-            <div class="row">
+            <div class="row"data-masonry='{ "itemSelector": ".grid-item"}'>
                 @foreach ($articles as $article)
-                    <div class="col-sm-12 col-lg-6">
+                    <div class="col-sm-12 col-lg-6 grid-item">
                         <a class="article-card" href="/article/{{ $article->slug }}">
                             @if ($article->listing_image)
                                 <img src="{{ $article->listing_image }}" alt="{{ $article->title }}" class="article-card__image">
