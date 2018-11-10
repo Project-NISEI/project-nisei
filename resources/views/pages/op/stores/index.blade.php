@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="container">
-            <div class="row">
+            <div class="row" data-masonry='{ "itemSelector": ".grid-item"}'>
                 <div class="col-sm-12">
                     <h4 class="headline"><span>Available Kits</span></h4>
                     <br>
