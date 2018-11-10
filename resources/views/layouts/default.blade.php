@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="/css/app.css">	
     <script src="/js/app.js"></script>
 
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128198151-1"></script>
     <script>
@@ -30,5 +33,7 @@
     @include('partials.nav')
 
     @yield('content')
+
+    @yield('scripts')
 </body>
 </html>
