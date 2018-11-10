@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="container">
-            <div class="row">
+            <div class="row masonry-grid">
                 <div class="col-sm-12">
                     <h4 class="headline"><span>Available Kits</span></h4>
                     <br>
@@ -37,4 +37,18 @@
             </div>
         </div>
     </div>
+@stop
+
+@section('scripts')
+    <script>
+        var grids = document.querySelectorAll('.masonry-grid');
+        imagesLoaded( grids, function() {
+            for (let x = 0; x < grids.length; x++) {
+                let grid = grids[x];
+                var msnry = new Masonry( grid, {
+                    itemSelector: '.grid-item'
+                });
+            }
+        });
+    </script>
 @stop
