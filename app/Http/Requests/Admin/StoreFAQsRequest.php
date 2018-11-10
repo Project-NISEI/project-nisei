@@ -23,8 +23,8 @@ class StoreFAQsRequest extends FormRequest
     public function rules()
     {
         return [
-            'question' => 'required|unique:faqs,question,'.$this->route('faqs'),
-            'answer' => 'required'.$this->route('faqs'),
+            'question' => 'required|unique:faqs,question,'.$this->route('faq'),
+            'answer' => 'required',
         ];
     }
 }

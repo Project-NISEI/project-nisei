@@ -23,7 +23,6 @@ class UpdateBlogsRequest extends FormRequest
     public function rules()
     {
         return [
-            
             'title' => 'required|unique:blogs,title,'.$this->route('blog'),
             'slug' => 'required|unique:blogs,slug,'.$this->route('blog'),
             'published_at' => 'required|date_format:'.config('app.date_format'),
