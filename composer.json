@@ -11,6 +11,7 @@
         "laravel/tinker": "^1.0",
         "laravelcollective/html": "^5.5",
         "paypal/rest-api-sdk-php": "^1.13",
+        "spatie/laravel-feed": "^2.1",
         "unisharp/laravel-filemanager": "^1.8",
         "yajra/laravel-disqus": "^1.1"
     },

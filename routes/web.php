@@ -19,6 +19,9 @@ Route::get('/op/resources', function () { return view('pages/op/resources'); });
 Route::post('paypal', array('as' => 'paypal','uses' => 'Web\PaypalController@postPaymentWithpaypal',));
 Route::get('paypal', array('as' => 'status','uses' => 'Web\PaypalController@getPaymentStatus',));
 
+// RSS feed route
+
+Route::feeds();
 
 // Admin routes
 

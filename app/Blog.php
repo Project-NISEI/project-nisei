@@ -2,8 +2,12 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Carbon\Carbon;
 use Illuminate\Database\Eloquent\SoftDeletes;
+
+use Carbon\Carbon;
+
+use Spatie\Feed\Feedable;
+use Spatie\Feed\FeedItem;
 
 /**
  * Class Blog
@@ -16,7 +20,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  * @property string $author
  * @property string $category
 */
-class Blog extends Model
+class Blog extends Model implements Feedable
 {
     use SoftDeletes;
 
@@ -82,5 +86,22 @@ class Blog extends Model
     {
         return $this->belongsTo(Category::class, 'category_id');
     }
+
+    public function toFeedItem()
+    {
+        $summary = substr(strip_tags($this->content), 200);
+
+        return FeedItem::create()
+            ->id($this->id)
+            ->title($this->title)
+            ->updated(new Carbon($this->published_at))
+            ->summary($summary)
+            ->link('/article/' . $this->slug)
+            ->author($this->author->name);
+    }
     
+    public static function getFeedItems()
+    {
+       return Blog::all();
+    }
 }
