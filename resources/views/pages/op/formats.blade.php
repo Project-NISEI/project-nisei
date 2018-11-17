@@ -98,7 +98,7 @@
                 <ul>
                   <li>24/7 News Cycle</li>
                   <li>Bryan Stinson</li>
-                  <li>Cerebral Imaging (CI) - identity</li>
+                  <li>Cerebral Imaging</li>
                   <li>Clone Sufferage Movement</li>
                   <li>Friends in High Places</li>
                   <li>Hired Help</li>
@@ -111,7 +111,7 @@
                   <li>Commercial Bankers Group</li>
                   <li>Excalibur</li>
                   <li>Global Food Initiative</li>
-                  <li>Jinteki: Potential Unleashed - identity</li>
+                  <li>Jinteki: Potential Unleashed</li>
                   <li>Mother Godess</li>
                   <li>Mti Mwekundu: Life Improved</li>
                   <li>Mumba Temple</li>
