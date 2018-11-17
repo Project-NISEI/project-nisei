@@ -32,7 +32,8 @@
                       </ul>
                     <p>Examples of unacceptable behaviour by participants include, but are not limited to, the following:</p>
                       <ul>
-                        <li>The use of sexualized language or imagery and unwelcome sexual attention or advances, including when simulated online. The only exception to sexual topics is channels/spaces specifically for topics of sexual identity.</li>
+                        <li>The use of sexualized language or imagery and unwelcome sexual attention or advances, including when simulated online.</li>
+                        <li>The discussion of sexual topics, the only exception being channels/spaces specifically for topics of sexual identity.</li>
                         <li>Trolling, insulting/derogatory comments, casual use of slurs or similar pejorative language, and personal or political attacks.</li>
                         <li>Making light of/making mocking comments about trigger warnings and content warnings.</li>
                         <li>Attacking someone’s use of cards/playstyles/strategies.</li>
