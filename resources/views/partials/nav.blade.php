@@ -31,6 +31,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="/op/available-kits">Available Event Kits</a>
+                        <a class="dropdown-item" href="/op/supported-formats">Supported Formats</a>
                         <a class="dropdown-item" href="/op/resources">Resources</a>
                     </div>
                 </li>
