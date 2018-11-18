@@ -1,6 +1,6 @@
 @extends('layouts.default')
 
-@section('page-title', 'NISEI - Code of Conduct')
+@section('page-title', 'NISEI - Supported Formats')
 
 @section('content')
 
