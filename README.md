@@ -14,13 +14,15 @@ From there you can ssh into Vagrant with ```vagrant ssh``` and navigate to ```/v
 * Set up .env (as a copy of .env.example) with your local environment details, including database logins that are included in the Scotch Box docs
 * run `composer install` (this will install a lot of stuff, especially if you haven't got many php packages in cache)
 * run `php artisan key:generate`
-* run `php artisan vendor:publish`
+* run `php artisan vendor:publish` and select all
 * run `php artisan migrate` to populate the databases with tables
 * run `php artisan db:seed` to populate the default user and roles
 
 At this point the site should be functional (although missing styles on the front end). You can proceed to /admin and login with the default user, admin@admin.com - password to access the back end of the site. The acquire styles and js you can then.
 
 * run `npm install`
-* run `npm run build:js` and `npm run build:sass`
+* run `npm run build:sass`
+
+If you have issues with node-sass at this point, those can potentially be resolved by running `npm install --unsafe-perm -g node-sass`. Any issues beyond that can be debugged as a group in Slack.
 
 Once everything is up and running, pull requests can be made to the main repo (on a feature branch) and deployed to live once reviewed.
