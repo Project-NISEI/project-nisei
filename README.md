@@ -18,10 +18,11 @@ From there you can ssh into Vagrant with ```vagrant ssh``` and navigate to ```/v
 * run `php artisan migrate` to populate the databases with tables
 * run `php artisan db:seed` to populate the default user and roles
 
-At this point the site should be functional (although missing styles on the front end). You can proceed to /admin and login with the default user, admin@admin.com - password to access the back end of the site. The acquire styles and js you can then.
+At this point the site should be functional (although missing styles on the front end). You can proceed to /admin and login with the default user, admin@admin.com - password to access the back end of the site. To acquire styles and js you can then.
 
 * run `npm install`
 * run `npm run build:sass`
+* run `npm run build:js`
 
 If you have issues with node-sass at this point, those can potentially be resolved by running `npm install --unsafe-perm -g node-sass`. Any issues beyond that can be debugged as a group in Slack.
 
