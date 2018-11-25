@@ -12,6 +12,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
+                    <p>Coming soon: tournament brackets, decklists, nametag stickers, and more!</p>
                     <h2>For Players and Organizers</h2>
                     <ul>
                         <li><a href="/files/Comprehensive_Rules_1.1.pdf">NISEI Comprehensive Rules version 1.1</a></li>
