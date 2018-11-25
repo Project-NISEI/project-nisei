@@ -20,7 +20,29 @@
             <div class="col-6">
               <h3>Legal Products</h3>
               <p>Legal cardpool from 21st December 2018:</p>
+                <li><a href="https://netrunnerdb.com/en/cycle/lunar" target="_blank">Lunar Cycle</a></li>
+                <li class="clear-list">
+                  <ul>
+                    <li><a href="https://netrunnerdb.com/en/set/up" target="_blank">Upstalk</a></li>
+                    <li><a href="https://netrunnerdb.com/en/set/tsb" target="_blank">The Spaces Between</a></li>
+                    <li><a href="https://netrunnerdb.com/en/set/fc" target="_blank">First Contact</a></li>
+                    <li><a href="https://netrunnerdb.com/en/set/uao" target="_blank">Up and Over</a></li>
+                    <li><a href="https://netrunnerdb.com/en/set/atr" target="_blank">All That Remains</a></li>
+                    <li><a href="https://netrunnerdb.com/en/set/ts" target="_blank">The Source</a></li>
+                  </ul>
+                </li>
                 <li><a href="https://netrunnerdb.com/en/set/cac" target="_blank">Creation and Control</a></li>
+                <li><a href="https://netrunnerdb.com/en/cycle/lunar" target="_blank">Lunar Cycle</a></li>
+                <li class="clear-list">
+                  <ul>
+                    <li><a href="https://netrunnerdb.com/en/set/up" target="_blank">Upstalk</a></li>
+                    <li><a href="https://netrunnerdb.com/en/set/tsb" target="_blank">The Spaces Between</a></li>
+                    <li><a href="https://netrunnerdb.com/en/set/fc" target="_blank">First Contact</a></li>
+                    <li><a href="https://netrunnerdb.com/en/set/uao" target="_blank">Up and Over</a></li>
+                    <li><a href="https://netrunnerdb.com/en/set/atr" target="_blank">All That Remains</a></li>
+                    <li><a href="https://netrunnerdb.com/en/set/ts" target="_blank">The Source</a></li>
+                  </ul>
+                </li>
                 <li><a href="https://netrunnerdb.com/en/set/hap" target="_blank">Honor and Profit</a></li>
                 <li><a href="https://netrunnerdb.com/en/cycle/lunar" target="_blank">Lunar Cycle</a></li>
                 <li class="clear-list">
