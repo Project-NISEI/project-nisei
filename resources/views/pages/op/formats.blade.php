@@ -20,6 +20,7 @@
             <div class="col-6">
               <h3>Legal Products</h3>
               <p>Legal cardpool from 21st December 2018:</p>
+              <ul>
                 <li><a href="https://netrunnerdb.com/en/set/cac" target="_blank">Creation and Control</a></li>
                 <li><a href="https://netrunnerdb.com/en/set/hap" target="_blank">Honor and Profit</a></li>
                 <li><a href="https://netrunnerdb.com/en/cycle/lunar" target="_blank">Lunar Cycle</a></li>
