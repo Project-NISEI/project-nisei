@@ -221,6 +221,7 @@
                   </ul>
                 </li>
 		<li><a href="https://netrunnerdb.com/en/set/td" target="_blank">Terminal Directive</a></li>
+		<li><a href="https://netrunnerdb.com/en/set/core2" target="_blank">Revised Core Set</a></li>
                 <li><a href="https://netrunnerdb.com/en/cycle/kitara" target="_blank">Kitara Cycle</a></li>
                 <li class="clear-list">
                   <ul>
@@ -381,6 +382,7 @@
                   </ul>
                 </li>
 		<li><a href="https://netrunnerdb.com/en/set/td" target="_blank">Terminal Directive</a></li>
+		<li><a href="https://netrunnerdb.com/en/set/core2" target="_blank">Revised Core Set</a></li>
                 <li><a href="https://netrunnerdb.com/en/cycle/kitara" target="_blank">Kitara Cycle</a></li>
                 <li class="clear-list">
                   <ul>
