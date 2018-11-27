@@ -11,12 +11,12 @@
     <div class="page-content">
         <div class="container">
           <div class="row">
-<p> All formats follow the rules of play and errata outlined in the latest NISEI Comprehensive Rules. New releases become legal at Casual events immediately and at Competitive events on the second Friday after their release. For example, if a new set were released on Monday the 1st of a given month, it would become legal on Friday the 12th. Rotation and new MWL releases will be given their own effective dates, announced at the same time and always found in the Organised Play Policy document.</p>
-<p>Cards in  the “removed” section may not be included in decks, used as identities, or chosen as extra cards (such as directives). Only a single card from the “restricted” section may be included in a deck up to its maximum number of copies, used as an identity, or chosen as an extra card.</p>
-</div>
-<div class="row">
-<h2>Standard</h2>
-<p>The flagship format of NISEI Organized Play, Standard is frequently changing to keep the meta exciting and engaging for players of all levels. Most official Organised Play events will follow the Standard format; if a format is not specified, assume Standard but contact your Tournament Organiser for clarity.</p>
+            <p> All formats follow the rules of play and errata outlined in the latest NISEI Comprehensive Rules. New releases become legal at Casual events immediately and at Competitive events on the second Friday after their release. For example, if a new set were released on Monday the 1st of a given month, it would become legal on Friday the 12th. Rotation and new MWL releases will be given their own effective dates, announced at the same time and always found in the Organised Play Policy document.</p>
+            <p>Cards in the “removed” section may not be included in decks, used as identities, or chosen as extra cards (such as directives). Only a single card from the “restricted” section may be included in a deck up to its maximum number of copies, used as an identity, or chosen as an extra card.</p>
+          </div>
+          <div class="row">
+            <h2>Standard</h2>
+            <p>The flagship format of NISEI Organized Play, Standard is frequently changing to keep the meta exciting and engaging for players of all levels. Most official Organised Play events will follow the Standard format; if a format is not specified, assume Standard but contact your Tournament Organiser for clarity.</p>
             <div class="col-6">
               <h3>Legal Products</h3>
               <p>Legal cardpool from 21st December 2018:</p>
@@ -152,9 +152,10 @@
                   <li>Rumor Mill</li>
                 </ul>
             </div>
-<div class="row">
-<h2>Snapshot</h2>
-<p>This format is a "snapshot" of the meta at Magnum Opus; the culmination of FFG Organized Play. It will see minimal changes unless strictly necessary.</p>
+          </div>
+          <div class="row">
+            <h2>Snapshot</h2>
+            <p>This format is a "snapshot" of the meta at Magnum Opus; the culmination of FFG Organized Play. It will see minimal changes unless strictly necessary.</p>
             <div class="col-6">
               <h3>Legal Products</h3>
               <p>Legal cardpool from 16th November 2018:</p>
@@ -288,9 +289,10 @@
                   <li>Magnum Opus</li>
                 </ul>
             </div>
-<div class="row">
-<h2>Eternal</h2>
-<p>Eternal is not affected by rotation and has a much less stringent Most Wanted List. The largest and most complex format, it encompasses nearly the entirety of the printed card pool and only grows larger with time.</p>
+          </div>
+          <div class="row">
+            <h2>Eternal</h2>
+            <p>Eternal is not affected by rotation and has a much less stringent Most Wanted List. The largest and most complex format, it encompasses nearly the entirety of the printed card pool and only grows larger with time.</p>
             <div class="col-6">
               <h3>Legal Products</h3>
               <p>Legal cardpool from 16th November 2018:</p>
@@ -412,16 +414,16 @@
                   <li>Watch the World Burn</li>
                 </ul>
             </div>
-            <div>
-<h2>Other Formats</h2>
-<p>There are a number of other formats that will see support that do not necessarily require an MWL of their own. Keep an eye on Nisei.net for updates as these formats are rolled out!</p>
-<h3>Core Experience</h3>
-<p>The “core” of the game experience, and an excellent starting point for new or returning players. A single copy of System Core 2019 is the only legal product; there is no MWL.</p>
-<h3>Draft</h3>
-<p>The draft rules are currently in the process of being reworked and creation of a NISEI cube is in progress.</p>
-<h3>NAPD 3v1</h3>
-<p>A particularly unique format, this format’s rules are currently being explored and an MWL is being developed in order to provide a fun and fair experience for four players.</p>
-            </div>
+          </div>
+          <div>
+            <h2>Other Formats</h2>
+            <p>There are a number of other formats that will see support that do not necessarily require an MWL of their own. Keep an eye on Nisei.net for updates as these formats are rolled out!</p>
+            <h3>Core Experience</h3>
+            <p>The “core” of the game experience, and an excellent starting point for new or returning players. A single copy of System Core 2019 is the only legal product; there is no MWL.</p>
+            <h3>Draft</h3>
+            <p>The draft rules are currently in the process of being reworked and creation of a NISEI cube is in progress.</p>
+            <h3>NAPD 3v1</h3>
+            <p>A particularly unique format, this format’s rules are currently being explored and an MWL is being developed in order to provide a fun and fair experience for four players.</p>
           </div>
         </div>
     </div>
