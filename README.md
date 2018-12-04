@@ -35,4 +35,6 @@ Start containers with
 
 `docker-compose up`
 
-The above commands from `composer install` and below can be run by prefixing the command with `docker-compose exec app `.  This will execute the command in the app container.
+`composer install` can be run using the following command `docker run --rm -v $(pwd):/app composer install --ignore-platform-reqs --no-scripts` or `docker run --rm -v %cd%:/app composer install --ignore-platform-reqs --no-scripts` on Windows.
+
+The commands below `composer install` can be run by prefixing the command with `docker-compose run app `.  This will execute the command in the app container.
