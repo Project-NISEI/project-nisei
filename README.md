@@ -41,3 +41,5 @@ Start containers with
 * `docker run --rm -v %cd%:/app composer install --ignore-platform-reqs --no-scripts` (Windows)
 
 The commands below `composer install` can be run by prefixing the command with `docker-compose run app `.  This will execute the command in the app container.
+
+Site will be available at http://localhost:8081.
