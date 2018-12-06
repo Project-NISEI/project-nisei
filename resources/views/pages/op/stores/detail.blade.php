@@ -47,14 +47,16 @@
                         <div class="form-field" style="display: inline-block; vertical-align: bottom; width: 15rem;">
                             {{ Form::label('requested_price', 'Amount paid per kit*') }}
                             {{ Form::number('requested_price', $event->price, array('min' => $event->price, 'class' => 'form-field__dollar-box')) }}
-                        </div><!--
-                        @if ($event->type == 'GNK')
-                            --><div class="form-field" style="display: inline-block; vertical-align: bottom; width: 15rem;">
-                                {{ Form::label('number_of_kits', 'Quantity *') }}
+                        </div>
+                        <div class="form-field" style="display: inline-block; vertical-align: bottom; width: 15rem;">
+                            {{ Form::label('number_of_kits', 'Quantity *') }}
+                            @if ($event->type == 'Store Championship')
+                                {{ Form::number('number_of_kits', 1, array('required' => 'true', 'readonly' => 'true')) }}
+                            @else
                                 {{ Form::number('number_of_kits', 1, array('required' => 'true')) }}
-                            </div><!--
-                        @endif
-                        --><div class="form-field" style="display: inline-block; vertical-align: bottom; width: 8rem;">
+                            @endif
+                        </div>
+                        <div class="form-field" style="display: inline-block; vertical-align: bottom; width: 8rem;">
                             <input type="submit" value="Purchase">
                         </div>
                     {{ Form::close() }}
