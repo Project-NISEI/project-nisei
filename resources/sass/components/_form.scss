@@ -6,6 +6,7 @@
     display: block;
     padding: 1rem 1rem 0;
 
+
     label {
         display: block;
         font-size: 1rem;
@@ -29,6 +30,10 @@
         color: white;
         margin: 0 auto;
         display: block;
+    }
+
+    input[readonly=true] {
+        background-color: #D3D3D3
     }
 }
 
