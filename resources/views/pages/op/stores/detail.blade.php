@@ -50,10 +50,10 @@
                         </div>
                         <div class="form-field" style="display: inline-block; vertical-align: bottom; width: 15rem;">
                             {{ Form::label('number_of_kits', 'Quantity *') }}
-                            @if ($event->type == 'Store Championship')
-                                {{ Form::number('number_of_kits', 1, array('required' => 'true', 'readonly' => 'true')) }}
+                            @if ($event->type == 'GNK')
+                                {{ Form::number('number_of_kits', 1, array('required' => 'true')) }}                                
                             @else
-                                {{ Form::number('number_of_kits', 1, array('required' => 'true')) }}
+                                {{ Form::number('number_of_kits', 1, array('required' => 'true', 'readonly' => 'true')) }}    
                             @endif
                         </div>
                         <div class="form-field" style="display: inline-block; vertical-align: bottom; width: 8rem;">
