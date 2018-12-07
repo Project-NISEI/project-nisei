@@ -32,6 +32,7 @@
                 @if ($message = Session::get('error'))
                     <div>
                         <p>Whoops, something went wrong checking out via paypal. If this continues to go wrong, or if you think you've been debited and are seeing this error incorrectly please get in touch and we'll sort it out.</p>
+                        <p style="color:red">{{ Session::get('error') }}</p>
                     </div>
                     <?php Session::forget('error');?>
                 @endif
@@ -51,9 +52,9 @@
                         <div class="form-field" style="display: inline-block; vertical-align: bottom; width: 15rem;">
                             {{ Form::label('number_of_kits', 'Quantity *') }}
                             @if ($event->type == 'GNK')
-                                {{ Form::number('number_of_kits', 1, array('required' => 'true')) }}                                
+                                {{ Form::number('number_of_kits', 1, array('required' => 'true')) }}
                             @else
-                                {{ Form::number('number_of_kits', 1, array('required' => 'true', 'readonly' => 'true')) }}    
+                                {{ Form::number('number_of_kits', 1, array('required' => 'true', 'readonly' => 'true', 'disabled' => 'true')) }}
                             @endif
                         </div>
                         <div class="form-field" style="display: inline-block; vertical-align: bottom; width: 8rem;">

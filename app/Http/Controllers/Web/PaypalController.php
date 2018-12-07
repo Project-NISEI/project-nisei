@@ -35,7 +35,7 @@ class PaypalController extends Controller
      * @return void
      */
     public function __construct()
-    {        
+    {
         /** setup PayPal api context **/
         $paypal_conf = \Config::get('paypal');
         $this->_api_context = new ApiContext(new OAuthTokenCredential($paypal_conf['client_id'], $paypal_conf['secret']));
@@ -43,21 +43,17 @@ class PaypalController extends Controller
     }
 
     /**
-     * Retrieve correct price for kit from db
+     * Retrieve event
      *
      */
-    private function getCorrectPrice($kit_slug) {
+    private function getEvent($kit_slug) {
 
         $event = DB::table('events')
             ->where('slug', $kit_slug)
-            ->select('price')
+            ->select('price', 'type')
             ->first();
 
-        if ($event) {
-            return floatval($event->price);
-        }
-
-        return null;
+        return $event;
     }
 
     /**
@@ -68,10 +64,15 @@ class PaypalController extends Controller
      */
     public function postPaymentWithpaypal(Request $request)
     {
+        if ($this->getEvent($request->kit_slug)->type != 'GNK' and $request->number_of_kits > 1) {
+            Session::put('error','Unable to order more than 1 kit');
+            return redirect()->back();
+        }
+
         $payer = new Payer();
         $payer->setPaymentMethod('paypal');
 
-        $price = max($this->getCorrectPrice($request->kit_slug), $request->requested_price);
+        $price = max(floatval($this->getEvent($request->kit_slug)->price), $request->requested_price);
 
         \Log::debug($price);
 
@@ -152,8 +153,8 @@ class PaypalController extends Controller
         /**Execute the payment **/
         $result = $payment->execute($execution, $this->_api_context);
         /** dd($result);exit; /** DEBUG RESULT, remove it later **/
-        if ($result->getState() == 'approved') { 
-            
+        if ($result->getState() == 'approved') {
+
             /** it's all right **/
             /** Here Write your database logic like that insert record or value in database if you want **/
 
