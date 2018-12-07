@@ -64,7 +64,8 @@ class PaypalController extends Controller
      */
     public function postPaymentWithpaypal(Request $request)
     {
-        if ($this->getEvent($request->kit_slug)->type != 'GNK' and $request->number_of_kits > 1) {
+        $event = $this->getEvent($request->kit_slug);
+        if ($event->type != 'GNK' and $request->number_of_kits > 1) {
             Session::put('error','Unable to order more than 1 kit');
             return redirect()->back();
         }
@@ -72,7 +73,7 @@ class PaypalController extends Controller
         $payer = new Payer();
         $payer->setPaymentMethod('paypal');
 
-        $price = max(floatval($this->getEvent($request->kit_slug)->price), $request->requested_price);
+        $price = max(floatval($event->price), $request->requested_price);
 
         \Log::debug($price);
 
