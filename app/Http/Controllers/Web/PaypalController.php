@@ -62,7 +62,7 @@ class PaypalController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function postPaymentWithpaypal(Request $request)
+    public function postPaymentWithPaypal(Request $request)
     {
         $event = $this->getEvent($request->kit_slug);
         if ($event->type != 'GNK' and $request->number_of_kits > 1) {
