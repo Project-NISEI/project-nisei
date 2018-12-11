@@ -8,7 +8,7 @@
         <div class="panel-heading">
             @lang('quickadmin.qa_create')
         </div>
-        
+
         <div class="panel-body">
             <div class="row">
                 <div class="col-xs-12 form-group">
@@ -30,6 +30,18 @@
                     @if($errors->has('answer'))
                         <p class="help-block">
                             {{ $errors->first('answer') }}
+                        </p>
+                    @endif
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 form-group">
+                    {!! Form::label('position', trans('quickadmin.faqs.fields.position').'*', ['class' => 'control-label']) !!}
+                    {!! Form::number('position', old('position'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('position'))
+                        <p class="help-block">
+                            {{ $errors->first('position') }}
                         </p>
                     @endif
                 </div>
