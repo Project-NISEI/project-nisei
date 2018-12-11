@@ -102,6 +102,6 @@ class Blog extends Model implements Feedable
     
     public static function getFeedItems()
     {
-       return Blog::all();
+       return Blog::whereDate('published_at','<=', Carbon::now())->get();
     }
 }
