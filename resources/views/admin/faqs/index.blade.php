@@ -6,11 +6,11 @@
     @can('faqs_create')
     <p>
         <a href="{{ route('admin.faqs.create') }}" class="btn btn-success">@lang('quickadmin.qa_add_new')</a>
-        
+
     </p>
     @endcan
 
-    
+
 
     <div class="panel panel-default">
         <div class="panel-heading">
@@ -26,11 +26,12 @@
                         @endcan
 
                         <th>@lang('quickadmin.faqs.fields.question')</th>
+                        <th>@lang('quickadmin.faqs.fields.index')</th>
                                                 <th>&nbsp;</th>
 
                     </tr>
                 </thead>
-                
+
                 <tbody>
                     @if (count($faqs) > 0)
                         @foreach ($faqs as $faq)
@@ -40,6 +41,7 @@
                                 @endcan
 
                                 <td field-key='title'>{{ $faq->question }}</td>
+                                <td field-key='index'>{{ $faq->index }}</td>
                                                                 <td>
                                     @can('faqs_view')
                                     <a href="{{ route('admin.faqs.show',[$faq->id]) }}" class="btn btn-xs btn-primary">@lang('quickadmin.qa_view')</a>
@@ -71,7 +73,7 @@
     </div>
 @stop
 
-@section('javascript') 
+@section('javascript')
     <script>
         @can('faqs_delete')
             window.route_mass_crud_entries_destroy = '{{ route('admin.faqs.mass_destroy') }}';
