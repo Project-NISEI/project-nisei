@@ -48,7 +48,7 @@ return [
 		'fields' => [
 			'question' => 'Question',
 			'answer' => 'Answer',
-			'index' => 'Index'
+			'position' => 'Position'
 		],
 	],
 

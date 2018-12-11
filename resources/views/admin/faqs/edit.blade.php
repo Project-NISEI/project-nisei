@@ -37,12 +37,12 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('index', trans('quickadmin.faqs.fields.index').'*', ['class' => 'control-label']) !!}
-                    {!! Form::number('index', old('index'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
+                    {!! Form::label('position', trans('quickadmin.faqs.fields.position').'*', ['class' => 'control-label']) !!}
+                    {!! Form::number('position', old('position'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
                     <p class="help-block"></p>
-                    @if($errors->has('index'))
+                    @if($errors->has('position'))
                         <p class="help-block">
-                            {{ $errors->first('index') }}
+                            {{ $errors->first('position') }}
                         </p>
                     @endif
                 </div>

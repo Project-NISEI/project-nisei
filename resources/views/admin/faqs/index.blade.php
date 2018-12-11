@@ -26,7 +26,7 @@
                         @endcan
 
                         <th>@lang('quickadmin.faqs.fields.question')</th>
-                        <th>@lang('quickadmin.faqs.fields.index')</th>
+                        <th>@lang('quickadmin.faqs.fields.position')</th>
                                                 <th>&nbsp;</th>
 
                     </tr>
@@ -41,7 +41,7 @@
                                 @endcan
 
                                 <td field-key='title'>{{ $faq->question }}</td>
-                                <td field-key='index'>{{ $faq->index }}</td>
+                                <td field-key='position'>{{ $faq->position }}</td>
                                                                 <td>
                                     @can('faqs_view')
                                     <a href="{{ route('admin.faqs.show',[$faq->id]) }}" class="btn btn-xs btn-primary">@lang('quickadmin.qa_view')</a>

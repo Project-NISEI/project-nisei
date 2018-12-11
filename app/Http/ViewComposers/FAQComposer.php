@@ -28,6 +28,6 @@ class FAQComposer
      */
     public function compose(View $view)
     {
-        $view->faqs = $this->faqs->orderBy('index', 'asc')->get();
+        $view->faqs = $this->faqs->orderBy('position', 'asc')->get();
     }
 }
