@@ -2,7 +2,7 @@
 
 @section('content')
     <h3 class="page-title">@lang('quickadmin.faqs.title')</h3>
-    
+
     {!! Form::model($faq, ['method' => 'PUT', 'route' => ['admin.faqs.update', $faq->id]]) !!}
 
     <div class="panel panel-default">
@@ -35,6 +35,18 @@
                     @endif
                 </div>
             </div>
+            <div class="row">
+                <div class="col-xs-12 form-group">
+                    {!! Form::label('index', trans('quickadmin.faqs.fields.index').'*', ['class' => 'control-label']) !!}
+                    {!! Form::number('index', old('index'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('index'))
+                        <p class="help-block">
+                            {{ $errors->first('index') }}
+                        </p>
+                    @endif
+                </div>
+            </div>
         </div>
     </div>
 
@@ -56,4 +68,3 @@
         });
     </script>
 @stop
-

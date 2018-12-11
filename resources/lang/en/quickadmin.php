@@ -1,20 +1,20 @@
 <?php
 
 return [
-	
+
 	'user-management' => [
 		'title' => 'User management',
 		'fields' => [
 		],
 	],
-	
+
 	'roles' => [
 		'title' => 'Roles',
 		'fields' => [
 			'title' => 'Title',
 		],
 	],
-	
+
 	'users' => [
 		'title' => 'Users',
 		'fields' => [
@@ -34,7 +34,7 @@ return [
 		'fields' => [
 		],
 	],
-	
+
 	'categories' => [
 		'title' => 'Categories',
 		'fields' => [
@@ -42,15 +42,16 @@ return [
 			'slug' => 'Slug',
 		],
 	],
-	
+
 	'faqs' => [
 		'title' => 'FAQs',
 		'fields' => [
 			'question' => 'Question',
 			'answer' => 'Answer',
+			'index' => 'Index'
 		],
 	],
-	
+
 	'blog' => [
 		'title' => 'Articles',
 		'fields' => [
@@ -63,13 +64,13 @@ return [
 			'listing_image' => 'Listing Image'
 		],
 	],
-	
+
 	'event-management' => [
 		'title' => 'Event management',
 		'fields' => [
 		],
 	],
-	
+
 	'events' => [
 		'title' => 'Events',
 		'fields' => [
