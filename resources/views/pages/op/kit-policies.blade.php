@@ -1,11 +1,11 @@
 @extends('layouts.default')
 
-@section('page-title', 'NISEI - Tournament Organizer FAQs')
+@section('page-title', 'NISEI - Event Kit Policies & FAQ')
 
 @section('content')
 
     @include('partials.main-title', [
-        'heading' => 'Supported Formats'
+        'heading' => 'Event Kit Policies & FAQ'
     ])
 
     <div class="page-content">
