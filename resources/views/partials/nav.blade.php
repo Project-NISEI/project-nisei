@@ -33,6 +33,7 @@
                         <a class="dropdown-item" href="/op/available-kits">Available Event Kits</a>
                         <a class="dropdown-item" href="/op/supported-formats">Supported Formats</a>
                         <a class="dropdown-item" href="/op/resources">Resources</a>
+                        <a class="dropdown-item" href="/op/to-faqs">Tournament Organizer FAQs</a>
                     </div>
                 </li>
             </ul>

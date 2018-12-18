@@ -14,6 +14,7 @@ Route::get('/about/faqs', function () { return view('pages/about/faqs'); });
 Route::get('/op', function() { return redirect('/op/available-kits'); });
 Route::get('/op/supported-formats', function() { return view('pages/op/formats'); });
 Route::get('/op/available-kits', ['uses' => 'Web\OPController@indexForStores', 'as' => 'op.storeIndex'] );
+Route::get('/op/to-faqs', function () { return view('pages/op/to-faqs'); });
 Route::get('/op/available-kits/{slug}', ['uses' => 'Web\OPController@detailForStores', 'as' => 'op.storeEvent'] );
 Route::get('/op/resources', function () { return view('pages/op/resources'); });
 
