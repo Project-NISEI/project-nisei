@@ -44,7 +44,7 @@ class OPController extends Controller
         $event = DB::table('events')
             ->where('slug', $slug)
             ->where('active', 1)
-            ->select('name', 'slug', 'type', 'price', 'content')
+            ->select('name', 'slug', 'type', 'price', 'content', 'expires_on')
             ->first();
 
         if (!$event) {
