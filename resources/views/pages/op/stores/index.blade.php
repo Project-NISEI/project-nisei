@@ -13,6 +13,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <p>Purchase available prize kits below! All prices are in US dollars and include shipping.</p>
+                    <p>See <a href="/op/kit-policies">Event Kit Policies & FAQ</a> for details about how you can use these kits.</p>
                 </div>
             </div>
         </div>

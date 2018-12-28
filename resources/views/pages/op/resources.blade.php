@@ -25,6 +25,7 @@
                     <h2>For Organizers</h2>
                     <p>Note that the handwritten proxy templates are only intended for use by tournament staff. Handwritten proxies are not allowed in general. Please refer to the <a href="/files/Organized_Play_Policies_1.0.pdf">Organized Play Policies</a> for full details of the proxy policy.</p>
                     <ul>
+                        <li><a href="/op/kit-policies">Event Kit Policies & FAQ</a></li>
                         <li><a href="/files/Handwritten_Proxy_Template.pdf">Handwritten Proxy Template</a></li>
                         <li><a href="/files/Handwritten_Proxy_Template_%28Textless%29.pdf">Handwritten Proxy Template (Textless)</a></li>
                         <li><a href="/files/Q1_GNK_Poster_A4.png">Q1 GNK Poster (A4)</a></li>
