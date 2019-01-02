@@ -69,7 +69,7 @@ class PaypalController extends Controller
             Session::put('error','Unable to order more than 1 kit');
             return redirect()->back();
         }
-        if ($event->expires_on < time()) {
+        if (strtotime($event->expires_on) < time()) {
             Session::put('error','Kit no longer on sale');
             return redirect()->back();
         }
