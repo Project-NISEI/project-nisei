@@ -50,7 +50,7 @@ class PaypalController extends Controller
 
         $event = DB::table('events')
             ->where('slug', $kit_slug)
-            ->select('price', 'type')
+            ->select('price', 'type', 'expires_on')
             ->first();
 
         return $event;
@@ -67,6 +67,10 @@ class PaypalController extends Controller
         $event = $this->getEvent($request->kit_slug);
         if ($event->type != 'GNK' and $request->number_of_kits > 1) {
             Session::put('error','Unable to order more than 1 kit');
+            return redirect()->back();
+        }
+        if (strtotime($event->expires_on) < time()) {
+            Session::put('error','Kit no longer on sale');
             return redirect()->back();
         }
 
