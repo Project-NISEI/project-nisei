@@ -53,7 +53,7 @@
             <h2>Running Events</h2>
 
             <h4 id="where-to-get">Where can I get the most recent event kits?</h4>
-            <p>Check out <a href="/op/available-kits">the Available Event Kits page</a>!</p>
+            <p>Check out <a href="/op/available-kits">the Event Kits page</a>!</p>
 
             <h4 id="scheduling">How do I avoid scheduling my event at the same time as another event? Is there a public listing of all events somewhere?</h4>
             <p>NISEI recommends using https://alwaysberunning.net for scheduling events. If you want to make absolutely sure, just stay in contact with your local meta - especially other event organizers. We are weighing adding event listing functionality to this website in the future.</p>
