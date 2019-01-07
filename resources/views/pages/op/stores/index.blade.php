@@ -40,7 +40,7 @@
                                     @endif
                                     <p class="event-card__name">{{ $event->name }}</p>
                                     <p class="event-card__info">Base price: ${{ $event->price }}</p>
-                                    <p class="event-card__info">On sale until: {{ $event->expires_on }}</p>
+                                    <p class="event-card__info">On sale through: {{ date_format(date_sub(date_create($event->expires_on),date_interval_create_from_date_string("1 day")),"F j, Y") }} (UTC)</p>
                                 </a>
                             </div>
                         @endif
