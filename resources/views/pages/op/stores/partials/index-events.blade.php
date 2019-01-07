@@ -12,7 +12,7 @@
                 <p class="event-card__name">{{ $event->name }}</p>
                 <p class="event-card__info">Base price: ${{ $event->price }}</p>
                 @if (time() <= strtotime($event->expires_on))
-                    <p class="event-card__info">On sale through: {{ date_format(date_sub(date_create($event->expires_on),date_interval_create_from_date_string("1 day")),"F j, Y") }} (UTC)</p>
+                    <p class="event-card__info">On sale through: {{ date_format(date_sub(date_create($event->expires_on),date_interval_create_from_date_string("1 day")),"F j, Y") }} (23:59 UTC)</p>
                 @else
                     <p class="event-card__subtle">Ended: {{ $event->expires_on }}</p>
                 @endif
