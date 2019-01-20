@@ -19,6 +19,7 @@
                         <li><a href="/files/Organized_Play_Policies.pdf">Organized Play Policies</a></li>
                         <li><a href="/files/Formats_-_November_2018.pdf">Organized Play Formats</a></li>
                         <li><a href="/files/Easy_Rotation_Guide_-_Q4_2018.pdf">Easy Rotation Guide</a></li>
+                        <li><a href="/files/Decklists.pdf">Blank Decklist Template</a></li>
                         <li><a href="/files/Nametag_Stickers_-_14_Avery_7163.pdf">Nametag Stickers - 14 Avery 7163</a></li>                        
                     </ul>
                     <h2>For Organizers</h2>
@@ -31,7 +32,6 @@
                         <li><a href="/files/q1_gnk_poster_a3.png">Q1 GNK Poster (A3)</a></li>
                         <li><a href="/files/Store_Championship_Poster_%28A4%29.png">Store Championship Poster (A4)</a></li>
                         <li><a href="/files/Store_Championship_Poster_%28A3%29.png">Store Championship Poster (A3)</a></li>
-                        <li><a href="/files/Decklists.pdf">Decklists</a></li>
                         <li><a href="/files/Double_Elimination_Bracket_-_4_Players.pdf">Double Elimination Bracket - 4 Players</a></li>
                         <li><a href="/files/Double_Elimination_Bracket_-_8_Players.pdf">Double Elimination Bracket - 8 Players</a></li>
                         <li><a href="/files/Double_Elimination_Bracket_-_16_Players.pdf">Double Elimination Bracket - 16 Players</a></li>
