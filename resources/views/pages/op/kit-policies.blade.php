@@ -134,7 +134,7 @@
 
             <h2>Customs</h2>
 
-            <h4 id="customs-basic">Will I have to pay a customs fee or important tax to claim my items?</h4>
+            <h4 id="customs-basic">Will I have to pay a customs fee or import tax to claim my items?</h4>
             <p>If your shipping address is in the European Union, United States, or Australia, you will not need to pay duties or import taxes. If you are outside of these jurisdictions, your country may require you to pay to retrieve your package from customs.</p>
 
             <h4 id="customs-lying">Will NISEI declare a different value on a customs form so that I will not have to pay a fee?</h4>
