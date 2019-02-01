@@ -24,7 +24,6 @@
             <ul>
                     <li><a href="#gnk-restrictions">What restrictions are there on how and when I can run my event?</a></li>
                     <li><a href="#gnk-shipping">Does the price of a GNK include international postage and VAT?</a></li>
-                    <li><a href="#gnk-pod">Can I order GNKs after their sales deadline through some sort of a “Print on Demand” service?</a></li>
                     <li><a href="#gnk-structure">Can I use the prizes from the GNK for an event of any format or just for a “regular” tournament with Swiss rounds, etc.?</a></li>
             </ul>
             <h4>Store Championships</h4>
@@ -84,9 +83,6 @@
 
             <h4 id="gnk-shipping">Does the price of a GNK include international postage and VAT?</h4>
             <p>Yes, for both full Game Night Kits and GNK Cards-Only kits.</p>
-
-            <h4 id="gnk-pod">Can I order GNKs after their sales deadline through some sort of a “Print on Demand” service?</h4>
-            <p>At the moment we are not considering offering any “Print on Demand” solutions after the deadlines for GNKs.</p>
 
             <h4 id="gnk-structure">Can I use the prizes from the GNK for an event of any format or just for a “regular” tournament with Swiss rounds, etc.?</h4>
             <p>The GNK is meant as basic prize support for any Netrunner-related event you want to organize. Yes, that includes fun trivia quizzes and “jank” tournaments!</p>
