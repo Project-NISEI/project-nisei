@@ -31,7 +31,7 @@
             <ul>
                     <li><a href="#sc-event">Do I have to run an event with my Store Championship kit, or can I keep the prizes for myself?</a></li>
                     <li><a href="#sc-prize-distribution">How are the prizes distributed for a Store Championship?</a></li>
-                    <li><a href="sc-venue">What are the requirements for a venue? Does a Store Championship have to happen at a game store?</a></li>
+                    <li><a href="#sc-venue">What are the requirements for a venue? Does a Store Championship have to happen at a game store?</a></li>
                     <li><a href="#sc-format">Can I run a Store Championship in a format other than Standard?</a></li>
             </ul>
             <h4>Ordering</h4>
