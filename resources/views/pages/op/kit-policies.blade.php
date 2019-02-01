@@ -48,7 +48,7 @@
             </ul>
             <h4>Customs</h4>
             <ul>
-                    <li><a href="#customs-basic">Will I have to pay a customs fee or important tax to claim my items?</a></li>
+                    <li><a href="#customs-basic">Will I have to pay a customs fee or import tax to claim my items?</a></li>
                     <li><a href="#customs-lying">Will NISEI declare a different value on a customs form so that I will not have to pay a fee?</a></li>
             </ul>
             <h4>Other Questions</h4>
