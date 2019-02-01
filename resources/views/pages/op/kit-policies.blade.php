@@ -22,13 +22,16 @@
             </ul>
             <h4>Game Night Kits</h4>
             <ul>
-                    <li><a href="#restrictions">What restrictions are there on how and when I can run my event?</a></li>
+                    <li><a href="#gnk-restrictions">What restrictions are there on how and when I can run my event?</a></li>
+                    <li><a href="#gnk-shipping">Does the price of a GNK include international postage and VAT?</a></li>
+                    <li><a href="#gnk-pod">Can I order GNKs after their sales deadline through some sort of a “Print on Demand” service?</a></li>
+                    <li><a href="#gnk-structure">Can I use the prizes from the GNK for an event of any format or just for a “regular” tournament with Swiss rounds, etc.?</a></li>
             </ul>
             <h4>Store Championships</h4>
             <ul>
                     <li><a href="#sc-event">Do I have to run an event with my Store Championship kit, or can I keep the prizes for myself?</a></li>
                     <li><a href="#sc-prize-distribution">How are the prizes distributed for a Store Championship?</a></li>
-                    <li><a href=sc-venue">What are the requirements for a venue? Does a Store Championship have to happen at a game store?</a></li>
+                    <li><a href="sc-venue">What are the requirements for a venue? Does a Store Championship have to happen at a game store?</a></li>
                     <li><a href="#sc-format">Can I run a Store Championship in a format other than Standard?</a></li>
             </ul>
             <h4>Ordering</h4>
@@ -48,6 +51,10 @@
             <ul>
                     <li><a href="#customs-basic">Will I have to pay a customs fee or important tax to claim my items?</a></li>
                     <li><a href="#customs-lying">Will NISEI declare a different value on a customs form so that I will not have to pay a fee?</a></li>
+            </ul>
+            <h4>Other Questions</h4>
+            <ul>
+                    <li><a href="#art-re-use">Will playmat or card designs ever be reused for official prize support items?</a></li>
             </ul>
 
             <h2>Running Events</h2>
@@ -72,8 +79,17 @@
 
             <h2>Game Night Kits</h2>
 
-            <h4 id="restrictions">What restrictions are there on how and when I can run my event?</h4>
+            <h4 id="gnk-restrictions">What restrictions are there on how and when I can run my event?</h4>
             <p>For a Game Night Kit, there are no restrictions - you’re the boss. First and foremost, do what the players want - but feel free to try out league nights, alternate formats, achievements, drafts, and more. You don’t even need to run an event with a GNK; you can keep the prizes for yourself if you’re feeling greedy - although we strongly encourage sharing them over a few games.</p>
+
+            <h4 id="gnk-shipping">Does the price of a GNK include international postage and VAT?</h4>
+            <p>Yes, for both full Game Night Kits and GNK Cards-Only kits.</p>
+
+            <h4 id="gnk-pod">Can I order GNKs after their sales deadline through some sort of a “Print on Demand” service?</h4>
+            <p>At the moment we are not considering offering any “Print on Demand” solutions after the deadlines for GNKs.</p>
+
+            <h4 id="gnk-structure">Can I use the prizes from the GNK for an event of any format or just for a “regular” tournament with Swiss rounds, etc.?</h4>
+            <p>The GNK is meant as basic prize support for any Netrunner-related event you want to organize. Yes, that includes fun trivia quizzes and “jank” tournaments!</p>
 
             <h2>Store Championships</h2>
 
@@ -127,6 +143,11 @@
 
             <h4 id="customs-lying">Will NISEI declare a different value on a customs form so that I will not have to pay a fee?</h4>
             <p>NISEI will fill out all customs forms honestly and completely. Whether or not anything is due is up to your government, not us.</p>
+
+            <h2>Other Questions</h2>
+
+            <h4 id="art-re-use">Will playmat or card designs ever be reused for official prize support items?</h4>
+            <p>We want playmats and cards to be as unique for each season/event as possible. That said, we may consider reusing their art for another run in the future, or prize support in another format (for example, alternative art cards using playmat art, click counters using card art, custom sleeves).</p>
         </div>
     </div>
 
