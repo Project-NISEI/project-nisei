@@ -12,16 +12,40 @@
         <div class="container">
             <div class="row">
                 <div>
-                    <p>This policy is a "living" document, and subject to refinement and expansion in the future. <b>Last updated October 2018.</b></p>
+                    <h2>Contents</h2>
+                    <ul>
+                      <li><a href="#scope">Scope</a></li>
+                      <li><a href="#pledge">Our Pledge</a></li>
+                      <li><a href="#standards">Our Standards</a></li>
+                      <li><a href="#if-something-happens">If Something Happens</a></li>
+                      <li><a href="#admin-enforcement">Admin Enforcement Process</a></li>
+                      <ul>
+                        <li><a href="#contacting-admins">Contacting Admins</a></li>
+                        <li><a href="#further-enforcement">Further Enforcement</a></li>
+                      </ul>
+                      <li><a href="#who-watches-watchers">Who Watches the Watchers?</a></li>
+                      <li><a href="#enforcement-examples">Enforcement Examples</a></li>
+                      <ul>
+                        <li><a href="#best-case">The Best Case</a></li>
+                        <li><a href="#admin-case">The Admin Case</a></li>
+                        <li><a href="#nope-case">The Accelerated Admin Action Case AKA The NOPE Case</a></li>
+                      </ul>
+                      <li><a href="#enforcement-policy">Code of Conduct Enforcement Policy</a></li>
+                      <ul>  
+                        <li><a href="#guiding-principles">Guiding Principles</a></li>
+                      </ul>
+                      <li><a href="#attribution">Attribution</a></li>
+                    </ul>
+                    <p class="font-italic">This policy is a "living" document, and subject to refinement and expansion in the future. <b>Last updated October 2018.</b></p>
                     <hr />
-                    <h2>Scope</h2>
+                    <h2 id="scope">Scope</h2>
                     <p>This Code of Conduct applies both within community spaces and in other spaces involving the community. These include the Project NISEI Slack & Stimhack.com, its Twitter community, private email communications in the context of the community, and any events where members of the community are participating, as well as adjacent communities and venues affecting the community’s members.</p>
                     <p>Depending on the violation, the admins may decide that violations of this Code of Conduct beyond the scope of the community may deem an individual unwelcome, and admins reserve the right to take appropriate action to maintain the comfort and safety of its members.</p>
                     <hr />
-                    <h2>Our Pledge</h2>
+                    <h2 id="pledge">Our Pledge</h2>
                     <p>Project NISEl is dedicated to providing a harassment-free experience for everyone, regardless of belief, body size, disability (learning, mental, physical or any other kind), gender identity and expression, health conditions (mental or physical), physical appearance, race, religion or sexual orientation.  We do not tolerate harassment of participants in any form.</p>
                     <hr />
-                    <h2>Our Standards</h2>
+                    <h2 id="standards">Our Standards</h2>
                     <p>Examples of behaviour that helps to create a positive environment include:</p>
                       <ul>
                         <li>Using welcoming and inclusive language.</li>
@@ -49,7 +73,7 @@
                       </ul>
                     <p>Players are attracted to Android: Netrunner for a number of different, often personal, reasons and therefore have different goals for the game and ways of working towards those goals. While some players will prefer a highly competitive style, others are interested primarily in the flavour and narrative of the Android universe. Likewise, players will be of a variety of skill levels, and so may have different interests or needs from the more seasoned players. Please respect all interests and play levels. Do not discourage or insult players who ask what may appear to you to be an obvious question. Do not dismiss or demean players who are more interested in the game's mechanics than its theming. All modes of engaging with Android: Netrunner are valid and should be respected.</p>
                     <hr />
-                    <h2>If Something Happens</h2>
+                    <h2 id="if-something-happens">If Something Happens</h2>
                     <p>If you see a Code of Conduct violation, follow these steps:</p>
                       <ol>
                         <li>If you can and feel safe doing so, let the person know that what they did is not appropriate and ask them to stop and/or edit their message(s).</li>
@@ -60,9 +84,9 @@
                     <p>When reporting, please include any relevant details, links, screenshots, context, or other information that may be used to better understand and resolve the situation.</p>
                     <p><strong>The Admin team will prioritize the well-being and comfort of the recipients of the violation over the comfort of the violator.</strong></p>
                     <hr />
-                    <h2>Admin Enforcement Process</h2>
+                    <h2 id="admin-enforcement">Admin Enforcement Process</h2>
                     <p>Once the admins get involved, they will follow a documented series of steps and do their best to preserve the well-being of community members. This section covers actual concrete steps.</p>
-                    <h3>Contacting Admins</h3>
+                    <h3 id="contacting-admins">Contacting Admins</h3>
                     <p>If you need to talk to an admin, you can contact the NISEI admin team through any of the following methods:</p>
                       <ul>
                         <li>Directly message any admin in private (through either Twitter, Slack, or email, as available) </li>
@@ -70,7 +94,7 @@
                         <li>Direct Message @ProjectNISEI  on Twitter with the details and any relevant links.</li>
                         <li>On Stimhack Slack, Admins are @dodgepong and @tolaasin</li>
                       </ul>
-                    <h3>Further Enforcement</h3>
+                    <h3 id="further-enforcement">Further Enforcement</h3>
                     <p>If you’ve already followed the initial enforcement steps, these are the steps admins will take for further enforcement, as needed:</p>
                       <ol>
                         <li>Repeat the request to stop</li>
@@ -83,20 +107,20 @@
                     <p>Admins reserve full rights to skip any of these steps, at their discretion, if the violation is considered to be a serious and/or immediate threat to the health and well-being of members of the community. These include any threats, serious physical or verbal attacks, and other such behaviours that would be completely unacceptable in any social setting that puts our members at risk.</p>
                     <p>Members expelled from events or venues with any sort of paid attendance will not be refunded.</p>
                     <hr />
-                    <h2>Who Watches the Watchers?</h2>
+                    <h2 id="who-watches-watchers">Who Watches the Watchers?</h2>
                     <p>Admins and other leaders who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the community’s leadership. These may include anything from removal from the admin team to a permanent ban from the community.</p>
                     <p>If a NISEI team member, admin, moderator, tournament organiser, or any other representative of the organisation, is in contravention of this document or you believe they have engaged in any other unacceptable behaviour, please report them directly to a NISEI board member. List of board members and their contact information can be found on the NISEI website. An anonymous report can also be submitted here on the NISEI website. (coming shortly)</p>
                     <p>If a board member is in contravention of this document or you believe they have engaged in any other unacceptable behaviour, please report the incident directly to the president and/or the Equality, Diversity, and Inclusion Team Lead.</p>
                     <hr />
-                    <h2>Enforcement Examples</h2>
-                    <h3>The Best Case</h3>
+                    <h2 id="enforcement-examples">Enforcement Examples</h2>
+                    <h3 id="best-case">The Best Case</h3>
                     <p>The vast majority of situations work out like this, in our experience. This interaction is common and generally positive. ‘Alex’s’ use of the word ‘crazy’ could be upsetting to someone with mental health issues, ‘Patt’ calls them on it, ‘Alex’ responds well to the request.</p>
                     <div class="coc-quote">
                     <p>Alex: “Yeah I used X and it was really crazy!”</p>
                     <p>Patt: “Hey, could you not use that word? What about ‘ridiculous’ instead?”</p>
                     <p>Alex: “oh sorry, sure.” -> edits old message to say “it was really confusing!”</p>
                     </div>
-                    <h3>The Admin Case</h3>
+                    <h3 id="admin-case">The Admin Case</h3>
                     <p>Sometimes, though, you need to get admins involved. Admins will do their best to resolve conflicts, but people who were harmed by something will take priority.</p>
                     <div class="coc-quote">
                     <p>Patt: “Honestly, sometimes I just really hate playing against $card and anyone who uses it probably sucks at Netrunner and is an idiot.”</p>
@@ -109,7 +133,7 @@
 	                  <p>Patt: “/msg @mxadmin1 Okay sorry. I’m just frustrated and I’m kinda burnt out and I guess I got carried away. I’ll DM Alex a note apologizing and edit my messages. Sorry for the trouble.”</p>
                     <p>MxAdmin1: “/msg @patt Thanks for that. I hear you on the stress. Burnout sucks :/. Have a good one!”</p>
                     </div>
-                    <h3>The Accelerated Admin Action Case AKA The NOPE Case</h3>
+                    <h3 id="nope-case">The Accelerated Admin Action Case AKA The NOPE Case</h3>
                     <div class="coc-quote">
                     <p>	KKKFan: “Hi, I am a literal actual nazi and I think white supremacists are quite fashionable.”</p>
                     <p>Patt: “NOOOOPE. OH NOPE NOPE.”</p>
@@ -118,9 +142,9 @@
                     <p>KKKFan has been deactivted</p>
                     </div>
                     <hr />
-                    <h2>Code of Conduct Enforcement Policy</h2>
+                    <h2 id="enforcement-policy">Code of Conduct Enforcement Policy</h2>
                     <p>No matter how kind or nice people think they are, at some point, someone’s gonna say Something Bad:TM: and things are going to go awry. This document is meant as a write-up and guideline holding core values about what this community considers the best approach to resolving these conflicts in a kind and positive way, as much as possible. It is paired with the community’s Code of Conduct, which includes the concrete enforcement steps.</p>
-                    <h3>Guiding Principles</h3>
+                    <h3 id="guiding-principles">Guiding Principles</h3>
                       <ul>
                         <li><strong>The Safety of the hurt takes priority over the Comfort of the ones causing harm.</strong></li>
                         <li><strong>Be Kind:</strong> This is not necessarily the same as being nice. There is a justice involved in being kind. It involves genuine consideration for the situation and understanding one’s own, and others’, roles both in this community and in the larger society. It involves empathy and education.</li>
@@ -133,7 +157,7 @@
                         <li><strong>Support is something we can promise – not Safety:</strong> We don’t believe safety, as a general thing, is something we can reasonably promise members of a community. Harm comes suddenly, often unexpectedly. Instead, we believe it’s a more worthwhile endeavour to try and prevent harm from happening through education, documentation, and policy, and build trust with the community that when something happens, they won’t have to fight tooth and nail for even basic fairness.</li>
                       </ul>
                     <hr />
-                    <h2>Attribution</h3>
+                    <h2 id="attribution">Attribution</h3>
                     <p><a href="https://wealljs.org/code-of-conduct" target="blank">WeAllJS Code of Conduct</a> and <a href="https://wealljs.org/enforcement" target="blank"> Enforcement Guidelines</a></p>
                     <p><a href="https://docs.google.com/document/d/1R661s6N1MfI3idqXMPGHkTLFGmwvI1iSpt5mW4b80BI/edit#heading=h.7hm64w5cy57e" target="blank">Stimhack Slack #uk channel Code of Conduct</a></p>
                     <p><a href="https://geekfeminism.org/about/code-of-conduct/" target="blank">Geek Feminism Code of Conduct</a></p>
