@@ -69,7 +69,6 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'admin', 'as' => 'admin.'], 
     Route::post('events_restore/{id}', ['uses' => 'Admin\EventsController@restore', 'as' => 'events.restore']);
     Route::delete('events_perma_del/{id}', ['uses' => 'Admin\EventsController@perma_del', 'as' => 'events.perma_del']);
 
-
-
-
+    Route::resource('tournamentsets', 'Admin\TournamentSetsController');
+    Route::resource('tournaments', 'Admin\TournamentsController');
 });

@@ -88,6 +88,34 @@
                     
                 </ul>
             </li>@endcan
+
+            @can('tournament_management_access')
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-book"></i>
+                    <span>@lang('quickadmin.tournament-section.title')</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+		    @can('tournamentset_access')
+                    <li>
+                        <a href="{{ route('admin.tournamentsets.index') }}">
+                            <i class="fa fa-calendar-alt"></i>
+                            <span>@lang('quickadmin.tournamentsets.title')</span>
+                        </a>
+                    </li>@endcan
+		    @can('tournament_access')
+                    <li>
+                        <a href="{{ route('admin.tournaments.index') }}">
+                            <i class="fa fa-calendar-day"></i>
+                            <span>@lang('quickadmin.tournaments.title')</span>
+                        </a>
+                    </li>
+		    @endcan
+                </ul>
+            </li>@endcan
             
             @can('faqs_access')
             <li>
