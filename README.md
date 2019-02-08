@@ -27,3 +27,19 @@ At this point the site should be functional (although missing styles on the fron
 If you have issues with node-sass at this point, those can potentially be resolved by running `npm install --unsafe-perm -g node-sass`. Any issues beyond that can be debugged as a group in Slack.
 
 Once everything is up and running, pull requests can be made to the main repo (on a feature branch) and deployed to live once reviewed.
+
+## Docker instructions
+Ensure that you have docker and docker compose installed
+
+Start containers with 
+
+`docker-compose up`
+
+`composer install` can be run using the following command
+
+* `docker run --rm -v $(pwd):/app composer install --ignore-platform-reqs --no-scripts` (MacOS/Linux)
+* `docker run --rm -v %cd%:/app composer install --ignore-platform-reqs --no-scripts` (Windows)
+
+The commands below `composer install` can be run by prefixing the command with `docker-compose run app `.  This will execute the command in the app container.
+
+Site will be available at http://localhost:8081.
