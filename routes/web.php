@@ -17,6 +17,7 @@ Route::get('/op/available-kits', ['uses' => 'Web\OPController@indexForStores', '
 Route::get('/op/kit-policies', function () { return view('pages/op/kit-policies'); });
 Route::get('/op/available-kits/{slug}', ['uses' => 'Web\OPController@detailForStores', 'as' => 'op.storeEvent'] );
 Route::get('/op/resources', function () { return view('pages/op/resources'); });
+Route::get('/op/events/{slug}', ['uses' => 'Web\TournamentSetController@detail', 'as' => 'tournamentset.detail'] );
 
 Route::post('paypal', array('as' => 'paypal','uses' => 'Web\PaypalController@postPaymentWithPaypal',));
 Route::get('paypal', array('as' => 'status','uses' => 'Web\PaypalController@getPaymentStatus',));
