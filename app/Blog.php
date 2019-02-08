@@ -89,7 +89,7 @@ class Blog extends Model implements Feedable
 
     public function toFeedItem()
     {
-        $headerImageTag = '<img src="' . url($this->attributes['listing_image']) . '"/>';
+        $headerImageTag = is_null($this->attributes['listing_image']) ? '' : '<img src="' . url($this->attributes['listing_image']) . '"/>' . '<br/>';
         $summary = self::substr_close_tags($this->content, 200);
         $closing = '<a href="'. url('/article/' . $this->slug) . '">Read full article at NISEI.net</a>';
 
@@ -97,7 +97,7 @@ class Blog extends Model implements Feedable
             ->id($this->id)
             ->title($this->title)
             ->updated(new Carbon($this->published_at))
-            ->summary($headerImageTag . '<br/>' . $summary . '<br><br>' . $closing)
+            ->summary($headerImageTag . $summary . '<br><br>' . $closing)
             ->link('/article/' . $this->slug)
             ->author($this->author->name);
     }
