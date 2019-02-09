@@ -109,7 +109,7 @@
             <div class="row">
                 <div class="col-xs-12 form-group">
                     {!! Form::label('address', trans('quickadmin.tournaments.fields.address').'*', ['class' => 'control-label']) !!}
-                    {!! Form::text('address', old('address'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
+                    {!! Form::textarea('address', old('address'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
                     <p class="help-block"></p>
                     @if($errors->has('address'))
                         <p class="help-block">

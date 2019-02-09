@@ -10,7 +10,7 @@
 
     <div class="page-content">
         <div class="container">
-            <div class="row masonry-grid">
+            <div class="row">
                 @foreach ($regions as $region)
                     <section class="grid-item">
 			<h1>{{ $region->name }}</h1>
@@ -20,7 +20,7 @@
 			    <article>
 				<p>{{ $tournament->date }}</p>
 				<p>{{ $tournament->venue }}</p>
-				<p>{{ $tournament->address }}</p>
+				<p>{!! $tournament->address !!}</p>{{-- escaped by controller, don't escape here because <br/> added --}}
 				<p>Entry fee: {{ $tournament->entry_fee }}</p>
 				<p>TO: {{ $tournament->TO_name }} @if($tournament->TO_slack)({{ $tournament->TO_slack }} on stimslack)@endif</p>
 				<p>Contact: {{ $tournament->contact_email }}</p>
