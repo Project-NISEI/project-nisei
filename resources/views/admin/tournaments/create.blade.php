@@ -179,7 +179,7 @@
             });
 
             $('.time').datetimepicker({
-                format: "{{ config('app.time_format_moment') }}",
+                format: "mm:ss",
                 locale: "{{ App::getLocale() }}",
             });
             
