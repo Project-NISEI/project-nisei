@@ -1,0 +1,39 @@
+<?php
+namespace App\Http\Requests\Admin;
+
+use Illuminate\Foundation\Http\FormRequest;
+
+class UpdateTournamentsRequest extends FormRequest
+{
+    /**
+     * Determine if the user is authorized to make this request.
+     *
+     * @return bool
+     */
+    public function authorize()
+    {
+        return true;
+    }
+
+    /**
+     * Get the validation rules that apply to the request.
+     *
+     * @return array
+     */
+    public function rules()
+    {
+        return [
+            'date' => 'required',
+            'reg_time' => 'required',
+            'start_time' => 'required',
+            'venue' => 'required',
+            'address' => 'required',
+            'region' => 'required',
+            'subregion' => 'required',
+            'entry_fee' => 'required',
+            'TO_name' => 'required',
+            'contact_email' => 'required',
+            'tournament_set_id' => 'required',
+        ];
+    }
+}
