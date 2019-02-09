@@ -92,7 +92,7 @@ return [
 	],
 	
 	'tournamentsets' => [
-		'title' => 'Tournament Sets (eg 2019 Store Champs)',
+		'title' => 'Sets (eg 2019 Regionals)',
 		'fields' => [
 			'title' => 'Title',
 			'slug' => 'Slug',
