@@ -10,26 +10,32 @@
 
     <div class="page-content">
         <div class="container">
-            <div class="row">
                 @foreach ($regions as $region)
-                    <section class="grid-item">
+		    <div class="row"><div class="col-sm-12">
 			<h1>{{ $region->name }}</h1>
 			@foreach ($region->subregions as $subregion)
 			    <h2>{{ $subregion->name}}</h2>
+			    <table class="table tournament">
+			    <colgroup>
+			    <col class="date">
+			    <col class="venue">
+			    <col class="details">
 			    @foreach ($subregion->tournaments as $tournament)
-			    <article>
-				<p>{{ $tournament->date }}</p>
-				<p>{{ $tournament->venue }}</p>
-				<p>{!! $tournament->address !!}</p>{{-- escaped by controller, don't escape here because <br/> added --}}
-				<p>Entry fee: {{ $tournament->entry_fee }}</p>
-				<p>TO: {{ $tournament->TO_name }} @if($tournament->TO_slack)({{ $tournament->TO_slack }} on stimslack)@endif</p>
-				<p>Contact: {{ $tournament->contact_email }}</p>
-				<p>Registration {{ $tournament->reg_time }}, start time {{ $tournament->start_time }}</p>
-			    </article>
+			    <tr>
+			    <td>{{ $tournament->date }}</td>
+			    <td><b>{{ $tournament->venue }}</b><br/>{!! $tournament->address !!}</td>{{-- address escaped by controller instead of here because <br/> --}}
+			    <td>Registration: {{ $tournament->reg_time }}<br/>
+			        Start time: {{ $tournament->start_time }}<br/>
+				Entry fee: {{ $tournament->entry_fee }}<br/>
+				TO: {{ $tournament->TO_name }} @if($tournament->TO_slack)({{ $tournament->TO_slack }} on stimslack)@endif<br/>
+				Contact: {{ $tournament->contact_email }}
+			    </td>
+			    </tr>
 			    @endforeach
+			    </table>
 			@endforeach
+		    </div></div>
                 @endforeach
-            </div>
         </div>
     </div>
 @stop
