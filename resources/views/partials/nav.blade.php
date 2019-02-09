@@ -15,10 +15,10 @@
                     <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarAboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         About
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu" aria-labelledby="navbarAboutDropdown">
                         <a class="dropdown-item" href="/about/netrunner">What is Netrunner?</a>
                         <a class="dropdown-item" href="/about/nisei">Who or what is Project NISEI?</a>
                         <a class="dropdown-item" href="/about/faqs">FAQs</a>
@@ -26,14 +26,14 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarOPDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Organised Play
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu" aria-labelledby="navbarOPDropdown">
                         <a class="dropdown-item" href="/op/available-kits">Event Kits</a>
                         <a class="dropdown-item" href="/op/supported-formats">Supported Formats</a>
                         <a class="dropdown-item" href="/op/resources">Resources</a>
-                        <a class="dropdown-item" href="/op/kit-policies">Event Kit Policies & FAQ</a>
+                        <a class="dropdown-item" href="/op/kit-policies">Event Kit Policies &amp; FAQ</a>
                     </div>
                 </li>
             </ul>
