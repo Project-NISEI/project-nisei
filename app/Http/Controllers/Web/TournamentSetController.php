@@ -61,6 +61,7 @@ class TournamentSetController extends Controller
 	    $subregion->tournaments = array();
 	    $regions[$tournament->region]->subregions[$tournament->subregion] = $subregion;
 	  }
+	  $tournament->address = str_replace("\n",'<br/>',htmlspecialchars($tournament->address));
 	  array_push($regions[$tournament->region]->subregions[$tournament->subregion]->tournaments, $tournament);
 	}
 
