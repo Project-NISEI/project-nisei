@@ -34,6 +34,12 @@
                         <a class="dropdown-item" href="/op/supported-formats">Supported Formats</a>
                         <a class="dropdown-item" href="/op/resources">Resources</a>
                         <a class="dropdown-item" href="/op/kit-policies">Event Kit Policies & FAQ</a>
+			@if (count($active_tournament_sets) > 0)
+			<hr/>
+			@foreach ($active_tournament_sets as $set)
+			<a class="dropdown-item" href="/op/events/{{ $set->slug }}">{{ $set->title }}</a>
+			@endforeach
+			@endif
                     </div>
                 </li>
             </ul>
