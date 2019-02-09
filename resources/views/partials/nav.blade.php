@@ -36,6 +36,9 @@
                         <a class="dropdown-item" href="/op/kit-policies">Event Kit Policies & FAQ</a>
                     </div>
                 </li>
+                <li class="nav-item">
+		    <a href="https://www.patreon.com/bePatron?u=14553872"><img src="/assets/images/become_a_patron_button@2x.png" height="40" alt="Become a Patron!"/></a>
+                </li>
             </ul>
         </div>
     </div>
