@@ -99,6 +99,7 @@
 
             <div class="col-6">
               <h3>MWL 3.0</h3>
+              <p class=font-italic><a href="http://nisei.net/article/MA201902">MWL 3.1</a> becomes effective from 22nd Feb 2019</p>
                 <h4>Corp - removed</h4>
                 <ul>
                   <li>24/7 News Cycle</li>
