@@ -26,7 +26,7 @@
 			    <td><b>{{ $tournament->venue }}</b><br/>{!! $tournament->address !!}</td>{{-- address escaped by controller instead of here because <br/> --}}
 			    <td>Registration: {{ $tournament->reg_time }}<br/>
 			        Start time: {{ $tournament->start_time }}<br/>
-				Entry fee: {{ $tournament->entry_fee }}@if($tournament->publish_email)<br/>
+				Entry fee: {{ $tournament->entry_fee }}@if($tournament->publish_email && $tournament->contact_email)<br/>
 				Contact: {{ $tournament->contact_email }}@endif @if($tournament->link)<br/>
 				<a href="{{ $tournament->link }}">More details</a>@endif
 			    </td>

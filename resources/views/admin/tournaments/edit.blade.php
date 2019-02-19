@@ -84,8 +84,8 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('contact_email', trans('quickadmin.tournaments.fields.contact_email').'*', ['class' => 'control-label']) !!}
-                    {!! Form::text('contact_email', old('contact_email'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
+                    {!! Form::label('contact_email', trans('quickadmin.tournaments.fields.contact_email'), ['class' => 'control-label']) !!}
+                    {!! Form::text('contact_email', old('contact_email'), ['class' => 'form-control', 'placeholder' => '']) !!}
                     <p class="help-block"></p>
                     @if($errors->has('contact_email'))
                         <p class="help-block">
