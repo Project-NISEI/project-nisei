@@ -14,10 +14,11 @@ Route::get('/about/faqs', function () { return view('pages/about/faqs'); });
 Route::get('/op', function() { return redirect('/op/available-kits'); });
 Route::get('/op/supported-formats', function() { return view('pages/op/formats'); });
 Route::get('/op/available-kits', ['uses' => 'Web\OPController@indexForStores', 'as' => 'op.storeIndex'] );
+Route::get('/op/kit-policies', function () { return view('pages/op/kit-policies'); });
 Route::get('/op/available-kits/{slug}', ['uses' => 'Web\OPController@detailForStores', 'as' => 'op.storeEvent'] );
 Route::get('/op/resources', function () { return view('pages/op/resources'); });
 
-Route::post('paypal', array('as' => 'paypal','uses' => 'Web\PaypalController@postPaymentWithpaypal',));
+Route::post('paypal', array('as' => 'paypal','uses' => 'Web\PaypalController@postPaymentWithPaypal',));
 Route::get('paypal', array('as' => 'status','uses' => 'Web\PaypalController@getPaymentStatus',));
 
 // RSS feed route
@@ -45,7 +46,7 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'admin', 'as' => 'admin.'], 
 
     Route::get('/', function() { return redirect('/admin/home'); });
     Route::get('/home', 'HomeController@index');
-    
+
     Route::resource('roles', 'Admin\RolesController');
     Route::post('roles_mass_destroy', ['uses' => 'Admin\RolesController@massDestroy', 'as' => 'roles.mass_destroy']);
 
@@ -70,5 +71,5 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'admin', 'as' => 'admin.'], 
 
 
 
- 
+
 });

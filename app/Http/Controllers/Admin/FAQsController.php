@@ -28,7 +28,7 @@ class FaqsController extends Controller
             }
             $faqs = Faq::onlyTrashed()->get();
         } else {
-            $faqs = Faq::all();
+            $faqs = Faq::orderBy('position', 'asc')->get();
         }
 
         return view('admin.faqs.index', compact('faqs'));

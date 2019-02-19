@@ -20,6 +20,10 @@
                             <th>@lang('quickadmin.faqs.fields.answer')</th>
                             <td field-key='conteanswernt'>{!! $faq->answer !!}</td>
                         </tr>
+                        <tr>
+                            <th>@lang('quickadmin.faqs.fields.position')</th>
+                            <td field-key='conteanswernt'>{!! $faq->position !!}</td>
+                        </tr>
                     </table>
                 </div>
             </div>
@@ -30,5 +34,3 @@
         </div>
     </div>
 @stop
-
-

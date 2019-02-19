@@ -9,10 +9,11 @@ use Illuminate\Database\Eloquent\Model;
  * @package App
  * @property string $question
  * @property text $answer
+ * @property integer $position
 */
 class Faq extends Model
 {
-    protected $fillable = ['question', 'answer'];
+    protected $fillable = ['question', 'answer', 'position'];
     protected $hidden = [];
 
 }
