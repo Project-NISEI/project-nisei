@@ -1,6 +1,6 @@
 @extends('layouts.default')
 
-@section('page-title', 'NISEI - Tournaments')
+@section('page-title', "NISEI - $set_title")
 
 @section('content')
 
