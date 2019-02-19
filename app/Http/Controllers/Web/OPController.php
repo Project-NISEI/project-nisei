@@ -45,6 +45,7 @@ class OPController extends Controller
         $event = DB::table('events')
             ->where('slug', $slug)
             ->where('active', 1)
+            ->whereNull('deleted_at')
             ->select('name', 'slug', 'type', 'price', 'content', 'expires_on')
             ->first();
 
