@@ -66,9 +66,9 @@
                                 <td field-key='subregion'>{{ $tournament->subregion }}</td>
                                 <td field-key='venue'>{{ $tournament->venue }}</td>
                                 <td field-key='date'>{{ $tournament->date }}</td>
-                                <td field-key='venue'>{{ $tournament->link }}</td>
+                                <td field-key='TO_name'>{{ $tournament->TO_name }}</td>
+                                <td field-key='TO_slack'>{{ $tournament->TO_slack }}</td>
                                 <td field-key='contact_email'>{{ $tournament->contact_email }}</td>
-                                <td field-key='contact_email'>{{ $tournament->publish_email }}</td>
                                 <td field-key='address'>{{ $tournament->address }}</td>
                                 <td field-key='entry_fee'>{{ $tournament->entry_fee }}</td>
                                 <td field-key='reg_time'>{{ $tournament->reg_time }}</td>
