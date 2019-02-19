@@ -62,6 +62,8 @@ class TournamentSetController extends Controller
 	    $regions[$tournament->region]->subregions[$tournament->subregion] = $subregion;
 	  }
 	  $tournament->address = str_replace("\n",'<br/>',htmlspecialchars($tournament->address));
+	  $tournament->reg_time = date_format(date_create_from_format("H:i:s", $tournament->reg_time),"G:i");
+	  $tournament->start_time = date_format(date_create_from_format("H:i:s", $tournament->start_time),"G:i");
 	  array_push($regions[$tournament->region]->subregions[$tournament->subregion]->tournaments, $tournament);
 	}
 
