@@ -35,7 +35,7 @@ class TournamentSetController extends Controller
 
         $tournaments = DB::table('tournaments')
             ->where('tournament_set_id', $set->id)
-            ->select('region', 'subregion', 'date', 'reg_time', 'start_time', 'venue', 'address', 'entry_fee', 'TO_name', 'TO_slack', 'contact_email')
+            ->select('region', 'subregion', 'date', 'reg_time', 'start_time', 'venue', 'link', 'address', 'entry_fee', 'contact_email', 'publish_email')
 	    ->orderBy('region')
 	    ->orderBy('subregion')
 	    ->orderBy('date')

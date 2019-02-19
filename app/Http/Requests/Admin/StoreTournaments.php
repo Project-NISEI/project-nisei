@@ -31,7 +31,6 @@ class StoreTournamentsRequest extends FormRequest
             'region' => 'required',
             'subregion' => 'required',
             'entry_fee' => 'required',
-            'TO_name' => 'required',
             'contact_email' => 'required',
             'tournament_set_id' => 'required',
         ];
