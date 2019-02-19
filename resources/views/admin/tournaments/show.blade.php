@@ -33,16 +33,16 @@
                             <td field-key='venue'>{{ $tournament->venue }}</td>
                         </tr>
                         <tr>
-                            <th>@lang('quickadmin.tournaments.fields.TO_name')</th>
-                            <td field-key='TO_name'>{{ $tournament->TO_name }}</td>
-                        </tr>
-                        <tr>
-                            <th>@lang('quickadmin.tournaments.fields.TO_slack')</th>
-                            <td field-key='TO_slack'>{{ $tournament->TO_slack }}</td>
+                            <th>@lang('quickadmin.tournaments.fields.link')</th>
+                            <td field-key='venue'>{{ $tournament->link }}</td>
                         </tr>
                         <tr>
                             <th>@lang('quickadmin.tournaments.fields.contact_email')</th>
                             <td field-key='contact_email'>{{ $tournament->contact_email }}</td>
+                        </tr>
+                        <tr>
+                            <th>@lang('quickadmin.tournaments.fields.publish_email')</th>
+                            <td field-key='contact_email'>{{ $tournament->publish_email }}</td>
                         </tr>
                         <tr>
                             <th>@lang('quickadmin.tournaments.fields.address')</th>

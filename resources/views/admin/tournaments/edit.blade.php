@@ -72,36 +72,37 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('TO_name', trans('quickadmin.tournaments.fields.TO_name').'*', ['class' => 'control-label']) !!}
-                    {!! Form::text('TO_name', old('TO_name'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
+                    {!! Form::label('link', trans('quickadmin.tournaments.fields.link'), ['class' => 'control-label']) !!}
+                    {!! Form::text('link', old('link'), ['class' => 'form-control', 'placeholder' => '']) !!}
                     <p class="help-block"></p>
-                    @if($errors->has('TO_name'))
+                    @if($errors->has('link'))
                         <p class="help-block">
-                            {{ $errors->first('TO_name') }}
+                            {{ $errors->first('link') }}
                         </p>
                     @endif
                 </div>
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('TO_slack', trans('quickadmin.tournaments.fields.TO_slack'), ['class' => 'control-label']) !!}
-                    {!! Form::text('TO_slack', old('TO_slack'), ['class' => 'form-control', 'placeholder' => '']) !!}
-                    <p class="help-block"></p>
-                    @if($errors->has('TO_slack'))
-                        <p class="help-block">
-                            {{ $errors->first('TO_slack') }}
-                        </p>
-                    @endif
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 form-group">
-                    {!! Form::label('contact_email', trans('quickadmin.tournaments.fields.contact_email').'*', ['class' => 'control-label']) !!}
-                    {!! Form::text('contact_email', old('contact_email'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
+                    {!! Form::label('contact_email', trans('quickadmin.tournaments.fields.contact_email'), ['class' => 'control-label']) !!}
+                    {!! Form::text('contact_email', old('contact_email'), ['class' => 'form-control', 'placeholder' => '']) !!}
                     <p class="help-block"></p>
                     @if($errors->has('contact_email'))
                         <p class="help-block">
                             {{ $errors->first('contact_email') }}
+                        </p>
+                    @endif
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 form-group">
+                    {!! Form::label('publish_email', trans('quickadmin.tournaments.fields.publish_email'), ['class' => 'control-label']) !!}
+		    {!! Form::hidden('publish_email', 0) !!}
+                    {!! Form::checkbox('publish_email', 1, old('publish_email')) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('publish_email'))
+                        <p class="help-block">
+                            {{ $errors->first('publish_email') }}
                         </p>
                     @endif
                 </div>
@@ -179,7 +180,7 @@
             });
 
             $('.time').datetimepicker({
-                format: "mm:ss",
+                format: "HH:mm",
                 locale: "{{ App::getLocale() }}",
             });
             

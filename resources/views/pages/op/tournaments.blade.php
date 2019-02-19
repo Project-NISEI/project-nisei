@@ -1,6 +1,6 @@
 @extends('layouts.default')
 
-@section('page-title', 'NISEI - Tournaments')
+@section('page-title', "NISEI - $set_title")
 
 @section('content')
 
@@ -26,9 +26,9 @@
 			    <td><b>{{ $tournament->venue }}</b><br/>{!! $tournament->address !!}</td>{{-- address escaped by controller instead of here because <br/> --}}
 			    <td>Registration: {{ $tournament->reg_time }}<br/>
 			        Start time: {{ $tournament->start_time }}<br/>
-				Entry fee: {{ $tournament->entry_fee }}<br/>
-				TO: {{ $tournament->TO_name }} @if($tournament->TO_slack)({{ $tournament->TO_slack }} on stimslack)@endif<br/>
-				Contact: {{ $tournament->contact_email }}
+				Entry fee: {{ $tournament->entry_fee }}@if($tournament->publish_email && $tournament->contact_email)<br/>
+				Contact: {{ $tournament->contact_email }}@endif @if($tournament->link)<br/>
+				<a href="{{ $tournament->link }}">More details</a>@endif
 			    </td>
 			    </tr>
 			    @endforeach

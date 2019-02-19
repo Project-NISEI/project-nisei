@@ -38,9 +38,9 @@
                         <th>@lang('quickadmin.tournaments.fields.subregion')</th>
                         <th>@lang('quickadmin.tournaments.fields.venue')</th>
                         <th>@lang('quickadmin.tournaments.fields.date')</th>
-                        <th>@lang('quickadmin.tournaments.fields.TO_name')</th>
-                        <th>@lang('quickadmin.tournaments.fields.TO_slack')</th>
+                        <th>@lang('quickadmin.tournaments.fields.link')</th>
                         <th>@lang('quickadmin.tournaments.fields.contact_email')</th>
+                        <th>@lang('quickadmin.tournaments.fields.publish_email')</th>
                         <th>@lang('quickadmin.tournaments.fields.address')</th>
                         <th>@lang('quickadmin.tournaments.fields.entry_fee')</th>
                         <th>@lang('quickadmin.tournaments.fields.reg_time')</th>

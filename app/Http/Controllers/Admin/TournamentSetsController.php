@@ -80,11 +80,9 @@ class TournamentSetsController extends Controller
             return abort(401);
         }
         
-        $authors = \App\User::get()->pluck('name', 'id')->prepend(trans('quickadmin.qa_please_select'), '');
-
         $tournamentset = TournamentSet::findOrFail($id);
 
-        return view('admin.tournamentsets.edit', compact('tournamentset', 'authors'));
+        return view('admin.tournamentsets.edit', compact('tournamentset'));
     }
 
     /**

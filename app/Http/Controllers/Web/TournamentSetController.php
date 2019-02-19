@@ -35,7 +35,7 @@ class TournamentSetController extends Controller
 
         $tournaments = DB::table('tournaments')
             ->where('tournament_set_id', $set->id)
-            ->select('region', 'subregion', 'date', 'reg_time', 'start_time', 'venue', 'address', 'entry_fee', 'TO_name', 'TO_slack', 'contact_email')
+            ->select('region', 'subregion', 'date', 'reg_time', 'start_time', 'venue', 'link', 'address', 'entry_fee', 'contact_email', 'publish_email')
 	    ->orderBy('region')
 	    ->orderBy('subregion')
 	    ->orderBy('date')
@@ -62,6 +62,8 @@ class TournamentSetController extends Controller
 	    $regions[$tournament->region]->subregions[$tournament->subregion] = $subregion;
 	  }
 	  $tournament->address = str_replace("\n",'<br/>',htmlspecialchars($tournament->address));
+	  $tournament->reg_time = date_format(date_create_from_format("H:i:s", $tournament->reg_time),"G:i");
+	  $tournament->start_time = date_format(date_create_from_format("H:i:s", $tournament->start_time),"G:i");
 	  array_push($regions[$tournament->region]->subregions[$tournament->subregion]->tournaments, $tournament);
 	}
 

@@ -28,12 +28,12 @@ class AddTournamentsData extends Migration
 	    $table->time('start_time');
 	    $table->text('venue');
 	    $table->text('address');
+	    $table->text('link')->nullable();
 	    $table->enum('region',['NA','Europe','RoW']);
 	    $table->text('subregion');
 	    $table->text('entry_fee');
-	    $table->text('TO_name');
-	    $table->text('TO_slack')->nullable();
-	    $table->text('contact_email');
+	    $table->text('contact_email')->nullable();
+	    $table->tinyInteger('publish_email');
 	    $table->integer('tournament_set_id')->unsigned()->nullable();
             $table->foreign('tournament_set_id')->references('id')->on('tournament_sets')->onDelete('cascade');
         });
