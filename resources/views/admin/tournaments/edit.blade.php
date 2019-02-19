@@ -180,7 +180,7 @@
             });
 
             $('.time').datetimepicker({
-                format: "hh:mm",
+                format: "HH:mm",
                 locale: "{{ App::getLocale() }}",
             });
             
