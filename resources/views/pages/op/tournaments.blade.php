@@ -22,12 +22,12 @@
 			    <col class="details">
 			    @foreach ($subregion->tournaments as $tournament)
 			    <tr>
-			    <td>{{ $tournament->date }}</td>
+			    <td>{{ date('D jS M Y', strtotime($tournament->date)) }}</td>
 			    <td><b>{{ $tournament->venue }}</b><br/>{!! $tournament->address !!}</td>{{-- address escaped by controller instead of here because <br/> --}}
 			    <td>Registration: {{ $tournament->reg_time }}<br/>
 			        Start time: {{ $tournament->start_time }}<br/>
 				Entry fee: {{ $tournament->entry_fee }}@if($tournament->publish_email && $tournament->contact_email)<br/>
-				Contact: {{ $tournament->contact_email }}@endif @if($tournament->link)<br/>
+				Contact: <a href="mailto:{{ $tournament->contact_email }}">{{ $tournament->contact_email }}</a>@endif @if($tournament->link)<br/>
 				<a href="{{ $tournament->link }}">More details</a>@endif
 			    </td>
 			    </tr>
