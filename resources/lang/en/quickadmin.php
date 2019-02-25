@@ -72,7 +72,7 @@ return [
 	],
 
 	'events' => [
-		'title' => 'Events',
+		'title' => 'Event kits',
 		'fields' => [
 			'name' => 'Name',
 			'slug' => 'Slug',
@@ -82,6 +82,39 @@ return [
 			'active' => 'Active',
 			'listing_image' => 'Listing Image',
 			'expires_on' => 'Expires On',
+		],
+	],
+
+	'tournament-section' => [
+		'title' => 'Tournament management',
+		'fields' => [
+		],
+	],
+	
+	'tournamentsets' => [
+		'title' => 'Sets (eg 2019 Regionals)',
+		'fields' => [
+			'title' => 'Title',
+			'slug' => 'Slug',
+			'display' => 'Show on site',
+		],
+	],
+
+	'tournaments' => [
+		'title' => 'Tournaments',
+		'fields' => [
+			'tournamentset' => 'Tournament set',
+			'venue' => 'Venue name',
+			'date' => 'Date',
+			'address' => 'Address',
+			'link' => 'URL',
+			'region' => 'Region',
+			'subregion' => 'State/province (for NA) or country',
+			'entry_fee' => 'Entry fee (including currency)',
+			'contact_email' => 'Email',
+			'publish_email' => 'Publish email?',
+			'reg_time' => 'Registration time',
+			'start_time' => 'Start time',
 		],
 	],
 	'qa_create' => 'Create',

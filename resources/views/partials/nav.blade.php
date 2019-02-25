@@ -34,10 +34,16 @@
                         <a class="dropdown-item" href="/op/supported-formats">Supported Formats</a>
                         <a class="dropdown-item" href="/op/resources">Resources</a>
                         <a class="dropdown-item" href="/op/kit-policies">Event Kit Policies &amp; FAQ</a>
+			@if (count($active_tournament_sets) > 0)
+			<hr/>
+			@foreach ($active_tournament_sets as $set)
+			<a class="dropdown-item" href="/op/events/{{ $set->slug }}">{{ $set->title }}</a>
+			@endforeach
+			@endif
                     </div>
                 </li>
                 <li class="nav-item">
-		    <a href="https://www.patreon.com/bePatron?u=14553872"><img src="/assets/images/become_a_patron_button@2x.png" height="40" alt="Become a Patron!"/></a>
+		    <a href="https://www.patreon.com/join/NISEI"><img src="/assets/images/become_a_patron_button@2x.png" height="40" alt="Become a Patron!"/></a>
                 </li>
             </ul>
         </div>

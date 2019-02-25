@@ -98,8 +98,9 @@
             </div>
 
             <div class="col-6">
-              <h3>MWL 3.0</h3>
-              <p class=font-italic><a href="http://nisei.net/article/MA201902">MWL 3.1</a> becomes effective from 22nd Feb 2019</p>
+              <h3>MWL 3.1</h3>
+                <p class="font-italic">Effective from Friday 22nd February 2019.
+                </br>Changes from MWL 3.0 detailed <a href="http://nisei.net/article/MA201902">here</a>.</p>
                 <h4>Corp - removed</h4>
                 <ul>
                   <li>24/7 News Cycle</li>
@@ -108,6 +109,7 @@
                   <li>Clone Suffrage Movement</li>
                   <li>Friends in High Places</li>
                   <li>Hired Help</li>
+                  <li>Jinteki: Potential Unleashed</li>
                   <li>Museum of History</li>
                   <li>Sensie Actors Union</li>
                 </ul>
@@ -117,7 +119,6 @@
                   <li>Commercial Bankers Group</li>
                   <li>Excalibur</li>
                   <li>Global Food Initiative</li>
-                  <li>Jinteki: Potential Unleashed</li>
                   <li>Mother Goddess</li>
                   <li>Mti Mwekundu: Life Improved</li>
                   <li>Mumba Temple</li>
@@ -144,6 +145,8 @@
                 <h4>Runner - restricted</h4>
                 <ul>
                   <li>Aesop's Pawnshop</li>
+                  <li>Crowdfunding</li>
+                  <li>Dorm Computer</li>
                   <li>Employee Strike</li>
                   <li>Film Critic</li>
                   <li>Gang Sign</li>

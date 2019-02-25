@@ -95,8 +95,10 @@
             <h4 id="sc-prize-distribution">How are the prizes distributed for a Store Championship?</h4>
             <p>Store Championships are considered Sanctioned Events and have a more rigid prize payout structure than a GNK:</p>
             <ul>
-                    <li>Highest placing competitor without one: First-round bye at a NISEI Regional Championship Top four: 1x Playmat</li>
-                    <li>Top eight: 2x “Elite” card Top 32: 1x “Common” card</li>
+                    <li>Highest placing competitor without one: First-round bye at a NISEI Regional Championship</li>
+                    <li>Top four: 1x Playmat</li>
+                    <li>Top eight: 2x “Elite” card</li>
+                    <li>Top 32: 1x “Common” card</li>
             </ul>
             <p>After following this this structure, remaining prizes should be distributed as evenly as possible, at the discretion of the TO.</p>
             <p>These instructions are also included with each kit.</p>

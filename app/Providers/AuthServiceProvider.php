@@ -143,5 +143,43 @@ class AuthServiceProvider extends ServiceProvider
             return in_array($user->role_id, [1, 2]);
         });
 
+        // Auth gates for: Tournament management
+        Gate::define('tournament_management_access', function ($user) {
+            return in_array($user->role_id, [1, 2]);
+        });
+
+        // Auth gates for: TournamentSets
+        Gate::define('tournamentset_access', function ($user) {
+            return in_array($user->role_id, [1, 2]);
+        });
+        Gate::define('tournamentset_create', function ($user) {
+            return in_array($user->role_id, [1, 2]);
+        });
+        Gate::define('tournamentset_edit', function ($user) {
+            return in_array($user->role_id, [1, 2]);
+        });
+        Gate::define('tournamentset_view', function ($user) {
+            return in_array($user->role_id, [1, 2]);
+        });
+        Gate::define('tournamentset_delete', function ($user) {
+            return in_array($user->role_id, [1, 2]);
+        });
+
+        // Auth gates for: Tournaments
+        Gate::define('tournament_access', function ($user) {
+            return in_array($user->role_id, [1, 2]);
+        });
+        Gate::define('tournament_create', function ($user) {
+            return in_array($user->role_id, [1, 2]);
+        });
+        Gate::define('tournament_edit', function ($user) {
+            return in_array($user->role_id, [1, 2]);
+        });
+        Gate::define('tournament_view', function ($user) {
+            return in_array($user->role_id, [1, 2]);
+        });
+        Gate::define('tournament_delete', function ($user) {
+            return in_array($user->role_id, [1, 2]);
+        });
     }
 }
