@@ -38,6 +38,7 @@ class BlogController extends Controller
     public function detail(Request $request, $slug)
     {
         $article = DB::table('blogs')
+            ->whereDate('published_at', '<=', Carbon::today()->toDateString())
             ->where('slug', $slug)
             ->whereNull('deleted_at')
             ->join('users', 'blogs.author_id', '=', 'users.id')
