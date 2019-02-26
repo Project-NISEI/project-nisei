@@ -12,6 +12,7 @@
     <div class="page-content">
         <div class="container">
             <div class="row">
+		<p class="col-sm-12 article-meta">{{ $article->author_name }} | {{ $article->published_at }}</p>
                 <div class="col-sm-12 article-content">
                     {!! $article->content !!}
                 </div>
