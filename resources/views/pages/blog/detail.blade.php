@@ -1,7 +1,9 @@
 @extends('layouts.default')
 
 @section('page-title', 'NISEI - ' . $article->title)
-@section('opengraph-image', url($article->listing_image))
+@if ($article->listing_image)
+  @section('opengraph-image', url($article->listing_image))
+@endif
 
 @section('content')
 
