@@ -405,19 +405,23 @@
             </div>
 
             <div class="col-6">
-              <h3>MWL 3.0</h3>
+              <h3>MWL 1.1</h3>
+              <p class="font-italic">Effective from Friday 22nd February 2019.
+              </br>Changes from MWL 1.0 detailed <a href="http://nisei.net/article/MA201902">here</a>.</p>
                 <h4>Corp - removed</h4>
                 <ul>
+                  <li>24/7 News Cycle</li>
                   <li>Friends in High Places</li>
                   <li>Hired Help</li>
-                  <li>Museum of History</li>
                 </ul>
                 <h4>Runner - removed</h4>
                 <ul>
+                  <li>Aaron Marrón</li>
                   <li>Faust</li>
                   <li>Rumor Mill</li>
                   <li>Salvaged Vanadis Armory</li>
                   <li>Şifr</li>
+                  <li>Temüjin Contract</li>
                   <li>Watch the World Burn</li>
                 </ul>
             </div>
