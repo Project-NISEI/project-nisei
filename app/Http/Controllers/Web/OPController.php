@@ -26,6 +26,8 @@ class OPController extends Controller
             ->where('active', 1)
             ->whereNull('deleted_at')
             ->select('name', 'slug', 'type', 'price', 'listing_image', 'expires_on')
+            ->orderBy('expires_on','desc')
+            ->orderBy('created_at','desc')
             ->get();
 
         foreach ($events as $event) {
