@@ -28,6 +28,7 @@ class BlogController extends Controller
             ->join('users', 'blogs.author_id', '=', 'users.id')
             ->select('users.name as author_name', 'blogs.title', 'blogs.published_at', 'blogs.slug', 'blogs.listing_image')
             ->orderBy('published_at', 'desc')
+            ->orderBy('blogs.created_at', 'desc')
             ->get();
 
         return view('pages.blog.index', [
