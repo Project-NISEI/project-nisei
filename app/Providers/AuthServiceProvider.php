@@ -181,5 +181,22 @@ class AuthServiceProvider extends ServiceProvider
         Gate::define('tournament_delete', function ($user) {
             return in_array($user->role_id, [1, 2]);
         });
+
+        // Auth gates for: Products
+        Gate::define('product_access', function ($user) {
+            return in_array($user->role_id, [1, 2]);
+        });
+        Gate::define('product_create', function ($user) {
+            return in_array($user->role_id, [1, 2]);
+        });
+        Gate::define('product_edit', function ($user) {
+            return in_array($user->role_id, [1, 2]);
+        });
+        Gate::define('product_view', function ($user) {
+            return in_array($user->role_id, [1, 2]);
+        });
+        Gate::define('product_delete', function ($user) {
+            return in_array($user->role_id, [1, 2]);
+        });
     }
 }

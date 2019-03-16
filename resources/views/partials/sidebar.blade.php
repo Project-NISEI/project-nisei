@@ -116,7 +116,32 @@
 		    @endcan
                 </ul>
             </li>@endcan
-            
+
+            @can('product_access')
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-book"></i>
+                    <span>@lang('quickadmin.product-section.title')</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li>
+                        <a href="{{ route('admin.products.index') }}">
+                            <i class="fa fa-calendar-alt"></i>
+                            <span>@lang('quickadmin.products.title')</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ route('admin.product_subpages.index') }}">
+                            <i class="fa fa-calendar-day"></i>
+                            <span>@lang('quickadmin.product_subpages.title')</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>@endcan
+
             @can('faqs_access')
             <li>
                 <a href="{{ route('admin.faqs.index') }}">
