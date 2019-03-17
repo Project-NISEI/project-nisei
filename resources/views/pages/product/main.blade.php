@@ -25,7 +25,7 @@
 		    <p>More about {{ $product->title }}:</p>
 		    <ul>
 			@foreach($subpages as $subpage)
-			<li><a href="{{$subpage->slug}}">{{$subpage->title}}</a></li>
+			<li><a href="{{$product->slug}}/{{$subpage->slug}}">{{$subpage->title}}</a></li>
 			@endforeach
 		    </ul>
                 </div>
