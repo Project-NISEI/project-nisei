@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-    <h3 class="page-title">@lang('quickadmin.blog.title')</h3>
+    <h3 class="page-title">@lang('quickadmin.product.title')</h3>
     
-    {!! Form::model($blog, ['method' => 'PUT', 'files' => true, 'route' => ['admin.blogs.update', $blog->id]]) !!}
+    {!! Form::model($subpage, ['method' => 'PUT', 'files' => true, 'route' => ['admin.product_subpages.update', $subpage->id]]) !!}
 
     <div class="panel panel-default">
         <div class="panel-heading">
@@ -13,7 +13,19 @@
         <div class="panel-body">
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('title', trans('quickadmin.product_subpage.fields.title').'*', ['class' => 'control-label']) !!}
+                    {!! Form::label('product_id', trans('quickadmin.product_subpages.fields.product').'*', ['class' => 'control-label']) !!}
+                    {!! Form::select('product_id', $products, old('product_id'), ['class' => 'form-control select2', 'required' => '']) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('product_id'))
+                        <p class="help-block">
+                            {{ $errors->first('product_id') }}
+                        </p>
+                    @endif
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 form-group">
+                    {!! Form::label('title', trans('quickadmin.product_subpages.fields.title').'*', ['class' => 'control-label']) !!}
                     {!! Form::text('title', old('title'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
                     <p class="help-block"></p>
                     @if($errors->has('title'))
@@ -25,7 +37,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('slug', trans('quickadmin.product_subpage.fields.slug').'*', ['class' => 'control-label']) !!}
+                    {!! Form::label('slug', trans('quickadmin.product_subpages.fields.slug').'*', ['class' => 'control-label']) !!}
                     {!! Form::text('slug', old('slug'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
                     <p class="help-block"></p>
                     @if($errors->has('slug'))
@@ -37,7 +49,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('published', trans('quickadmin.product_subpage.fields.published'), ['class' => 'control-label']) !!}
+                    {!! Form::label('published', trans('quickadmin.product_subpages.fields.published'), ['class' => 'control-label']) !!}
 		    {!! Form::hidden('published', 0) !!}
                     {!! Form::checkbox('published', 1, old('published')) !!}
                     <p class="help-block"></p>
@@ -50,19 +62,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('product_id', trans('quickadmin.product_subpage.fields.product'), ['class' => 'control-label']) !!}
-                    {!! Form::select('product_id', $products, old('product_id'), ['class' => 'form-control select2']) !!}
-                    <p class="help-block"></p>
-                    @if($errors->has('product_id'))
-                        <p class="help-block">
-                            {{ $errors->first('product_id') }}
-                        </p>
-                    @endif
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 form-group">
-                    {!! Form::label('content', trans('quickadmin.product_subpage.fields.content').'*', ['class' => 'control-label']) !!}
+                    {!! Form::label('content', trans('quickadmin.product_subpages.fields.content').'*', ['class' => 'control-label']) !!}
                     {!! Form::textarea('content', old('content'), ['class' => 'form-control editor', 'placeholder' => '', 'required' => '']) !!}
                     <p class="help-block"></p>
                     @if($errors->has('content'))

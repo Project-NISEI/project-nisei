@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <h3 class="page-title">@lang('quickadmin.product.title')</h3>
+    <h3 class="page-title">@lang('quickadmin.products.title')</h3>
 
     <div class="panel panel-default">
         <div class="panel-heading">
@@ -13,27 +13,27 @@
                 <div class="col-md-6">
                     <table class="table table-bordered table-striped">
                         <tr>
-                            <th>@lang('quickadmin.product.fields.title')</th>
+                            <th>@lang('quickadmin.products.fields.title')</th>
                             <td field-key='title'>{{ $product->title }}</td>
                         </tr>
                         <tr>
-                            <th>@lang('quickadmin.product.fields.slug')</th>
+                            <th>@lang('quickadmin.products.fields.slug')</th>
                             <td field-key='slug'>{{ $product->slug }}</td>
                         </tr>
                         <tr>
-                            <th>@lang('quickadmin.product.fields.published')</th>
+                            <th>@lang('quickadmin.products.fields.published')</th>
                             <td field-key='published'>{{ $product->published }}</td>
                         </tr>
                         <tr>
-                            <th>@lang('quickadmin.product.fields.listing_image')</th>
-                            @if ($blog->listing_image)
+                            <th>@lang('quickadmin.products.fields.listing_image')</th>
+                            @if ($product->listing_image)
                                 <td field-key='listing_image'><img src="{{ $product->listing_image }}" alt="" style="max-width: 100%; width: 300px;"></td>
                             @else
                                 <td field-key="listing_image">-</td>
                             @endif
                         </tr>
                         <tr>
-                            <th>@lang('quickadmin.product.fields.content')</th>
+                            <th>@lang('quickadmin.products.fields.content')</th>
                             <td field-key='content'>{!! $product->content !!}</td>
                         </tr>
                     </table>

@@ -2,7 +2,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <h3 class="page-title">@lang('quickadmin.product.title')</h3>
+    <h3 class="page-title">@lang('quickadmin.products.title')</h3>
     @can('product_create')
     <p>
         <a href="{{ route('admin.products.create') }}" class="btn btn-success">@lang('quickadmin.qa_add_new')</a>
@@ -33,9 +33,9 @@
                             @if ( request('show_deleted') != 1 )<th style="text-align:center;"><input type="checkbox" id="select-all" /></th>@endif
                         @endcan
 
-                        <th>@lang('quickadmin.product.fields.title')</th>
-                        <th>@lang('quickadmin.product.fields.slug')</th>
-                        <th>@lang('quickadmin.product.fields.published')</th>
+                        <th>@lang('quickadmin.products.fields.title')</th>
+                        <th>@lang('quickadmin.products.fields.slug')</th>
+                        <th>@lang('quickadmin.products.fields.published')</th>
                         @if( request('show_deleted') == 1 )
                         <th>&nbsp;</th>
                         @else

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <h3 class="page-title">@lang('quickadmin.product_subpage.title')</h3>
+    <h3 class="page-title">@lang('quickadmin.product_subpages.title')</h3>
 
     <div class="panel panel-default">
         <div class="panel-heading">
@@ -13,35 +13,19 @@
                 <div class="col-md-6">
                     <table class="table table-bordered table-striped">
                         <tr>
-                            <th>@lang('quickadmin.product_subpage.fields.title')</th>
+                            <th>@lang('quickadmin.product_subpages.fields.title')</th>
                             <td field-key='title'>{{ $subpage->title }}</td>
                         </tr>
                         <tr>
-                            <th>@lang('quickadmin.product_subpage.fields.slug')</th>
+                            <th>@lang('quickadmin.product_subpages.fields.slug')</th>
                             <td field-key='slug'>{{ $subpage->slug }}</td>
                         </tr>
                         <tr>
-                            <th>@lang('quickadmin.product_subpage.fields.published-at')</th>
-                            <td field-key='published_at'>{{ $subpage->published_at }}</td>
+                            <th>@lang('quickadmin.product_subpages.fields.published')</th>
+                            <td field-key='published_at'>{{ $subpage->published }}</td>
                         </tr>
                         <tr>
-                            <th>@lang('quickadmin.product_subpage.fields.author')</th>
-                            <td field-key='author'>{{ $subpage->author->name ?? '' }}</td>
-                        </tr>
-                        <tr>
-                            <th>@lang('quickadmin.product_subpage.fields.listing_image')</th>
-                            @if ($subpage->listing_image)
-                                <td field-key='listing_image'><img src="{{ $subpage->listing_image }}" alt="" style="max-width: 100%; width: 300px;"></td>
-                            @else
-                                <td field-key="listing_image">-</td>
-                            @endif
-                        </tr>
-                        <tr>
-                            <th>@lang('quickadmin.product_subpage.fields.category')</th>
-                            <td field-key='author'>{{ $subpage->category->title ?? '' }}</td>
-                        </tr>
-                        <tr>
-                            <th>@lang('quickadmin.product_subpage.fields.content')</th>
+                            <th>@lang('quickadmin.product_subpages.fields.content')</th>
                             <td field-key='content'>{!! $subpage->content !!}</td>
                         </tr>
                     </table>

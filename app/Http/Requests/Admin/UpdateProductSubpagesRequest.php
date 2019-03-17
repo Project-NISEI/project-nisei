@@ -3,7 +3,7 @@ namespace App\Http\Requests\Admin;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class UpdateProductsRequest extends FormRequest
+class UpdateProductSubpagesRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.

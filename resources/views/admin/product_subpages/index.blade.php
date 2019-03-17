@@ -2,7 +2,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <h3 class="page-title">@lang('quickadmin.product_subpage.title')</h3>
+    <h3 class="page-title">@lang('quickadmin.product_subpages.title')</h3>
     @can('product_edit')
     <p>
         <a href="{{ route('admin.product_subpages.create') }}" class="btn btn-success">@lang('quickadmin.qa_add_new')</a>
@@ -33,10 +33,10 @@
                             @if ( request('show_deleted') != 1 )<th style="text-align:center;"><input type="checkbox" id="select-all" /></th>@endif
                         @endcan
 
-                        <th>@lang('quickadmin.product_subpage.fields.title')</th>
-                        <th>@lang('quickadmin.product_subpage.fields.slug')</th>
-                        <th>@lang('quickadmin.product_subpage.fields.published')</th>
-                        <th>@lang('quickadmin.product_subpage.fields.product')</th>
+                        <th>@lang('quickadmin.product_subpages.fields.product')</th>
+                        <th>@lang('quickadmin.product_subpages.fields.title')</th>
+                        <th>@lang('quickadmin.product_subpages.fields.slug')</th>
+                        <th>@lang('quickadmin.product_subpages.fields.published')</th>
                         @if( request('show_deleted') == 1 )
                         <th>&nbsp;</th>
                         @else
@@ -53,10 +53,10 @@
                                     @if ( request('show_deleted') != 1 )<td></td>@endif
                                 @endcan
 
+                                <td field-key='product'>{{ $subpage->product->title ?? '' }}</td>
                                 <td field-key='title'>{{ $subpage->title }}</td>
                                 <td field-key='slug'>{{ $subpage->slug }}</td>
                                 <td field-key='published'>{{ $subpage->published }}</td>
-                                <td field-key='product'>{{ $subpage->product->title ?? '' }}</td>
                                 @if( request('show_deleted') == 1 )
                                 <td>
                                     @can('product_delete')

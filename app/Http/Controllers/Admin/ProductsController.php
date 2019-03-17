@@ -83,7 +83,7 @@ class ProductsController extends Controller
         
         $product = Product::findOrFail($id);
 
-        return view('admin.products.edit', compact('blog'));
+        return view('admin.products.edit', compact('blog', 'product'));
     }
 
     /**

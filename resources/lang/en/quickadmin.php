@@ -117,6 +117,35 @@ return [
 			'start_time' => 'Start time',
 		],
 	],
+
+	'product-section' => [
+		'title' => 'Products',
+		'fields' => [
+		],
+	],
+	
+	'products' => [
+		'title' => 'Products',
+		'fields' => [
+			'title' => 'Title',
+			'slug' => 'Slug',
+			'published' => 'Published',
+			'listing_image' => 'Listing image',
+			'content' => 'Content',
+		],
+	],
+
+	'product_subpages' => [
+		'title' => 'Product subpages',
+		'fields' => [
+			'title' => 'Title',
+			'slug' => 'Slug',
+			'published' => 'Published',
+			'product' => 'Product',
+			'content' => 'Content',
+		],
+	],
+
 	'qa_create' => 'Create',
 	'qa_save' => 'Save',
 	'qa_edit' => 'Edit',

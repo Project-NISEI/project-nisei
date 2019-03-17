@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <h3 class="page-title">@lang('quickadmin.product.title')</h3>
+    <h3 class="page-title">@lang('quickadmin.products.title')</h3>
     
     {!! Form::model($product, ['method' => 'PUT', 'files' => true, 'route' => ['admin.products.update', $product->id]]) !!}
 
@@ -13,7 +13,7 @@
         <div class="panel-body">
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('title', trans('quickadmin.product.fields.title').'*', ['class' => 'control-label']) !!}
+                    {!! Form::label('title', trans('quickadmin.products.fields.title').'*', ['class' => 'control-label']) !!}
                     {!! Form::text('title', old('title'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
                     <p class="help-block"></p>
                     @if($errors->has('title'))
@@ -25,7 +25,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('slug', trans('quickadmin.product.fields.slug').'*', ['class' => 'control-label']) !!}
+                    {!! Form::label('slug', trans('quickadmin.products.fields.slug').'*', ['class' => 'control-label']) !!}
                     {!! Form::text('slug', old('slug'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
                     <p class="help-block"></p>
                     @if($errors->has('slug'))
@@ -37,7 +37,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('published', trans('quickadmin.product.fields.published'), ['class' => 'control-label']) !!}
+                    {!! Form::label('published', trans('quickadmin.products.fields.published'), ['class' => 'control-label']) !!}
 		    {!! Form::hidden('published', 0) !!}
                     {!! Form::checkbox('published', 1, old('published')) !!}
                     <p class="help-block"></p>
@@ -50,9 +50,9 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('listing_image', trans('quickadmin.blog.fields.listing_image'), ['class' => 'control-label']) !!}
-                    @if ($blog->listing_image)
-                        <img src="{{ $blog->listing_image }}" alt="" style="max-width: 100%; width: 300px;">
+                    {!! Form::label('listing_image', trans('quickadmin.products.fields.listing_image'), ['class' => 'control-label']) !!}
+                    @if ($product->listing_image)
+                        <img src="{{ $product->listing_image }}" alt="" style="max-width: 100%; width: 300px;">
                     @endif
                     {!! Form::file('listing_image', ['class' => 'form-control']) !!}
                     <p class="help-block"></p>
@@ -65,7 +65,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('content', trans('quickadmin.product.fields.content').'*', ['class' => 'control-label']) !!}
+                    {!! Form::label('content', trans('quickadmin.products.fields.content').'*', ['class' => 'control-label']) !!}
                     {!! Form::textarea('content', old('content'), ['class' => 'form-control editor', 'placeholder' => '', 'required' => '']) !!}
                     <p class="help-block"></p>
                     @if($errors->has('content'))

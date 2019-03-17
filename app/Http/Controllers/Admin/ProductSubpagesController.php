@@ -85,7 +85,7 @@ class ProductSubpagesController extends Controller
         
         $products = \App\Product::get()->pluck('title', 'id')->prepend(trans('quickadmin.qa_please_select'), '');
 
-        $subpage = ProductSubpages::findOrFail($id);
+        $subpage = ProductSubpage::findOrFail($id);
 
         return view('admin.product_subpages.edit', compact('subpage', 'products'));
     }
@@ -143,7 +143,7 @@ class ProductSubpagesController extends Controller
         $subpage = ProductSubpage::findOrFail($id);
         $subpage->delete();
 
-        return redirect()->route('admin.products.index');
+        return redirect()->route('admin.product_subpages.index');
     }
 
     /**
