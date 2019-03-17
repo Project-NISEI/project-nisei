@@ -23,7 +23,7 @@ class ProductSubpage extends Model
 {
     use SoftDeletes;
 
-    protected $fillable = ['title', 'slug', 'published', 'content', 'product_id'];
+    protected $fillable = ['title', 'slug', 'published', 'content', 'product_id', 'position' ];
     protected $hidden = [];
 
 

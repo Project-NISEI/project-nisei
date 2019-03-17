@@ -143,6 +143,7 @@ return [
 			'published' => 'Published',
 			'product' => 'Product',
 			'content' => 'Content',
+			'position' => 'Position'
 		],
 	],
 
