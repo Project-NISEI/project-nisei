@@ -37,6 +37,7 @@
                         <th>@lang('quickadmin.product_subpages.fields.title')</th>
                         <th>@lang('quickadmin.product_subpages.fields.slug')</th>
                         <th>@lang('quickadmin.product_subpages.fields.published')</th>
+                        <th>@lang('quickadmin.product_subpages.fields.position')</th>
                         @if( request('show_deleted') == 1 )
                         <th>&nbsp;</th>
                         @else
@@ -57,6 +58,7 @@
                                 <td field-key='title'>{{ $subpage->title }}</td>
                                 <td field-key='slug'>{{ $subpage->slug }}</td>
                                 <td field-key='published'>{{ $subpage->published }}</td>
+				<td field-key='position'>{{ $subpage->position }}</td>
                                 @if( request('show_deleted') == 1 )
                                 <td>
                                     @can('product_delete')

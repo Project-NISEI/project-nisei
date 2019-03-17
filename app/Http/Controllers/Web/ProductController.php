@@ -45,8 +45,17 @@ class ProductController extends Controller
             return view('errors.404');
         }
 
+	$subpages = DB::table('product_subpages')
+	    ->where('product_id', $product->id)
+	    ->where('published', 1)
+	    ->whereNull('deleted_at')
+	    ->select('title', 'slug')
+	    ->orderBy('position')
+	    ->get();
+
         return view('pages.product.main', [
-            'product' => $product
+            'product' => $product,
+	    'subpages' => $subpages,
         ]);
     }
 

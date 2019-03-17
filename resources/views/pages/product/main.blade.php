@@ -18,6 +18,19 @@
                     {!! $product->content !!}
                 </div>
             </div>
+	    @if( count($subpages) > 0 )
+            <div class="row">
+                <div class="col-sm-12">
+		    <hr>
+		    <p>More about {{ $product->title }}:</p>
+		    <ul>
+			@foreach($subpages as $subpage)
+			<li><a href="{{$subpage->slug}}">{{$subpage->title}}</a></li>
+			@endforeach
+		    </ul>
+                </div>
+            </div>
+	    @endif
         </div>
     </div>
 @stop

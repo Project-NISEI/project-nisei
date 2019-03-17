@@ -25,6 +25,10 @@
                             <td field-key='published_at'>{{ $subpage->published }}</td>
                         </tr>
                         <tr>
+                            <th>@lang('quickadmin.product_subpages.fields.position')</th>
+                            <td field-key='published_at'>{{ $subpage->position }}</td>
+                        </tr>
+                        <tr>
                             <th>@lang('quickadmin.product_subpages.fields.content')</th>
                             <td field-key='content'>{!! $subpage->content !!}</td>
                         </tr>

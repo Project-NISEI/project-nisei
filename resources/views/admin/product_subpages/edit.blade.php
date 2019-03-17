@@ -62,6 +62,18 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
+                    {!! Form::label('position', trans('quickadmin.product_subpages.fields.position').'*', ['class' => 'control-label']) !!}
+                    {!! Form::number('position', old('position'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('position'))
+                        <p class="help-block">
+                            {{ $errors->first('position') }}
+                        </p>
+                    @endif
+                </div>
+	    </div>
+            <div class="row">
+                <div class="col-xs-12 form-group">
                     {!! Form::label('content', trans('quickadmin.product_subpages.fields.content').'*', ['class' => 'control-label']) !!}
                     {!! Form::textarea('content', old('content'), ['class' => 'form-control editor', 'placeholder' => '', 'required' => '']) !!}
                     <p class="help-block"></p>
