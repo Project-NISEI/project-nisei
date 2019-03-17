@@ -19,6 +19,11 @@ Route::get('/op/available-kits/{slug}', ['uses' => 'Web\OPController@detailForSt
 Route::get('/op/resources', function () { return view('pages/op/resources'); });
 Route::get('/op/events/{slug}', ['uses' => 'Web\TournamentSetController@detail', 'as' => 'tournamentset.detail'] );
 
+Route::get('/products', ['uses' => 'Web\ProductController@index', 'as' => 'product.index'] );
+Route::get('/products/{slug}', ['uses' => 'Web\ProductController@main', 'as' => 'product.main'] );
+// Route::get('/products/{slug}/pdf', ['uses' => 'Web\ProductController@pdf', 'as' => 'product.pdf'] );
+Route::get('/products/{slug}/{subpage_slug}', ['uses' => 'Web\ProductController@subpage', 'as' => 'product.subpage'] );
+
 Route::post('paypal', array('as' => 'paypal','uses' => 'Web\PaypalController@postPaymentWithPaypal',));
 Route::get('paypal', array('as' => 'status','uses' => 'Web\PaypalController@getPaymentStatus',));
 
@@ -72,4 +77,6 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'admin', 'as' => 'admin.'], 
 
     Route::resource('tournamentsets', 'Admin\TournamentSetsController');
     Route::resource('tournaments', 'Admin\TournamentsController');
+    Route::resource('products', 'Admin\ProductsController');
+    Route::resource('product_subpages', 'Admin\ProductSubpagesController');
 });

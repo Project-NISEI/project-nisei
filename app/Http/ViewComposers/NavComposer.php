@@ -4,6 +4,7 @@ namespace App\Http\ViewComposers;
 
 use Illuminate\View\View;
 use App\TournamentSet;
+use App\Product;
 
 class NavComposer
 {
@@ -16,5 +17,6 @@ class NavComposer
     public function compose(View $view)
     {
         $view->active_tournament_sets = TournamentSet::getActive();
+	$view->available_products = Product::getActive();
     }
 }
