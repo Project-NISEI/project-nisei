@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 use Carbon\Carbon;
 
-class BlogController extends Controller
+class ProductController extends Controller
 {
 
     /**
@@ -23,7 +23,7 @@ class BlogController extends Controller
     public function index(Request $request)
     {
         $products = DB::table('products')
-            ->where('published')
+            ->where('published', 1)
 	    ->whereNull('deleted_at')
             ->orderBy('id', 'desc')
             ->get();
@@ -36,7 +36,7 @@ class BlogController extends Controller
     public function main(Request $request, $slug)
     {
         $product = DB::table('products')
-            ->where('published')
+            ->where('published', 1)
 	    ->whereNull('deleted_at')
             ->where('slug', $slug)
             ->first();
@@ -53,12 +53,17 @@ class BlogController extends Controller
     public function subpage(Request $request, $slug, $subpage_slug)
     {
         $subpage = DB::table('product_subpages')
-            ->where('published')
-	    ->whereNull('deleted_at')
 	    ->join('products', 'product_subpages.product_id', '=', 'products.id')
 	    ->where('products.slug', $slug)
 	    ->where('product_subpages.slug', $subpage_slug)
+            ->where('product_subpages.published', 1)
+	    ->whereNull('product_subpages.deleted_at')
+	    ->where('products.published', 1)
 	    ->whereNull('products.deleted_at')
+	    ->select('product_subpages.title as title',
+		     'product_subpages.content as content',
+		     'products.title as product_title',
+		     'products.slug as product_slug')
             ->first();
 
         if (!$subpage) {

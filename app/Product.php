@@ -22,6 +22,10 @@ class Product extends Model
     protected $fillable = ['title', 'slug', 'published', 'listing_image', 'content'];
     protected $hidden = [];
 
+    public static function getActive() {
+	return Product::where('published', 1)->whereNull('deleted_at')->get();
+    }
+
 
     // source: https://stackoverflow.com/a/34478897/251556
     function substr_close_tags($code, $limit = 200)

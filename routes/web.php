@@ -19,9 +19,10 @@ Route::get('/op/available-kits/{slug}', ['uses' => 'Web\OPController@detailForSt
 Route::get('/op/resources', function () { return view('pages/op/resources'); });
 Route::get('/op/events/{slug}', ['uses' => 'Web\TournamentSetController@detail', 'as' => 'tournamentset.detail'] );
 
-Route::get('/product/{slug}', ['uses' => 'Web\ProductController@main', 'as' => 'product.main'] );
-// Route::get('/product/{slug}/pdf', ['uses' => 'Web\ProductController@pdf', 'as' => 'product.pdf'] );
-Route::get('/product/{slug}/{subpage_slug}', ['uses' => 'Web\ProductController@subpage', 'as' => 'product.subpage'] );
+Route::get('/products', ['uses' => 'Web\ProductController@index', 'as' => 'product.index'] );
+Route::get('/products/{slug}', ['uses' => 'Web\ProductController@main', 'as' => 'product.main'] );
+// Route::get('/products/{slug}/pdf', ['uses' => 'Web\ProductController@pdf', 'as' => 'product.pdf'] );
+Route::get('/products/{slug}/{subpage_slug}', ['uses' => 'Web\ProductController@subpage', 'as' => 'product.subpage'] );
 
 Route::post('paypal', array('as' => 'paypal','uses' => 'Web\PaypalController@postPaymentWithPaypal',));
 Route::get('paypal', array('as' => 'status','uses' => 'Web\PaypalController@getPaymentStatus',));

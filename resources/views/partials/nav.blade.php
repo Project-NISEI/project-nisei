@@ -42,6 +42,18 @@
 			@endif
                     </div>
                 </li>
+		@if (count($available_products) > 0)
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/products" id="navbarProductsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Products
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarOPDropdown">
+			@foreach ($available_products as $product)
+			<a class="dropdown-item" href="/products/{{ $product->slug }}">{{ $product->title }}</a>
+			@endforeach
+                    </div>
+                </li>
+		@endif
                 <li class="nav-item">
 		    <a href="https://www.patreon.com/join/NISEI"><img src="/assets/images/become_a_patron_button@2x.png" height="40" alt="Become a Patron!"/></a>
                 </li>
