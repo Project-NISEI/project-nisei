@@ -430,7 +430,7 @@
             <h2>Other Formats</h2>
             <p>There are a number of other formats that will see support that do not necessarily require an MWL of their own. Keep an eye on Nisei.net for updates as these formats are rolled out!</p>
             <h3>Core Experience</h3>
-            <p>The “core” of the game experience, and an excellent starting point for new or returning players. A single copy of System Core 2019 is the only legal product; there is no MWL.</p>
+            <p>The “core” of the game experience, and an excellent starting point for new or returning players. A single copy of <a href="http://nisei.net/article/SC2019">System Core 2019</a> is the only legal product; there is no MWL.</p>
             <h3>Draft</h3>
             <p>The draft rules are currently in the process of being reworked and creation of a NISEI cube is in progress.</p>
             <h3>NAPD 3v1</h3>
