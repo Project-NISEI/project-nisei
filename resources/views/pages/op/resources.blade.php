@@ -14,7 +14,7 @@
                 <div class="col-sm-12">
                     <h2>For Players and Organizers</h2>
                     <ul>
-                        <li><a href="/files/Comprehensive_Rules_1.1.pdf">NISEI Comprehensive Rules version 1.1</a></li>
+                        <li><a href="/files/Comprehensive_Rules.pdf">NISEI Comprehensive Rules</a></li>
                         <li><a href="/files/System_Core_2019.pdf">System Core 2019 Card List</a></li>
                         <li><a href="/files/Organized_Play_Policies.pdf">Organized Play Policies</a></li>
                         <li><a href="/files/NISEI_Formats.pdf">Organized Play Formats</a></li>
