@@ -93,7 +93,13 @@
                 </li>
                 <li><a href="https://netrunnerdb.com/en/set/rar" target="_blank">Reign and Reverie</a></li>
                 <li><a href="https://netrunnerdb.com/en/set/mo" target="_blank">Magnum Opus Set</a></li>
-                <li><a href="https://drive.google.com/file/d/1ECIihkYO9xvQfnsVUQicsY_SWpnys3ji/view?usp=sharing" target="_blank">System Core 2019</a></li>
+                <li><a href="https://netrunnerdb.com/en/set/sc19" target="_blank">System Core 2019</a></li>
+                <li><a href="https://netrunnerdb.com/en/cycle/ashes" target="_blank">Ashes Cycle</a></li>
+                <li class="clear-list">
+                  <ul>
+                    <li><a href="https://netrunnerdb.com/en/set/df" target="_blank">Downfall</a></li>
+                  </ul>
+                </li>
               </ul>
             </div>
 
@@ -400,7 +406,13 @@
                 </li>
                 <li><a href="https://netrunnerdb.com/en/set/rar" target="_blank">Reign and Reverie</a></li>
                 <li><a href="https://netrunnerdb.com/en/set/mo" target="_blank">Magnum Opus Set</a></li>
-                <li><a href="https://drive.google.com/file/d/1ECIihkYO9xvQfnsVUQicsY_SWpnys3ji/view?usp=sharing" target="_blank">System Core 2019</a></li>
+                <li><a href="https://netrunnerdb.com/en/set/sc19" target="_blank">System Core 2019</a></li>
+                <li><a href="https://netrunnerdb.com/en/cycle/ashes" target="_blank">Ashes Cycle</a></li>
+                <li class="clear-list">
+                  <ul>
+                    <li><a href="https://netrunnerdb.com/en/set/df" target="_blank">Downfall</a></li>
+                  </ul>
+                </li>
               </ul>
             </div>
 
