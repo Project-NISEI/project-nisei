@@ -40,6 +40,8 @@
                         <li><a href="/files/Store_Championship_Poster_%28A3%29.png">Store Championship Poster (A3)</a></li>                        
                         <li><a href="/files/Q2_GNK_Poster_A4.png">Q2 GNK Poster (A4)</a></li>
                         <li><a href="/files/Q2_GNK_Poster_A3.png">Q2 GNK Poster (A3)</a></li>
+                        <li><a href="/files/Regional_Poster_%28A4%29.png">Regional Poster (A4)</a></li>
+                        <li><a href="/files/Regional_Poster_%28A3%29.png">Regional Poster (A3)</a></li>                                                
                     </ul>
                 </div>
             </div>
