@@ -105,8 +105,8 @@
 
             <div class="col-6">
               <h3>MWL 3.2</h3>
-                <p class="font-italic">Effective from Friday 22nd February 2019.
-                </br>Changes from MWL 3.0 detailed <a href="http://nisei.net/article/MA201902">here</a>.</p>
+                <p class="font-italic">Effective from Friday 10th May 2019.
+                </br>Changes from MWL 3.1 detailed <a href="http://nisei.net/article/MWL32">here</a>.</p>
                 <h4>Corp - removed</h4>
                 <ul>
                   <li>24/7 News Cycle</li>
@@ -116,29 +116,29 @@
                   <li>Friends in High Places</li>
                   <li>Hired Help</li>
                   <li>Jinteki: Potential Unleashed</li>
+                  <li>Mti Mwekundu: Life Improved</li>
+                  <li>Mumbad City Hall</li>
                   <li>Museum of History</li>
                   <li>Sensie Actors Union</li>
                 </ul>
                 <h4>Corp - restricted</h4>
                 <ul>
                   <li>Bio-Ethics Association</li>
-                  <li>Commercial Bankers Group</li>
                   <li>Excalibur</li>
                   <li>Global Food Initiative</li>
                   <li>Mother Goddess</li>
-                  <li>Mti Mwekundu: Life Improved</li>
                   <li>Mumba Temple</li>
-                  <li>Mumbad City Hall</li>
                   <li>Obokata Protocol</li>
                   <li>Surveyor</li>
-                  <li>Violet Level Clearance</li>
                   <li>Whampoa Reclamation</li>
                 </ul>
                 <h4>Runner - removed</h4>
                 <ul>
                   <li>Aaron Marrón</li>
                   <li>Bloo Moose</li>
+                  <li>Employee Strike</li>
                   <li>Faust</li>
+                  <li>GPI Net Tap</li>
                   <li>Hyperdriver</li>
                   <li>Mars for Martians</li>
                   <li>Salvaged Vanadis Armory</li>
@@ -157,6 +157,8 @@
                   <li>Film Critic</li>
                   <li>Gang Sign</li>
                   <li>Inversificator</li>
+                  <li>Laamb</li>
+                  <li>Labor Rights</li>
                   <li>Levy AR Lab Access</li>
                   <li>Mad Dash</li>
                   <li>Paperclip</li>
@@ -417,9 +419,9 @@
             </div>
 
             <div class="col-6">
-              <h3>MWL 1.1</h3>
-              <p class="font-italic">Effective from Friday 22nd February 2019.
-              </br>Changes from MWL 1.0 detailed <a href="http://nisei.net/article/MA201902">here</a>.</p>
+              <h3>MWL 1.2</h3>
+              <p class="font-italic">Effective from Friday 10th May 2019.
+              </br>Changes from MWL 1.1 detailed <a href="http://nisei.net/article/MWL32">here</a>.</p>
                 <h4>Corp - removed</h4>
                 <ul>
                   <li>24/7 News Cycle</li>
@@ -429,6 +431,7 @@
                 <h4>Runner - removed</h4>
                 <ul>
                   <li>Aaron Marrón</li>
+                  <li>Bloo Moose</li>
                   <li>Faust</li>
                   <li>Rumor Mill</li>
                   <li>Salvaged Vanadis Armory</li>
