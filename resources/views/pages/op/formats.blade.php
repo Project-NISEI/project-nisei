@@ -153,7 +153,6 @@
                   <li>Aesop's Pawnshop</li>
                   <li>Crowdfunding</li>
                   <li>Dorm Computer</li>
-                  <li>Employee Strike</li>
                   <li>Film Critic</li>
                   <li>Gang Sign</li>
                   <li>Inversificator</li>
