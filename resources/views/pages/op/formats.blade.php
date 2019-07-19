@@ -154,7 +154,6 @@
                   <li>Aesop's Pawnshop</li>
                   <li>Au Revoir</li>
                   <li>Corporate "Grant"</li>
-                  <li>Crowdfunding</li>
                   <li>Dorm Computer</li>
                   <li>Film Critic</li>
                   <li>Gang Sign</li>
