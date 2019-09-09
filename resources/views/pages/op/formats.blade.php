@@ -19,7 +19,7 @@
             <p>The flagship format of NISEI Organized Play, Standard is frequently changing to keep the meta exciting and engaging for players of all levels. Most official Organised Play events will follow the Standard format; if a format is not specified, assume Standard but contact your Tournament Organiser for clarity.</p>
             <div class="col-6">
               <h3>Legal Products</h3>
-              <p>Legal cardpool from 21st December 2018:</p>
+              <p>Legal cardpool from 20th September 2019 (prior to this date, Uprising Booster Pack not officially legal):</p>
               <ul>
                 <li><a href="https://netrunnerdb.com/en/set/cac" target="_blank">Creation and Control</a></li>
                 <li><a href="https://netrunnerdb.com/en/set/hap" target="_blank">Honor and Profit</a></li>
@@ -98,15 +98,16 @@
                 <li class="clear-list">
                   <ul>
                     <li><a href="https://netrunnerdb.com/en/set/df" target="_blank">Downfall</a></li>
+                    <li><a href="https://netrunnerdb.com/en/set/urbp" target="_blank">Uprising Booster Pack</a></li>
                   </ul>
                 </li>
               </ul>
             </div>
 
             <div class="col-6">
-              <h3>MWL 3.3</h3>
-                <p class="font-italic">Effective from Friday 19th July 2019.
-                </br>Changes from MWL 3.2 detailed <a href="http://nisei.net/article/MWL33">here</a>.</p>
+              <h3>MWL 3.4</h3>
+                <p class="font-italic">Effective from Monday 20th September 2019.
+                </br>Changes from <a href="http://nisei.net/article/MWL33">MWL 3.3</a> detailed <a href="http://nisei.net/article/MWL34">here</a>.</p>
                 <h4>Corp - removed</h4>
                 <ul>
                   <li>24/7 News Cycle</li>
@@ -120,6 +121,7 @@
                   <li>Mumbad City Hall</li>
                   <li>Museum of History</li>
                   <li>Sensie Actors Union</li>
+                  <li>Zealous Judge</li>
                 </ul>
                 <h4>Corp - restricted</h4>
                 <ul>
@@ -128,9 +130,7 @@
                   <li>Mother Goddess</li>
                   <li>Mumba Temple</li>
                   <li>Obokata Protocol</li>
-                  <li>SIU</li>
                   <li>Whampoa Reclamation</li>
-                  <li>Zealous Judge</li>
                 </ul>
                 <h4>Runner - removed</h4>
                 <ul>
@@ -141,6 +141,7 @@
                   <li>Faust</li>
                   <li>GPI Net Tap</li>
                   <li>Hyperdriver</li>
+                  <li>Laamb</li>                  
                   <li>Mars for Martians</li>
                   <li>Salvaged Vanadis Armory</li>
                   <li>Şifr</li>
@@ -155,10 +156,10 @@
                   <li>Au Revoir</li>
                   <li>Corporate "Grant"</li>
                   <li>Dorm Computer</li>
+                  <li>Engolo</li>
                   <li>Film Critic</li>
                   <li>Gang Sign</li>
                   <li>Inversificator</li>
-                  <li>Laamb</li>
                   <li>Labor Rights</li>
                   <li>Levy AR Lab Access</li>
                   <li>Mad Dash</li>
