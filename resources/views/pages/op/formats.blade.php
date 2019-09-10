@@ -11,7 +11,7 @@
     <div class="page-content">
         <div class="container">
           <div class="row">
-            <p> All formats follow the rules of play and errata outlined in the latest NISEI Comprehensive Rules. New releases become legal at Casual events immediately and at Competitive events on the second Friday after their release. For example, if a new set were released on Monday the 1st of a given month, it would become legal on Friday the 12th. Rotation and new MWL releases will be given their own effective dates, announced at the same time and always found in the Organised Play Policy document.</p>
+            <p> All formats follow the rules of play and errata outlined in the latest NISEI Comprehensive Rules. New releases become legal at Casual events immediately and at Competitive events on the second Friday after their release. For example, if a new set were released on Monday the 1st of a given month, it would become legal on Friday the 12th. Rotation and new MWL releases will be given their own effective dates, announced at the same time.</p>
             <p>Cards in the “removed” section may not be included in decks, used as identities, or chosen as extra cards (such as directives). Only a single card from the “restricted” section may be included in a deck up to its maximum number of copies, used as an identity, or chosen as an extra card.</p>
           </div>
           <div class="row">
