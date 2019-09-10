@@ -313,7 +313,7 @@
             <p>Eternal is not affected by rotation and has a much less stringent Most Wanted List. The largest and most complex format, it encompasses nearly the entirety of the printed card pool and only grows larger with time.</p>
             <div class="col-6">
               <h3>Legal Products</h3>
-              <p>Legal cardpool from 16th November 2018:</p>
+              <p>Legal cardpool from 20th September 2019 (prior to this date, Uprising Booster Pack not officially legal):</p>
               <ul>
                 <li><a href="https://netrunnerdb.com/en/set/core" target="_blank">Original Core Set</a></li>
                 <li><a href="https://netrunnerdb.com/en/cycle/genesis" target="_blank">Genesis Cycle</a></li>
@@ -417,6 +417,7 @@
                 <li class="clear-list">
                   <ul>
                     <li><a href="https://netrunnerdb.com/en/set/df" target="_blank">Downfall</a></li>
+                    <li><a href="https://netrunnerdb.com/en/set/urbp" target="_blank">Uprising Booster Pack</a></li>
                   </ul>
                 </li>
               </ul>
