@@ -106,7 +106,7 @@
 
             <div class="col-6">
               <h3>MWL 3.4</h3>
-                <p class="font-italic">Effective from Monday 20th September 2019.
+                <p class="font-italic">Effective from Friday 20th September 2019.
                 </br>Changes from <a href="http://nisei.net/article/MWL33">MWL 3.3</a> detailed <a href="http://nisei.net/article/MWL34">here</a>.</p>
                 <h4>Corp - removed</h4>
                 <ul>
