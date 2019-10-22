@@ -10,6 +10,7 @@
 
     <div class="page-content">
         <div class="container">
+            <p>Are you completely new to the game and want to meet more people to enjoy it with? Are you a seasoned player looking for groups around the world while travelling? Maybe you've just moved cities or countries and are wondering if there's a group in your new home area?</p>
             <p>We strongly believe that the biggest superpower our community has is each and every person playing the game. We want to help you find such people in your area. Take a look below and reach out to get involved!</p>
             <p>The information below will be updated periodically. If you think it needs correcting or expanding, please let us know at <a href="mailto:op@nisei.net">op@nisei.net</a> - thank you!</p>
             <h2>Communities Around The World</h2>
