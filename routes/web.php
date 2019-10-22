@@ -11,6 +11,8 @@ Route::get('/about/nisei', function () { return view('pages/about/nisei'); });
 Route::get('/about/code-of-conduct', function () { return view('pages/about/code-of-conduct'); });
 Route::get('/about/faqs', function () { return view('pages/about/faqs'); });
 
+Route::get('/find-people', function() { return view('pages/op/around-the-world'); });
+
 Route::get('/op', function() { return redirect('/op/available-kits'); });
 Route::get('/op/supported-formats', function() { return view('pages/op/formats'); });
 Route::get('/op/available-kits', ['uses' => 'Web\OPController@indexForStores', 'as' => 'op.storeIndex'] );

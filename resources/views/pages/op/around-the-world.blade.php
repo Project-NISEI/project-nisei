@@ -267,6 +267,14 @@
                         <li>Contact x3r0h0ur - x3r0h0ur [at] gmail.com (in English).</li>
                         <li>Fantasy Games or Martin's Cafe throughout the area.</li>
                     </ul>
+                    <p><strong>Michigan - Metro Detroit, Ann Arbor</strong></p>
+                    <p>This group was created to help cultivate an active community and connect players for regular and organized play throughout Metro Detroit area.</p>
+                    <ul>
+                        <li><a href="https://www.facebook.com/groups/metrodetroitnetrunner">Our publick Facebook group</a> - weekly updates, local events and meetups.</li>
+                        <li><a href="https://alwaysberunning.net/tournaments/2165/ann-arbor-weekly-tuesday-meetup">The Tuesday meet-up of the Ann Arbor group.</a></li>
+                        <li>Contact Tim - tvaduva [at] yahoo.com (English, and very rusty Romanian).</li>
+                        <li>Tuesday Meetup - 6 PM at <a href="https://goo.gl/maps/feoMtNN8R5MpN8nu8">Starbucks</a> on 1214 S University Ave, Ann Arbor, MI 48104</li>
+                    </ul>
                 <p><strong>Midwest - Cincinnati</strong></p>
                     <p>It's down to just two of us, but we still play and attend regional events!</p>
                     <ul>
