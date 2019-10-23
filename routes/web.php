@@ -11,6 +11,7 @@ Route::get('/about/nisei', function () { return view('pages/about/nisei'); });
 Route::get('/about/code-of-conduct', function () { return view('pages/about/code-of-conduct'); });
 Route::get('/about/faqs', function () { return view('pages/about/faqs'); });
 
+Route::get('/find-people', function() { return redirect('/op/around-the-world'); });
 Route::get('/find-people', function() { return view('pages/op/around-the-world'); });
 
 Route::get('/op', function() { return redirect('/op/available-kits'); });
