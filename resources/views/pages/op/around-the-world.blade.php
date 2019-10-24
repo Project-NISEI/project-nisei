@@ -183,6 +183,7 @@
                             <li>You can find the latest local events and news as well as links to useful documents or contact us for more information <a href="https://www.facebook.com/stirlingghostbranch/">on our Facebook group</a>.</li>
                             <li>Contact Callum - stirling.ghost.branch [at] gmail.com (in English).</li>
                             <li><a href="http://www.commongroundgames.co.uk/">Common Ground Games</a> - Tuesday nights.</li>
+                        </ul>
                     <p><strong>Sheffield</strong></p>
                         <p>Sheffield has a small group of enthusiastic players! We meet every Thursday at The Museum pub for casual games and also host regular tournaments at Patriot Games.</p>
                         <ul>
