@@ -99,7 +99,8 @@
                 <h4 id="hu">France</h4>
                 <p><strong>Lyon</strong></p>
                     <p>The 2nd biggest group in France! (We're four)</p>
-                    <ul>We have a section in the recently made<a href="https://district99.forumactif.com/f11-lyon-city-grid">French Netrunner forum</a>.</li>
+                    <ul>
+                    <li>We have a section in the recently made<a href="https://district99.forumactif.com/f11-lyon-city-grid">French Netrunner forum</a>.</li>
                     <li>Contact Passelune - jorniste [at] laposte.net.</li>
                     <li>Find us at <a href="http://www.trollune.fr/">Trollune</a> on Mondays.</li>
                 </ul>
@@ -127,7 +128,7 @@
                     <p>We're a friendly bunch of folks who fell in love with a certain cyberpunk card game with servers and ice. We'll show you why you too are bound to fall in love with it. // Jesteśmy grupą przyjaznych ludków, którzy zakochali się w pewnej cyberpunkowej grze karcianej z serwerami i lodami. Pokażemy Ci, dlaczego Tobie także jest przeznaczone zakochać się w tej grze.</p>
                     <ul>
                         <li><a href="http://netrunner-poznan.github.io/">A landing page for the group</a>, with contact info and a link to <a href="https://www.facebook.com/groups/android.netrunner.poznan/">the Facebook group</a>, where most of the action happens / Strona główna naszej grupy, z danymi kontaktowymi i linkiem do grupy facebookowej, gdzie odbywa się większość komunikacji.</li>
-                        <li>Contact Sebastian 'rattkin' Zarzycki - sebastian.zarzycki [at] gmail.com (in English, Polish, happy to use Google Translator for other cases :) or Jakub '@Bookkeeper' Eichler - kubaeichler [at] gmail.com (in English, Polish).</li>
+                        <li>Contact Poznan City Grid - poznan.city.grid [at] gmail.com (in English, Polish).</li>
                         <li><a href="https://www.facebook.com/alternativaclub/">Alternativa Club</a> (ul. Św. Marcina 80/82) - (roughly) every Thursday, 18-22. We change the schedule and place during summer, contact via Facebook to learn more. We're also happy to arrange a meeting pretty much anywhere in the city. // Alternativa Club - zwykle w każdy czwartek, 18-22. Latem zwykle gramy gdzie indziej, najlepiej zapytać przez Facebook. Chętnie też zorganizujemy granie w dowolnym innym miejscu w mieście.</li>
                     </ul>
                 <h4 id="se">Sweden / Sverige</h4>
