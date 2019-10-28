@@ -12,7 +12,7 @@
         <div class="container">
             <p>Are you completely new to the game and want to meet more people to enjoy it with? Are you a seasoned player looking for groups around the world while travelling? Maybe you've just moved cities or countries and are wondering if there's a group in your new home area?</p>
             <p>We strongly believe that the biggest superpower our community has is each and every person playing the game. We want to help you find such people in your area. Take a look below and reach out to get involved!</p>
-            <p>The information below will be updated periodically. If you think it needs correcting or expanding, please let us know at <a href="mailto:op@nisei.net">op@nisei.net</a> - thank you!</p>
+            <p><i>The information below will be updated periodically. If you think it needs correcting or expanding, please let us know at <a href="mailto:op@nisei.net">op@nisei.net</a> - thank you!</i></p>
             <h2>Communities Around The World</h2>
             <h4>Australia & Oceania</h4>
             <ul>
@@ -23,6 +23,7 @@
                 <li><a href="#cs">Czech Republic / Česká republika</a>.</li>
                 <li><a href="#de">Germany / Deutschland</a>.</li>
                 <li><a href="#fi">Finland / Suomi</a>.</li>
+                <li><a href="#fr">France</a>.</li>
                 <li><a href="#hu">Hungary / Magyarország</a>.</li>
                 <li><a href="#it">Italy / Italia</a>.</li>
                 <li><a href="#pl">Poland / Polska</a>.</li>
@@ -61,7 +62,7 @@
                         </ul>
                 <h4 id="de">Germany / Deutschland</h4>
                     <p><strong>Berlin</strong></p>
-                        <p>We are an active group, with a regular Thursday meetup of around 5 people. Have some own events from casual to competitive. All our events are listed on https://alwaysberunning.net/ // Wir seid eine aktive Community mit einem regelmäßigen Treffen Do mit ~ 5 Personen. Wir machen einige eigene Events von casual bis kompetitiv. Du findest alle unserer Termine auf https://alwaysberunning.net/</p>
+                        <p>We are an active group, with a regular Thursday meetup of around 5 people. Have some own events from casual to competitive. All our events are listed on <a href="https://alwaysberunning.net/">https://alwaysberunning.net/</a> // Wir seid eine aktive Community mit einem regelmäßigen Treffen Do mit ~ 5 Personen. Wir machen einige eigene Events von casual bis kompetitiv. Du findest alle unserer Termine auf <a href="https://alwaysberunning.net/">https://alwaysberunning.net/</a></p>
                         <ul>
                             <li><a href="https://alwaysberunning.net/tournaments/190/berlin-rudis">Our regular Thursday meetup</a> - you'll find us or more contacts on the ABR page, to get an invite to our Discord server.</li>
                             <li>Contact 5N00P1 - 5N00P1.ANR [at] gmail.com (in German, English).</li>
@@ -96,11 +97,11 @@
                         <li>Contact AxWill - aleksi.pajunen [at] gmail.com (in Finnish, English, Google Translate).</li>
                         <li>We usually play at Kaisla, but the weekly meetups are decided on the Facebook group based on people's personal schedules; you can also email AxWill, he is more than happy to keep you in the loop, teach the game and give tips where and what to buy.</li>
                     </ul>
-                <h4 id="hu">France</h4>
+                <h4 id="fr">France</h4>
                 <p><strong>Lyon</strong></p>
                     <p>The 2nd biggest group in France! (We're four)</p>
                     <ul>
-                    <li>We have a section in the recently made<a href="https://district99.forumactif.com/f11-lyon-city-grid">French Netrunner forum</a>.</li>
+                    <li>We have a section in the <a href="https://district99.forumactif.com/f11-lyon-city-grid">French Netrunner forum</a>.</li>
                     <li>Contact Passelune - jorniste [at] laposte.net.</li>
                     <li>Find us at <a href="http://www.trollune.fr/">Trollune</a> on Mondays.</li>
                 </ul>
@@ -175,7 +176,7 @@
                         <p>We're very nice and like to play weekly, in a quiet pub. We also have monthly events, ranging from Game Nigh Kit tournament to Regional tournaments.</p>
                         <ul>
                             <li><a href="https://www.facebook.com/groups/edinburghcardgamers/">Our Facebook group</a>. Access is available on request and we're generally pretty quick in responding.</li>
-                            <li>Contact Seamus - theobagpiper [at] gmail.com (in English).</li> or Alice - alice.rees90 [at] gmail.com (in English).</li>
+                            <li>Contact Seamus - theobagpiper [at] gmail.com (in English) or Alice - alice.rees90 [at] gmail.com (in English).</li>
                             <li><a href="https://www.facebook.com/CrosstownED/">Crosstown Eatery and Drinkery</a> - Thursday evenings.</li>
                         </ul>
                     <p><strong>Scotland - Stirling</strong></p>
@@ -199,7 +200,7 @@
                             <li><a href="https://www.facebook.com/groups/1971717656488151/">The Taunton Netrunners Facebook group</a> is a great place to start if you want to connect with other players in the Somerset and SW UK areas. We also have a FB chat group which we'd be happy to invite you to if you want!.</li>
                             <li>#taunton on <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>.</li>
                             <li>Contact Ian Witt - ianwittuk [at] gmail.com (@3N1GM4 on Stimhack Slack) (in English).</li>
-                            <li>We have a regular meetup (<a href="https://www.facebook.com/events/287159272004136/">Facebook</a>) (<a href="https://alwaysberunning.net/tournaments/1173/taunton-casual-netrunner-wednesdays">ABR</a>)on Wednesday evening at The Geek Lab UK on Station Road.</li>
+                            <li>We have a regular meetup (<a href="https://www.facebook.com/events/287159272004136/">Facebook</a>) (<a href="https://alwaysberunning.net/tournaments/1173/taunton-casual-netrunner-wednesdays">Always Be Running</a>) on Wednesday evening at The Geek Lab UK on Station Road.</li>
                         </ul>
             <h2>North America</h2>
                 <h4 id="ca">Canada</h4>
@@ -224,7 +225,7 @@
                         <li>Mondays about 6pm at the <a href="https://goo.gl/maps/MMqZLZyJnBhr5UNWA">Foolish Chicken</a> - 79 Holland Avenue, Ottawa. We usually play upstairs so that is a mobility issue.</li>
                     </ul>
                 <p><strong>Toronto</strong></p>
-                    <p>Welcome to Torsaug City Grid (TORonto + MissisSAUGa). We’re an active meta with two weekly meetups (Tuesdays at 401 Games and Wednesday at The Rhino Bar & Grill). We’re friendly as can be, and would be thrilled to meet people who either already play Netrunner or are just curious about the game.</p>
+                    <p>Welcome to Torsaug City Grid (TORonto + MissisSAUGa). We’re an active group with two weekly meetups (Tuesdays at 401 Games and Wednesday at The Rhino Bar & Grill). We’re friendly as can be, and would be thrilled to meet people who either already play Netrunner or are just curious about the game.</p>
                     <ul>
                         <li><a href="https://discord.gg/fTbjyGR">Our Discord server</a>, where we talk about Netrunner and whether a hot dog is a sandwich.</li>
                         <li><a href="https://facebook.com/groups/torsaug/">Our Facebook group page</a>, where we make larger announcements. We're not quite as active here, but we try to keep it up-to-date.</li>
@@ -244,7 +245,7 @@
                     <p>It's hot outside - come in and run nets with us!</p>
                     <ul>
                         <li><a href="http://bit.ly/PhxNetrunner">Discord server with a fancy vanity link</a>.</li>
-                        <li><a href="https://www.meetup.com/">Phoenix-Netrunner-Meetup/>Our Meetup page</a> will stay up to date with the latest tournaments and schedule information!.</li>
+                        <li><a href="https://www.meetup.com/Phoenix-Netrunner-Meetup/">Our Meetup page</a> will stay up to date with the latest tournaments and schedule information!.</li>
                         <li>Contact Devin - netrunner [at] dirjel.com (in English).</li>
                         <li><a href="https://maps.app.goo.gl/9Y3m5CFBGL2dN12k8">Phoenix Gaming Lounge</a> - We play every other Wednesday. Show up any time between 3 and midnight, stay as long as you like, extra decks available on site!.</li>
                     </ul>
@@ -291,7 +292,7 @@
                         <li><a href="https://alwaysberunning.net/tournaments/2293/pandemonium-weekly-meetup-boston-ma">Weekly meetup details</a> for Pandemonium Books and Games in Boston.</li>
                         <li>#pandemonium on <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>, then ask in #general to be added to the channel.</li>
                         <li>Contact Ben W - @solemnstorm on Stimhack Slack (in English).</li>
-                        <li>Pandemonium Books & Games - http://www.pandemoniumbooks.com - 6-10pm Thursdays.</li>
+                        <li><a href="http://www.pandemoniumbooks.com">Pandemonium Books & Games</a> - 6-10pm Thursdays.</li>
                     </ul>
                 <p><strong>Rhode Island - Cranston</strong></p>
                     <p>A very small group that is slowly growing.  We meet at Brutopia in Cranston, which is a brewpub. Mostly inexperienced players with some new players</p>
@@ -309,7 +310,7 @@
                         <li><a href="https://goo.gl/maps/P74ugoakL7TrUVUy8">At Ease Games Gaming & Tournament Center</a> - Thursdays around 6/7 until close!</li>
                     </ul>
                 <p><strong>San Francisco Bay Area</strong></p>
-                    <p>We are large and diverse group dedicated to Netrunner in both casual and competitive settings. We have multiple casual meet ups every week, a few competitive Game Night Kits every month, and several higher level tournaments throughout the year. Some really successful players have come from our meta. But we are always adding new players and helping them enjoy the game; whether that is refining their skills for competition, encouraging unique deck building ideas, or just enjoying some cardboard.</p>
+                    <p>We are large and diverse group dedicated to Netrunner in both casual and competitive settings. We have multiple casual meet ups every week, a few competitive Game Night Kits every month, and several higher level tournaments throughout the year. Some really successful players have come from our group. But we are always adding new players and helping them enjoy the game; whether that is refining their skills for competition, encouraging unique deck building ideas, or just enjoying some cardboard.</p>
                     <ul>
                         <li><a href="http://sansanfrancisco.net">A website for all the local information</a>.</li>
                         <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeL5d2wCj7FQTTBTKZzSJPlTtSU1bLj47bpfkdfNkoKrfYsIg/viewform">A Google form</a> to join the Bay Area Slack. Fill out the form and we'll send you an invite.</li>
@@ -338,11 +339,12 @@
                     <p><strong>Belo Horizonte - Minas Gerais</strong></p>
                         <p>Somos uma pequena, porém dedicada, comunidade de jogadores investidos em manter vivo o melhor card game de todos os tempos, em Belo Horizonte. Sempre de portas abertas a novatos e aos jogadores experientes. // We are a small, but dedicated, community of players keeping alive the best card game ever in Belo Horizonte. We welcome new and experienced players alike.</p>
                         <ul>
-                            <li><a href="https://www.facebook.com/groups/bhnetrunner/">Grupo do Facebook da Netrunner BH</a>, o melhor lugar para informações atualizadas de eventos, encontros e o meta // Facebook group for Netrunner BH, the best place for all local info on events, meet ups and the meta.</li>
-                            <li><a href="https://chat.whatsapp.com/IoOQzlYl4Me45Jcva97M4A">Grupo do Whatsapp</a>, para conversas instantâneas // Whatsapp group, for instant messaging.</li>
+                            <li><a href="https://www.facebook.com/groups/bhnetrunner/">Grupo do Facebook da Netrunner BH</a>, o melhor lugar para informações atualizadas de eventos o encontros // Facebook group for Netrunner BH, the best place for all local info on events and meetups.</li>
+                            <li><a href="https://chat.whatsapp.com/IoOQzlYl4Me45Jcva97M4A">Grupo do WhatsApp</a>, para conversas instantâneas // WhatsApp group, for instant messaging.</li>
                             <li>Contact Igor "Bone" Toscano - toscano.igor [at] gmail.com (in English, Portuguese, Italian, Spanish).</li>
                             <li><a href="https://www.facebook.com/TCGeek/">TCGeek</a> - todas as quartas às 18 horas // every Wednesday at 6 PM. Sem acessibilidade, mas é possível dar um jeito, basta entrar em contato com antecedência // Not wheelchair friendly, but we can arrange something, just contact beforehand.</li>
                         </ul>
+            <h2>Special and recurring events all over the world</h2>
             <p>We also invite you to check <a href="https://alwaysberunning.net/">Always Be Running</a>, the main event organization and tracking platform for our community, especially the "Recurring events / meetups" section you can find on the main page.</p>
             <p>See you on the other side of a table. <strong>Always Be Running!</strong></p>
         </div>
