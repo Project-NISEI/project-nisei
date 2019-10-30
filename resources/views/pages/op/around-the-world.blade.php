@@ -13,6 +13,7 @@
             <p>Are you completely new to the game and want to meet more people to enjoy it with? Are you a seasoned player looking for groups around the world while travelling? Maybe you've just moved cities or countries and are wondering if there's a group in your new home area?</p>
             <p>We strongly believe that the biggest superpower our community has is each and every person playing the game. We want to help you find such people in your area. Take a look below and reach out to get involved!</p>
             <p><i>The information below will be updated periodically. If you think it needs correcting or expanding, please let us know at <a href="mailto:op@nisei.net">op@nisei.net</a> - thank you!</i></p>
+            <p>If you don't find a suitable group in the list below, try <a href="#more">going deeper</a> in your search.</li>
             <h2>Communities Around The World</h2>
             <h4>Australia & Oceania</h4>
             <ul>
@@ -344,7 +345,7 @@
                             <li>Contact Igor "Bone" Toscano - toscano.igor [at] gmail.com (in English, Portuguese, Italian, Spanish).</li>
                             <li><a href="https://www.facebook.com/TCGeek/">TCGeek</a> - todas as quartas às 18 horas // every Wednesday at 6 PM. Sem acessibilidade, mas é possível dar um jeito, basta entrar em contato com antecedência // Not wheelchair friendly, but we can arrange something, just contact beforehand.</li>
                         </ul>
-            <h2>Special and recurring events all over the world</h2>
+            <h2 id="more">Special and recurring events all over the world</h2>
             <p>We also invite you to check <a href="https://alwaysberunning.net/">Always Be Running</a>, the main event organization and tracking platform for our community, especially the "Recurring events / meetups" section you can find on the main page.</p>
             <p>See you on the other side of a table. <strong>Always Be Running!</strong></p>
         </div>
