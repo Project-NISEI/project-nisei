@@ -151,7 +151,7 @@
                     </ul>
                 <hr />
                 <h4 id="ch">Switzerland / Helvetia </h4>
-                    p><strong>Bern & Zürich</strong></p>
+                    <p><strong>Bern & Zürich</strong></p>
                     <p>The Swiss meta is small but welcoming. Bern and Zürich have separate meetups but usually joint tournaments. In Bern are monthly Thursday meetings in DracheNäscht, in Zürich weekly Tuesday meetings in either Kabooom (Zürich) or Wellplayed (Dübendorf) / Das Schweizer Meta ist klein aber einladend. Bern und Zürich haben separate Meetups, meist aber gemeinsame Turniere. In Bern sind monatliche Treffen donnerstags im DracheNäscht, in Zürich dienstags in Kabooom (Zürich) oder Wellplayed (Dübendorf).</p>
                     <ul>
                         <li><a href="http://existenz.ch/mailman/listinfo/netrunner_existenz.ch">Our newsletter</a>, where you get all the necessary information about tournaments or other events in Switzerland.</li>
