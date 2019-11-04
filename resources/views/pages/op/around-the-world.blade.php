@@ -13,6 +13,7 @@
             <p>Are you completely new to the game and want to meet more people to enjoy it with? Are you a seasoned player looking for groups around the world while travelling? Maybe you've just moved cities or countries and are wondering if there's a group in your new home area?</p>
             <p>We strongly believe that the biggest superpower our community has is each and every person playing the game. We want to help you find such people in your area. Take a look below and reach out to get involved!</p>
             <p><i>The information below will be updated periodically. If you think it needs correcting or expanding, please let us know at <a href="mailto:op@nisei.net">op@nisei.net</a> - thank you!</i></p>
+            <p>If you don't find a suitable group in the list below, <a href="#more">try expanding your search</a>.</li>
             <h2>Communities Around The World</h2>
             <h4>Australia & Oceania</h4>
             <ul>
@@ -28,6 +29,7 @@
                 <li><a href="#it">Italy / Italia</a>.</li>
                 <li><a href="#pl">Poland / Polska</a>.</li>
                 <li><a href="#se">Sweden / Sverige</a>.</li>
+                <li><a href="#ch">Switzerland / Helvetia </a>.</li>
                 <li><a href="#uk">United Kingdom</a>.</li>
             </ul>
             <h4>North America</h4>
@@ -39,7 +41,7 @@
             <ul>
                     <li><a href="#br">Brazil / Brasil</a>.</li>
             </ul>
-
+            <hr />
             <h2>Australia & Oceania</h2>
                 <h4 id="au">Australia</h4>
                     <p><strong>Perth</strong></p>
@@ -49,7 +51,7 @@
                             <li>Contact Brian - brian [at] taliskerhouse.com (in English).</li>
                             <li>Find us at <a href="https://www.goodgames.com.au/au/stores/wa/cannington.html">Good Games Cannington</a>.</li>
                         </ul>
-
+            <hr />
             <h2>Europe</h2>
                 <h4 id="cs">Czech Republic / Česká republika</h4>
                     <p><strong>Brno</strong></p>
@@ -60,6 +62,7 @@
                             <li>Contact Longi - miroslav.seckar [at] seznam.cz (in English, Czech) or Dante - jryska42 [at] gmail.com (in English, Czech).</li>
                             <li><a href="https://goo.gl/maps/ZNBVPeNZtnEMax9C9">Black Oil - Gaming & Social Hub</a>: Kotlářská 989/51a, 602 00 Brno-střed-Veveří - mostly Thursday evenings (from 17:00 to 21:00).</li>
                         </ul>
+                <hr />
                 <h4 id="de">Germany / Deutschland</h4>
                     <p><strong>Berlin</strong></p>
                         <p>We are an active group, with a regular Thursday meetup of around 5 people. Have some own events from casual to competitive. All our events are listed on <a href="https://alwaysberunning.net/">https://alwaysberunning.net/</a> // Wir seid eine aktive Community mit einem regelmäßigen Treffen Do mit ~ 5 Personen. Wir machen einige eigene Events von casual bis kompetitiv. Du findest alle unserer Termine auf <a href="https://alwaysberunning.net/">https://alwaysberunning.net/</a></p>
@@ -87,7 +90,8 @@
                         <li><a href="https://rosenheim-city-grid.jimdosite.com/">Rosenheim City Grid website</a>.</li>
                         <li>On <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>, contact Kai (@Late) (in English, German, Italian, Latin ;-) or Dominik (@Shorty) (in English, German).</li>
                         <li><a href="http://bb-spiele.de/">BB Spiele Rosenheim</a> - Ebersbergerstr. 19-21, 83022 Rosenheim - Di-Fr: 15:00 - 20:00 Uhr, Sa.: 11:00 - 18:00 Uhr - not there a lot lately but they might have helpful information about our Group or how to contact us etc. // Wir sind nicht mehr regelmässig dort, aber die Angestellten können wahrscheinlich weiterhelfen wie Ihr mit uns in Kontakt treten könnt etc.</li>
-                    </ul>                        
+                    </ul>
+                <hr />               
                 <h4 id="fi">Finland / Suomi</h4>
                     <p><strong>Helsinki</strong></p>
                     <p>The Helsinki group is small, but active. We have usually around 4 players in weekly meetups and 8 players in smaller tournaments. Group trips to Tallinn tournaments are also done on regular basis. We welcome all the new players and hope you will have great time with this great game!</p>
@@ -97,6 +101,7 @@
                         <li>Contact AxWill - aleksi.pajunen [at] gmail.com (in Finnish, English, Google Translate).</li>
                         <li>We usually play at Kaisla, but the weekly meetups are decided on the Facebook group based on people's personal schedules; you can also email AxWill, he is more than happy to keep you in the loop, teach the game and give tips where and what to buy.</li>
                     </ul>
+                <hr />
                 <h4 id="fr">France</h4>
                 <p><strong>Lyon</strong></p>
                     <p>The 2nd biggest group in France! (We're four)</p>
@@ -105,6 +110,7 @@
                     <li>Contact Passelune - jorniste [at] laposte.net.</li>
                     <li>Find us at <a href="http://www.trollune.fr/">Trollune</a> on Mondays.</li>
                 </ul>
+                <hr />
                 <h4 id="hu">Hungary / Magyarország</h4>
                 <p><strong>Budapest</strong></p>
                     <p>In Budapest we have a roughly 8 person group that is glad for anyone new or traveling to join us :) We have a weekly meetup, usually a tournament in most months and some very talented and helpful players. // Budapesten van egy kb. 8 fős metánk aki szívesen lát új vagy csak látogató játékosokat :) Van egy heti játszós esténk, általában havonta egy verseny, valamint tehetséges és segítőkész játékosaink.</p>
@@ -115,6 +121,7 @@
                         <li>Contact Madarász István "Necro", also available on Facebook and Slack. Try with Hungarian or English // Madarász István "Necro, szintúgy megtalálható Facebook-on és Slack-en. Magyarul vagy angolul próbálkozzatok.</li>
                         <li>We usually play on Wednesdays (we're currently trying out different days though, so might change) at a place called <a href="https://goo.gl/maps/EnsgzNuhEWwpy7D19">Metagame</a> (1132 Kádár u. 10). It's in a cellar with stairs leading down, so probably not wheelchair friendly, but we will try to solve any issue the venue might present for someone. // Általában szerdánként játszunk (bár most épp másik napokkal próbálkozunk, úgyhogyváltozhat) egy <a href="https://goo.gl/maps/EnsgzNuhEWwpy7D19">Metagame</a> nevű helyen (1132 Kádár u. 10). Egy pincében van ahova lépcsők vezetnek, úgyhogy vélhetően nem kerekesszék-barát, de megpróbálunk minden gondot megoldani, amit a helyszín okozhat bárkinek.</li>
                     </ul>
+                <hr />
                 <h4 id="it">Italy / Italia</h4>
                 <p><strong>Piedmont - Turin / Piemonte - Torino</strong></p>
                     <p>Here in Turin we usually play homemade decklists that span from the jankiest combos to the most cancerous decks. The only thing that matters is to have fun! // A Torino di solito giochiamo mazzi artigianali che vanno dalle combo più jank ai mazzi più cancerogeni al mondo. L'unica cosa importante è divertirsi!</p>
@@ -124,6 +131,7 @@
                         <li><a href="https://alwaysberunning.net/tournaments/1625/monday-night-netrunner-at-jolly-joker">Our weekly meetup.</li>
                         <li><a href="http://www.jollyjokercafe.it/">Jolly Joker Game Cafè</a> - Monday night.</li>
                     </ul>
+                <hr />
                 <h4 id="pl">Poland / Polska</h4>
                 <p><strong>Poznań</strong></p>
                     <p>We're a friendly bunch of folks who fell in love with a certain cyberpunk card game with servers and ice. We'll show you why you too are bound to fall in love with it. // Jesteśmy grupą przyjaznych ludków, którzy zakochali się w pewnej cyberpunkowej grze karcianej z serwerami i lodami. Pokażemy Ci, dlaczego Tobie także jest przeznaczone zakochać się w tej grze.</p>
@@ -132,6 +140,7 @@
                         <li>Contact Poznan City Grid - poznan.city.grid [at] gmail.com (in English, Polish).</li>
                         <li><a href="https://www.facebook.com/alternativaclub/">Alternativa Club</a> (ul. Św. Marcina 80/82) - (roughly) every Thursday, 18-22. We change the schedule and place during summer, contact via Facebook to learn more. We're also happy to arrange a meeting pretty much anywhere in the city. // Alternativa Club - zwykle w każdy czwartek, 18-22. Latem zwykle gramy gdzie indziej, najlepiej zapytać przez Facebook. Chętnie też zorganizujemy granie w dowolnym innym miejscu w mieście.</li>
                     </ul>
+                <hr />
                 <h4 id="se">Sweden / Sverige</h4>
                     <p><strong>Linköping</strong></p>
                     <p>För tillfället är vi väldigt få aktiva spelare i Linköping, så vi är väldigt intresserade av att få in nya spelare. // At the moment we have very few active players in Linköping, so we are very interested in attracting new players.</p>
@@ -140,6 +149,17 @@
                         <li>Contact Harald Nautsch - hnautsch [at] gmail.com</a> (in Swedish, English, German).</li>
                         <li>At the moment the weekly meetup is on hold, since we are so few people actively playing. Contact us via the Facebook group or by email.</li>
                     </ul>
+                <hr />
+                <h4 id="ch">Switzerland / Helvetia </h4>
+                    p><strong>Bern & Zürich</strong></p>
+                    <p>The Swiss meta is small but welcoming. Bern and Zürich have separate meetups but usually joint tournaments. In Bern are monthly Thursday meetings in DracheNäscht, in Zürich weekly Tuesday meetings in either Kabooom (Zürich) or Wellplayed (Dübendorf) / Das Schweizer Meta ist klein aber einladend. Bern und Zürich haben separate Meetups, meist aber gemeinsame Turniere. In Bern sind monatliche Treffen donnerstags im DracheNäscht, in Zürich dienstags in Kabooom (Zürich) oder Wellplayed (Dübendorf).</p>
+                    <ul>
+                        <li><a href="http://existenz.ch/mailman/listinfo/netrunner_existenz.ch">Our newsletter</a>, where you get all the necessary information about tournaments or other events in Switzerland.</li>
+                        <li>For Bern, contact met4 - c-moon [at] gmx.ch (in Deutsch, Français, English, Nederlands), or on <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab.</a></li>
+                        <li>For Zürich, contact Chiphead404 - andreas.jufer [at] gmail.com [at] (in Deutsch, English).</li>
+                        <li>Local friendly gameshops are: <a href="https://www.drachenaescht.ch/">DracheNäscht</a> in Bern, <a href="https://www.kabooom.ch/">Kabooom</a> and <a href="https://www.wellplayed.ch/">Wellplayed</a> in Zürich.</li>
+                    </ul>
+                <hr />
                 <h4 id="uk">United Kingdom</h4>
                     <p><strong>Aldershot</strong></p>
                         <p>We are a friendly group of 7 players with a mix of new and experienced players.</p>
@@ -202,6 +222,7 @@
                             <li>Contact Ian Witt - ianwittuk [at] gmail.com (@3N1GM4 on Stimhack Slack) (in English).</li>
                             <li>We have a regular meetup (<a href="https://www.facebook.com/events/287159272004136/">Facebook</a>) (<a href="https://alwaysberunning.net/tournaments/1173/taunton-casual-netrunner-wednesdays">Always Be Running</a>) on Wednesday evening at The Geek Lab UK on Station Road.</li>
                         </ul>
+            <hr />            
             <h2>North America</h2>
                 <h4 id="ca">Canada</h4>
                 <p><strong>Alberta - Calgary</strong></p>
@@ -240,6 +261,7 @@
                         <li>Contact Keith / thike - keith.gaudry [at] gmail.com (in English).</li>
                         <li><a href="http://www.lionspub.ca/">Lion's Pub</a> - Tuesday Evenings for casual play.</li>
                     </ul>
+                <hr />    
                 <h4 id="us">United States of America</h4>
                 <p><strong>Arizona - Phoenix</strong></p>
                     <p>It's hot outside - come in and run nets with us!</p>
@@ -294,6 +316,13 @@
                         <li>Contact Ben W - @solemnstorm on Stimhack Slack (in English).</li>
                         <li><a href="http://www.pandemoniumbooks.com">Pandemonium Books & Games</a> - 6-10pm Thursdays.</li>
                     </ul>
+                <p><strong>Pennsylvania - Pittsburgh</strong></p>
+                    <p>We are gamers from Pittsburgh who enjoy playing the Android: Netrunner card game in a variety of formats! We host casual nights throughout the city, schedule Game Night Kit events and travel outside the city to bigger Regional events.</p>
+                    <ul>
+                        <li><a href="https://www.facebook.com/groups/PittsburghNetrunners/">Pittsburgh Netrunners Facebook Group</a>. You can join by requesting membership and adding a small note about who you are, where you are from, and other pertinent details. Moderators approve membership requests usually within a day or so.</li>
+                        <li>Contact Marcus Ranii-Dropcho - jamesmraniidropcho [at] gmail.com (in English) or Josiah Emery - aunthemod [at] gmail.com (in English).</li>
+                        <li>Bi-weekly meetings at 4818 Cypress St Pittsburgh PA, 15224 on Mondays, Wednesdays or Thursdays!</li>
+                    </ul>
                 <p><strong>Rhode Island - Cranston</strong></p>
                     <p>A very small group that is slowly growing.  We meet at Brutopia in Cranston, which is a brewpub. Mostly inexperienced players with some new players</p>
                     <ul>
@@ -334,6 +363,7 @@
                         <li>Contact Zoe (zgc) - zoegc [at] pm.me (in English) or Jen - mothra.levine [at] gmail.com (in English).</li>
                         <li><a href="https://www.facebook.com/Gabis-Olympic-Cards-Comics-100681268142/">Olympic Cards and Comics</a> - Tuesday evenings.</li>
                     </ul>
+            <hr />        
             <h2>South America</h2>
                 <h4 id="br">Brazil / Brasil</h4>
                     <p><strong>Belo Horizonte - Minas Gerais</strong></p>
@@ -344,8 +374,9 @@
                             <li>Contact Igor "Bone" Toscano - toscano.igor [at] gmail.com (in English, Portuguese, Italian, Spanish).</li>
                             <li><a href="https://www.facebook.com/TCGeek/">TCGeek</a> - todas as quartas às 18 horas // every Wednesday at 6 PM. Sem acessibilidade, mas é possível dar um jeito, basta entrar em contato com antecedência // Not wheelchair friendly, but we can arrange something, just contact beforehand.</li>
                         </ul>
-            <h2>Special and recurring events all over the world</h2>
-            <p>We also invite you to check <a href="https://alwaysberunning.net/">Always Be Running</a>, the main event organization and tracking platform for our community, especially the "Recurring events / meetups" section you can find on the main page.</p>
+            <hr />            
+            <h2 id="more">Special and recurring events all over the world</h2>
+            <p>We invite you to check <a href="https://alwaysberunning.net/">Always Be Running</a>, the main event organization and tracking platform for our community, especially the "Recurring events / meetups" section you can find on the main page.</p>
             <p>See you on the other side of a table. <strong>Always Be Running!</strong></p>
         </div>
     </div>
