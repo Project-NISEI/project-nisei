@@ -110,6 +110,14 @@
                     <li>Contact Passelune - jorniste [at] laposte.net.</li>
                     <li>Find us at <a href="http://www.trollune.fr/">Trollune</a> on Mondays.</li>
                 </ul>
+                <p><strong>Paris</strong></p>
+                    <p>Everybody's welcome to the Paris City Grid! Come play with us on Thursday nights at Troll2jeux (15-17 place d'Aligre, 75012) and on Sunday afternoons at Les Mauvais Joueurs (46 Rue Sedaine, 75011), we are looking forward to meeting you!</p>
+                    <ul>
+                    <li><a href="https://district99.forumactif.com/f1-paris-city-grid">Our section</a> in the French Netrunner forum.</li>
+                    <li><a href="https://www.facebook.com/groups/AndroidNetrunnerParis/">Our Facebook group</a>.</li>
+                    <li>Contact Mathieu "metamatik" R. - metamatik [at] gmail.com (in French, English).</li>
+                    <li><a href="https://www.troll2jeux.com/">Troll2jeux</a>, <a href="https://goo.gl/maps/fyKUv1xWQ6JQ8dD66">15-17 Place d'Aligre, 75012 Paris</a> - most Thursday evenings!</li>
+                    </ul>
                 <hr />
                 <h4 id="hu">Hungary / Magyarország</h4>
                 <p><strong>Budapest</strong></p>
