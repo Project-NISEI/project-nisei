@@ -6,13 +6,13 @@
     "watch:sass": "npm run build:sass && npm run build:sass -- -w"
   },
   "devDependencies": {
-    "axios": "^0.18",
-    "bootstrap": "^4.0.0",
+    "axios": "^0.19",
+    "bootstrap": "^4.3.1",
     "cross-env": "^5.1",
     "imagesloaded": "^4.1.4",
-    "jquery": "^3.2",
+    "jquery": "^3.4",
     "laravel-mix": "^2.0",
-    "lodash": "^4.17.5",
+    "lodash": "^4.17.15",
     "masonry-layout": "^4.2.2",
     "node-sass": "*",
     "popper.js": "^1.12"
