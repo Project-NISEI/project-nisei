@@ -28,6 +28,7 @@
                 <li><a href="#hu">Hungary / Magyarország</a>.</li>
                 <li><a href="#it">Italy / Italia</a>.</li>
                 <li><a href="#pl">Poland / Polska</a>.</li>
+                <li><a href="#es">Spain / España</a>.</li>
                 <li><a href="#se">Sweden / Sverige</a>.</li>
                 <li><a href="#ch">Switzerland / Helvetia </a>.</li>
                 <li><a href="#uk">United Kingdom</a>.</li>
@@ -149,6 +150,15 @@
                         <li><a href="https://www.facebook.com/alternativaclub/">Alternativa Club</a> (ul. Św. Marcina 80/82) - (roughly) every Thursday, 18-22. We change the schedule and place during summer, contact via Facebook to learn more. We're also happy to arrange a meeting pretty much anywhere in the city. // Alternativa Club - zwykle w każdy czwartek, 18-22. Latem zwykle gramy gdzie indziej, najlepiej zapytać przez Facebook. Chętnie też zorganizujemy granie w dowolnym innym miejscu w mieście.</li>
                     </ul>
                 <hr />
+                <h4 id="es">Spain / España</h4>
+                    <p><strong>Barcelona</strong></p>
+                    <p>We have an active group of players in and around Barcelona. Every season, there are Game Night Kit events, Store Champs, Regionals - and many casual meetups to have fun at and practice your skills - all levels of experience and interest welcome!</p>
+                    <ul>
+                        <li><a href="https://chat.whatsapp.com/6WLsCtTaTIx0U83F7KsDn4">Our WhatsApp group</a>, which you can join straight from your <i>magical, internet-enabled</i> phone.</li>
+                        <li>Contact Vesper - vesper [at] cyberpunk.me</a> (in English, Polish, Catalan, Spanish, German).</li>
+                        <li>We host irregular meetings, mostly around the district of <a href="https://goo.gl/maps/KzdQkWmMJbV5KR2M8">Sants</a>.</li>
+                    </ul>
+                <hr />
                 <h4 id="se">Sweden / Sverige</h4>
                     <p><strong>Linköping</strong></p>
                     <p>För tillfället är vi väldigt få aktiva spelare i Linköping, så vi är väldigt intresserade av att få in nya spelare. // At the moment we have very few active players in Linköping, so we are very interested in attracting new players.</p>
@@ -176,6 +186,14 @@
                             <li>Contact Rotage - aldershotnisei [at] gmail.com (in English).</li>
                             <li>We usually meet in the Games Shop in Aldershot every Wednesday but please contact us first to  make sure we will be there. Not Wheelchair friendly.</li>
                         </ul>
+                    <p><strong>Liverpool</strong></p>
+                        <p>We have a small but regular group in the Liverpool business district that meets every Tuesday evening from 6pm (though one of us sits at the store from around 5pm for dinner). You can find us at JustPlay on Tithebarn Street, 5 minutes walk from the local station or 15-20 minutes walk from Lime Street. We also hold occasional Tuesday evening Game Night Kit events! We have a private Slack channel so please contact us there if you'd like to be invited!</p>
+                        <ul>
+                            <li><a href="https://www.facebook.com/groups/382849755480684/">Our main Facebook group!</a> where you can get information on events within our region.</li>
+                            <li><a href="https://alwaysberunning.net/tournaments/940/weekly-casual-netrunner-liverpool">Our casual meetup's Always Be Running page</a> with more details and an e-mail address.</li>
+                            <li>Contact Simon - liverpoolnetrunner [at] outlook.com or @haway on <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a> or Andy - @same old things on Slack.</li>
+                            <li><a href="https://goo.gl/maps/PARstk3Du3jtpZ8j9">JustPlay</a>, 61 Tithebarn Street, L2 2SB - Tuesdays 6pm to 10pm.</li>
+                        </ul>    
                     <p><strong>London</strong></p>
                         <p>The game is alive and well in London. Our main meetup is every Tuesday evening in London Bridge, and we also have a monthly meetup in east London, near Stratford station. We have occasional Game Night Kit events at various locations around the city. We held a 29-person Regional tournament in July, and you'll usually find a few Londoners up for travelling to any event in the south of England.</p>
                         <ul>
@@ -370,6 +388,14 @@
                         <li><a href="https://www.facebook.com/Gabis-Olympic-Cards-Comics-100681268142/">Olympic Cards and Comics on Facebook</a> - host of our Tuesday night meetup.</li>
                         <li>Contact Zoe (zgc) - zoegc [at] pm.me (in English) or Jen - mothra.levine [at] gmail.com (in English).</li>
                         <li><a href="https://www.facebook.com/Gabis-Olympic-Cards-Comics-100681268142/">Olympic Cards and Comics</a> - Tuesday evenings.</li>
+                    </ul>
+                <p><strong>Washington - Seattle (Ballard)</strong></p>
+                    <p>Come join Emerald City Grid! We are a slow but steadily growing group of janky but competitive players that are very eager to help grow our flock! We have a strong mix of veteran ANR and new but stronger players. We enjoy pubrunner on Thursday evenings at Trailbend Taproom in Ballard's Brewery District. We run GNKs from time to time, so there's plenty of opportunity for competition as well as casual games. If you're interested but have no decks, some of our members often bring an *excessive* amount of decks that are always open to borrow from the ECG Library!</p>
+                    <ul>
+                        <li><a href="https://discord.gg/PWsbe7v">Emerald City Grid Discord Server - join on Discord</a>.</li>
+                        <li><a href="https://www.facebook.com/groups/GSANR/">Seattle Area Netrunner Facebook Group</a>.</li>
+                        <li>Contact Chris - david[dot]chris[dot]hertlein [at] gmail.com (in English).</li>
+                        <li><a href="https://goo.gl/maps/M9MEQULwe1ofApBb9">Trailbend Taproom in Ballard</a> - Thursday nights around 6 PM until whenever!</li>
                     </ul>
             <hr />        
             <h2>South America</h2>
