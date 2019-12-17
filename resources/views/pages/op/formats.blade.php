@@ -19,21 +19,9 @@
             <p>The flagship format of NISEI Organized Play, Standard is frequently changing to keep the meta exciting and engaging for players of all levels. Most official Organised Play events will follow the Standard format; if a format is not specified, assume Standard but contact your Tournament Organiser for clarity.</p>
             <div class="col-6">
               <h3>Legal Products</h3>
-              <p>Legal cardpool from 20th September 2019 (prior to this date, Uprising Booster Pack not officially legal):</p>
+              <p>Legal cardpool from 27th December 2019 (when Uprising became legal and Creation & Control and the Lunar Cycle were rotated):</p>
               <ul>
-                <li><a href="https://netrunnerdb.com/en/set/cac" target="_blank">Creation and Control</a></li>
                 <li><a href="https://netrunnerdb.com/en/set/hap" target="_blank">Honor and Profit</a></li>
-                <li><a href="https://netrunnerdb.com/en/cycle/lunar" target="_blank">Lunar Cycle</a></li>
-                <li class="clear-list">
-                  <ul>
-                    <li><a href="https://netrunnerdb.com/en/set/up" target="_blank">Upstalk</a></li>
-                    <li><a href="https://netrunnerdb.com/en/set/tsb" target="_blank">The Spaces Between</a></li>
-                    <li><a href="https://netrunnerdb.com/en/set/fc" target="_blank">First Contact</a></li>
-                    <li><a href="https://netrunnerdb.com/en/set/uao" target="_blank">Up and Over</a></li>
-                    <li><a href="https://netrunnerdb.com/en/set/atr" target="_blank">All That Remains</a></li>
-                    <li><a href="https://netrunnerdb.com/en/set/ts" target="_blank">The Source</a></li>
-                  </ul>
-                </li>
                 <li><a href="https://netrunnerdb.com/en/set/oc" target="_blank">Order and Chaos</a></li>
                 <li><a href="https://netrunnerdb.com/en/cycle/sansan" target="_blank">SanSan Cycle</a></li>
                 <li class="clear-list">
@@ -98,7 +86,7 @@
                 <li class="clear-list">
                   <ul>
                     <li><a href="https://netrunnerdb.com/en/set/df" target="_blank">Downfall</a></li>
-                    <li><a href="https://netrunnerdb.com/en/set/urbp" target="_blank">Uprising Booster Pack</a></li>
+                    <li><a href="https://netrunnerdb.com/en/set/ur" target="_blank">Uprising</a></li>
                   </ul>
                 </li>
               </ul>
@@ -112,7 +100,6 @@
                 <ul>
                   <li>24/7 News Cycle</li>
                   <li>Bryan Stinson</li>
-                  <li>Cerebral Imaging: Infinite Frontiers</li>
                   <li>Clone Suffrage Movement</li>
                   <li>Friends in High Places</li>
                   <li>Hired Help</li>
@@ -127,7 +114,6 @@
                 <ul>
                   <li>Bio-Ethics Association</li>
                   <li>Global Food Initiative</li>
-                  <li>Mother Goddess</li>
                   <li>Mumba Temple</li>
                   <li>Obokata Protocol</li>
                   <li>Whampoa Reclamation</li>
@@ -153,7 +139,6 @@
                 <h4>Runner - restricted</h4>
                 <ul>
                   <li>Aesop's Pawnshop</li>
-                  <li>Au Revoir</li>
                   <li>Corporate "Grant"</li>
                   <li>Dorm Computer</li>
                   <li>Engolo</li>
@@ -161,10 +146,8 @@
                   <li>Gang Sign</li>
                   <li>Inversificator</li>
                   <li>Labor Rights</li>
-                  <li>Levy AR Lab Access</li>
                   <li>Mad Dash</li>
                   <li>Paperclip</li>
-                  <li>Power Tap</li>
                   <li>Rumor Mill</li>
                   <li>Tech Trader</li>
                 </ul>
