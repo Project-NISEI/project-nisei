@@ -93,9 +93,9 @@
             </div>
 
             <div class="col-6">
-              <h3>MWL 3.4</h3>
-                <p class="font-italic">Effective from Friday 20th September 2019.
-                </br>Changes from <a href="http://nisei.net/article/MWL33">MWL 3.3</a> detailed <a href="http://nisei.net/article/MWL34">here</a>.</p>
+              <h3>MWL 3.4b</h3>
+                <p class="font-italic">Effective from Tuesday 31st December 2019.
+                </br>Changes from <a href="http://nisei.net/article/MWL33">MWL 3.4</a> detailed <a href="http://nisei.net/article/MWL34b">here</a>.</p>
                 <h4>Corp - removed</h4>
                 <ul>
                   <li>24/7 News Cycle</li>
@@ -127,7 +127,8 @@
                   <li>Faust</li>
                   <li>GPI Net Tap</li>
                   <li>Hyperdriver</li>
-                  <li>Laamb</li>                  
+                  <li>Laamb</li>
+                  <li>Liza Talking Thunder: Prominent Legislator</li>                  
                   <li>Mars for Martians</li>
                   <li>Salvaged Vanadis Armory</li>
                   <li>Şifr</li>
