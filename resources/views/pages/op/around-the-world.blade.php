@@ -104,6 +104,7 @@
                     </ul>
                 <hr />
                 <h4 id="fr">France</h4>
+                <p>Meet the French Netrunner community on <em>District 99</em>: <a href="https://district99.forumactif.com">our forum</a> and <a href="https://discord.gg/pM94Stf">our Discord server</a>!</p>
                 <p><strong>Lyon</strong></p>
                     <p>The 2nd biggest group in France! (We're four)</p>
                     <ul>
@@ -112,12 +113,13 @@
                     <li>Find us at <a href="http://www.trollune.fr/">Trollune</a> on Mondays.</li>
                 </ul>
                 <p><strong>Paris</strong></p>
-                    <p>Everybody's welcome to the Paris City Grid! Come play with us on Thursday nights at Troll2jeux (15-17 place d'Aligre, 75012) and on Sunday afternoons at Les Mauvais Joueurs (46 Rue Sedaine, 75011), we are looking forward to meeting you!</p>
+                    <p>Everybody's welcome to the Paris City Grid! Come play with us on Thursday nights at <em>Troll2jeux</em> and on Sunday afternoons at <em>Les Mauvais Joueurs</em>, we are looking forward to meeting you!</p>
                     <ul>
-                    <li><a href="https://district99.forumactif.com/f1-paris-city-grid">Our section</a> in the French Netrunner forum.</li>
+                    <li><a href="https://district99.forumactif.com/f1-paris-city-grid">Our section</a> on <em>District 99</em>.</li>
                     <li><a href="https://www.facebook.com/groups/AndroidNetrunnerParis/">Our Facebook group</a>.</li>
                     <li>Contact Mathieu "metamatik" R. - metamatik [at] gmail.com (in French, English).</li>
-                    <li><a href="https://www.troll2jeux.com/">Troll2jeux</a>, <a href="https://goo.gl/maps/fyKUv1xWQ6JQ8dD66">15-17 Place d'Aligre, 75012 Paris</a> - most Thursday evenings!</li>
+                    <li><a href="https://www.troll2jeux.com/">Troll2jeux</a>, <a href="https://goo.gl/maps/fyKUv1xWQ6JQ8dD66">15-17 Place d'Aligre, 75012 Paris</a> - most Thursday evenings</li>
+                    <li><a href="https://www.lesmauvaisjoueurs.com/">Les Mauvais Joueurs</a>, <a href="https://goo.gl/maps/B4qTXtbS1Kxh2Hw76">46 rue Sedaine, 75011 Paris</a> - most Sunday afternoons</li>
                     </ul>
                 <hr />
                 <h4 id="hu">Hungary / Magyarország</h4>
