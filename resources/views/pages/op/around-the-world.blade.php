@@ -64,11 +64,11 @@
                             <li><a href="https://goo.gl/maps/ZNBVPeNZtnEMax9C9">Black Oil - Gaming & Social Hub</a>: Kotlářská 989/51a, 602 00 Brno-střed-Veveří - mostly Thursday evenings (from 17:00 to 21:00).</li>
                         </ul>
                     <p><strong>Prague</strong></p>
-                            <p>We are a small, friendly and welcoming group of players gathering in one of the local game stores once a week and attending tournaments (most often in Brno).</p>
+                            <p>We are a small, friendly, and welcoming group of players gathering in one of the local game stores once a week and attending tournaments (most often in Brno).</p>
                         <ul>
                             <li><a href="https://www.facebook.com/groups/netrunner.praha/">Our "Netrunner Praha" group</a> on Facebook.</li>
                             <li><a href="https://alwaysberunning.net/tournaments/2416/crimson-thursday">Our regular meetup</a>.</li>
-                            <li>Contact Tomas Piling - tomas.piling [at] seznam.cz (in English, Czech) or Dante - jryska42 [at] gmail.com (in English, Czech).</li>
+                            <li>Contact Tomas Piling - tomas.piling [at] seznam.cz (in English, Czech).</li>
                             <li><a href="https://goo.gl/maps/r6W2hSqvENVZEvd68">Tomovy Hry</a>: Arbesovo nám. 753/15, Smíchov, 150 00 Praha-Praha 5, Czechia.</li>
                         </ul>
                 <hr />
