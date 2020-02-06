@@ -12,7 +12,7 @@
         <div class="container">
             <p>Are you completely new to the game and want to meet more people to enjoy it with? Are you a seasoned player looking for groups around the world while travelling? Maybe you've just moved cities or countries and are wondering if there's a group in your new home area?</p>
             <p>We strongly believe that the biggest superpower our community has is each and every person playing the game. We want to help you find such people in your area. Take a look below and reach out to get involved!</p>
-            <p><i>The information below will be updated periodically. If you think it needs correcting or expanding, please let us know at <a href="mailto:op@nisei.net">op@nisei.net</a> - thank you!</i></p>
+            <p><i>The information below will be updated periodically. If you think it needs correcting or expanding, please let us know at <a href="mailto:op@nisei.net">op@nisei.net</a> - thank you!. Alternatively, if you know your way around GitHub, you can update the page through a fork of our <a href="https://github.com/mikeprosser/project-nisei/pulls">main repository</a> and create a pull request.</i></p>
             <p>If you don't find a suitable group in the list below, <a href="#more">try expanding your search</a>.</li>
             <h2>Communities Around The World</h2>
             <h4>Australia & Oceania</h4>
@@ -21,8 +21,10 @@
             </ul>
             <h4>Europe</h4>
             <ul>
+                <li><a href="#at">Austria / Österreich</a>.</li>
                 <li><a href="#cs">Czech Republic / Česká republika</a>.</li>
                 <li><a href="#de">Germany / Deutschland</a>.</li>
+                <li><a href="#et">Estonia / Eesti</a>.</li>
                 <li><a href="#fi">Finland / Suomi</a>.</li>
                 <li><a href="#fr">France</a>.</li>
                 <li><a href="#hu">Hungary / Magyarország</a>.</li>
@@ -54,6 +56,14 @@
                         </ul>
             <hr />
             <h2>Europe</h2>
+                <h4 id="at">Austria / Österreich</h4>
+                <p><strong>Vienna</strong></p>
+                        <p>We are a club specializing in fantasy and science fiction games and meet once a week on Thursdays. We are hosting a System Core league that runs on the last Thursday every month (except for December) and tournaments at random intervals. We hope to get new players to try the game out through the beginner-friendly System Core league.</p>
+                        <ul>
+                            <li><a href="http://www.card-club.org/">Our club page</a>.</li>
+                            <li>Contact Martin - martin.martinozzi [at] gmail.com (in English, German).</li>
+                        </ul>
+                <hr />
                 <h4 id="cs">Czech Republic / Česká republika</h4>
                     <p><strong>Brno</strong></p>
                         <p>We are a bunch of people (usually around 4) meeting regularly in a nice gaming pub called Black Oil where they serve excellent beer and food. Together with people from Breclav community we regularly attend tournaments in Brno (which we organise), Prague or given our good location also in neighbouring countries (Hungary, Austria, Poland, Germany). We mainly communicate using Messenger and Slack.</p>
@@ -100,7 +110,16 @@
                         <li>On <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>, contact Kai (@Late) (in English, German, Italian, Latin ;-) or Dominik (@Shorty) (in English, German).</li>
                         <li><a href="http://bb-spiele.de/">BB Spiele Rosenheim</a> - Ebersbergerstr. 19-21, 83022 Rosenheim - Di-Fr: 15:00 - 20:00 Uhr, Sa.: 11:00 - 18:00 Uhr - not there a lot lately but they might have helpful information about our Group or how to contact us etc. // Wir sind nicht mehr regelmässig dort, aber die Angestellten können wahrscheinlich weiterhelfen wie Ihr mit uns in Kontakt treten könnt etc.</li>
                     </ul>
-                <hr />               
+                <hr />
+                <h4 id="fi">Estonia / Eesti</h4>               
+                <p><strong>Tallinn</strong></p>
+                    <p>The Tallinn group organizes regular casual events in the form of informal three rounds tournament that take place twice a month, usually on Wednesday evenings. As for the competitive scene, Tallinn hosts regular GNK and store championship events which see the participation of players from all the Baltic states and Finland. If you are in Estonia drop us a line!</p>
+                    <ul>
+                        <li><a href="https://www.facebook.com/groups/ANRTallinn/">Our Facebook group</a> - used for deciding meetups and tournaments.</li>
+                        <li>Contact v01d - purpleshifted [at] gmail.com (in English, Estonian, Spanish or Italian).</li>
+                        <li>Events are usually held at Lorien, in Tallinn – more information on our Facebook group.</li>
+                    </ul>
+                <hr />
                 <h4 id="fi">Finland / Suomi</h4>
                     <p><strong>Helsinki</strong></p>
                     <p>The Helsinki group is small, but active. We have usually around 4 players in weekly meetups and 8 players in smaller tournaments. Group trips to Tallinn tournaments are also done on regular basis. We welcome all the new players and hope you will have great time with this great game!</p>
@@ -318,9 +337,9 @@
                 <p><strong>Connecticut</strong></p>
                     <p>A group dedicated to the Living Card Game Android: Netrunner, meeting the 1st and 3rd Thursday of the month in the New Haven, CT area and the 2nd and 4th Thursday of the month in central CT.</p>
                     <ul>
-                        <li>Join <a href="https://fb.com/groups/nhnetrunner">our Facebook group</a> for Event information.</li>
+                        <li>Join <a href="https://fb.com/groups/ctnetrunner">our Facebook group</a> for Event information.</li>
                         <li>Contact Mark McKnight - disperse.recording [at] gmail.com (in English)</li>
-                        <li>Thursdays at <a href="https://g.page/ElmCityGames?share">Elm City Games</a> - 71 Orange Street, New Haven, CT 06510.</li>
+                        <li>Thursdays at <a href="https://goo.gl/maps/M9TCnup3iKPDRFAL7">Tabletop Gaming Center</a> - 741 New Britain Ave, Newington, CT 06111.</li>
                     </ul>
                 <p><strong>Indiana - South Bend</strong></p>
                     <p>A small casual/competitive group inactive right now but often willing to meet up and play at local game store, Martin's etc. All levels of players welcome. We are willing to teach the game, loan you cards, and do anything to get our cards out! Join "South Bend Netrunner Coalition" on Facebook and post for help!</p>
