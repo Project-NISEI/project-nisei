@@ -111,7 +111,7 @@
                         <li><a href="http://bb-spiele.de/">BB Spiele Rosenheim</a> - Ebersbergerstr. 19-21, 83022 Rosenheim - Di-Fr: 15:00 - 20:00 Uhr, Sa.: 11:00 - 18:00 Uhr - not there a lot lately but they might have helpful information about our Group or how to contact us etc. // Wir sind nicht mehr regelmässig dort, aber die Angestellten können wahrscheinlich weiterhelfen wie Ihr mit uns in Kontakt treten könnt etc.</li>
                     </ul>
                 <hr />
-                <h4 id="fi">Estonia / Eesti</h4>               
+                <h4 id="et">Estonia / Eesti</h4>               
                 <p><strong>Tallinn</strong></p>
                     <p>The Tallinn group organizes regular casual events in the form of informal three rounds tournament that take place twice a month, usually on Wednesday evenings. As for the competitive scene, Tallinn hosts regular GNK and store championship events which see the participation of players from all the Baltic states and Finland. If you are in Estonia drop us a line!</p>
                     <ul>
