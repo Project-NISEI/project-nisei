@@ -183,7 +183,7 @@
                     <p><strong>Barcelona</strong></p>
                     <p>We have an active group of players in and around Barcelona. Every season, there are Game Night Kit events, Store Champs, Regionals - and many casual meetups to have fun at and practice your skills - all levels of experience and interest welcome!</p>
                     <ul>
-                        <li><a href="https://chat.whatsapp.com/6WLsCtTaTIx0U83F7KsDn4">Our WhatsApp group</a>, which you can join straight from your <i>magical, internet-enabled</i> phone.</li>
+                        <li>The #barcelona channel on <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>.</li>
                         <li>Contact Vesper - vesper [at] cyberpunk.me</a> (in English, Polish, Catalan, Spanish, German).</li>
                         <li>We host irregular meetings, mostly around the district of <a href="https://goo.gl/maps/KzdQkWmMJbV5KR2M8">Sants</a>.</li>
                     </ul>
