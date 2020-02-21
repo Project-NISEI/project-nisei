@@ -107,7 +107,7 @@
                     <ul>
                         <li><a href="https://www.facebook.com/groups/304511856590911/">Our Local Facebook group</a>, nothing much happening there anymore but you can get in contact with us there :-D // Unsere örtliche Facebook Gruppe, nicht mehr viel los hier, aber man kann mit uns in Kontakt treten :-D.</li>
                         <li><a href="https://rosenheim-city-grid.jimdosite.com/">Rosenheim City Grid website</a>.</li>
-                        <li>On <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>, contact Kai (@Late) (in English, German, Italian, Latin ;-) or Dominik (@Shorty) (in English, German).</li>
+                        <li>On <a href="https://stimslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>, contact Kai (@Late) (in English, German, Italian, Latin ;-) or Dominik (@Shorty) (in English, German).</li>
                         <li><a href="http://bb-spiele.de/">BB Spiele Rosenheim</a> - Ebersbergerstr. 19-21, 83022 Rosenheim - Di-Fr: 15:00 - 20:00 Uhr, Sa.: 11:00 - 18:00 Uhr - not there a lot lately but they might have helpful information about our Group or how to contact us etc. // Wir sind nicht mehr regelmässig dort, aber die Angestellten können wahrscheinlich weiterhelfen wie Ihr mit uns in Kontakt treten könnt etc.</li>
                     </ul>
                 <hr />
@@ -154,7 +154,7 @@
                     <p>In Budapest we have a roughly 8 person group that is glad for anyone new or traveling to join us :) We have a weekly meetup, usually a tournament in most months and some very talented and helpful players. // Budapesten van egy kb. 8 fős metánk aki szívesen lát új vagy csak látogató játékosokat :) Van egy heti játszós esténk, általában havonta egy verseny, valamint tehetséges és segítőkész játékosaink.</p>
                     <ul>
                         <li><a href="https://www.facebook.com/groups/505519816175373/">A Facebook group</a> where you can find most of the Hungarian players // Egy Facebook csoport amiben a legtöbb magyar játékos benne van.</li>
-                        <li><a href="https://stimhackslackinvite.herokuapp.com/">The Stimhack Slack invite</a>, as you can find us in the #hu channel // A Stimhack Slack meghívója, mert ott is van saját csatornánk #hu névvel.</li>
+                        <li><a href="https://stimslackinvite.herokuapp.com/">The Stimhack Slack invite</a>, as you can find us in the #hu channel // A Stimhack Slack meghívója, mert ott is van saját csatornánk #hu névvel.</li>
                         <li>Contact Dinya Péter "percomis" - percomis [at] gmail.com, find me on Facebook, Slack (in Hungarian, English, and German) // megtalálhattok Facebookon, Slacken. Írhattok magyarul, angolul és németül.</li>
                         <li>Contact Madarász István "Necro", also available on Facebook and Slack. Try with Hungarian or English // Madarász István "Necro, szintúgy megtalálható Facebook-on és Slack-en. Magyarul vagy angolul próbálkozzatok.</li>
                         <li>We usually play on Wednesdays (we're currently trying out different days though, so might change) at a place called <a href="https://goo.gl/maps/EnsgzNuhEWwpy7D19">Metagame</a> (1132 Kádár u. 10). It's in a cellar with stairs leading down, so probably not wheelchair friendly, but we will try to solve any issue the venue might present for someone. // Általában szerdánként játszunk (bár most épp másik napokkal próbálkozunk, úgyhogyváltozhat) egy <a href="https://goo.gl/maps/EnsgzNuhEWwpy7D19">Metagame</a> nevű helyen (1132 Kádár u. 10). Egy pincében van ahova lépcsők vezetnek, úgyhogy vélhetően nem kerekesszék-barát, de megpróbálunk minden gondot megoldani, amit a helyszín okozhat bárkinek.</li>
@@ -183,7 +183,7 @@
                     <p><strong>Barcelona</strong></p>
                     <p>We have an active group of players in and around Barcelona. Every season, there are Game Night Kit events, Store Champs, Regionals - and many casual meetups to have fun at and practice your skills - all levels of experience and interest welcome!</p>
                     <ul>
-                        <li><a href="https://chat.whatsapp.com/6WLsCtTaTIx0U83F7KsDn4">Our WhatsApp group</a>, which you can join straight from your <i>magical, internet-enabled</i> phone.</li>
+                        <li>The #barcelona channel on <a href="https://stimslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>.</li>
                         <li>Contact Vesper - vesper [at] cyberpunk.me</a> (in English, Polish, Catalan, Spanish, German).</li>
                         <li>We host irregular meetings, mostly around the district of <a href="https://goo.gl/maps/KzdQkWmMJbV5KR2M8">Sants</a>.</li>
                     </ul>
@@ -202,7 +202,7 @@
                     <p>The Swiss meta is small but welcoming. Bern and Zürich have separate meetups but usually joint tournaments. In Bern are monthly Thursday meetings in DracheNäscht, in Zürich weekly Tuesday meetings in either Kabooom (Zürich) or Wellplayed (Dübendorf) / Das Schweizer Meta ist klein aber einladend. Bern und Zürich haben separate Meetups, meist aber gemeinsame Turniere. In Bern sind monatliche Treffen donnerstags im DracheNäscht, in Zürich dienstags in Kabooom (Zürich) oder Wellplayed (Dübendorf).</p>
                     <ul>
                         <li><a href="http://existenz.ch/mailman/listinfo/netrunner_existenz.ch">Our newsletter</a>, where you get all the necessary information about tournaments or other events in Switzerland.</li>
-                        <li>For Bern, contact met4 - c-moon [at] gmx.ch (in Deutsch, Français, English, Nederlands), or on <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab.</a></li>
+                        <li>For Bern, contact met4 - c-moon [at] gmx.ch (in Deutsch, Français, English, Nederlands), or on <a href="https://stimslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab.</a></li>
                         <li>For Zürich, contact Chiphead404 - andreas.jufer [at] gmail.com [at] (in Deutsch, English).</li>
                         <li>Local friendly gameshops are: <a href="https://www.drachenaescht.ch/">DracheNäscht</a> in Bern, <a href="https://www.kabooom.ch/">Kabooom</a> and <a href="https://www.wellplayed.ch/">Wellplayed</a> in Zürich.</li>
                     </ul>
@@ -211,7 +211,7 @@
                     <p><strong>Aldershot</strong></p>
                         <p>We are a friendly group of 7 players with a mix of new and experienced players.</p>
                         <ul>
-                            <li>The #readox channel on <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>. It's a discussion point for a group that extends beyond Oxford to incorporate Reading and Aldershot, as well as surrounding areas.</li>
+                            <li>The #readox channel on <a href="https://stimslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>. It's a discussion point for a group that extends beyond Oxford to incorporate Reading and Aldershot, as well as surrounding areas.</li>
                             <li>Contact Rotage - aldershotnisei [at] gmail.com (in English).</li>
                             <li>We usually meet in the Games Shop in Aldershot every Wednesday but please contact us first to  make sure we will be there. Not Wheelchair friendly.</li>
                         </ul>
@@ -220,14 +220,14 @@
                         <ul>
                             <li><a href="https://www.facebook.com/groups/382849755480684/">Our main Facebook group!</a> where you can get information on events within our region.</li>
                             <li><a href="https://alwaysberunning.net/tournaments/940/weekly-casual-netrunner-liverpool">Our casual meetup's Always Be Running page</a> with more details and an e-mail address.</li>
-                            <li>Contact Simon - liverpoolnetrunner [at] outlook.com or @haway on <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a> or Andy - @same old things on Slack.</li>
+                            <li>Contact Simon - liverpoolnetrunner [at] outlook.com or @haway on <a href="https://stimslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a> or Andy - @same old things on Slack.</li>
                             <li><a href="https://goo.gl/maps/PARstk3Du3jtpZ8j9">JustPlay</a>, 61 Tithebarn Street, L2 2SB - Tuesdays 6pm to 10pm.</li>
                         </ul>    
                     <p><strong>London</strong></p>
                         <p>The game is alive and well in London. Our main meetup is every Tuesday evening in London Bridge, and we also have a monthly meetup in east London, near Stratford station. We have occasional Game Night Kit events at various locations around the city. We held a 29-person Regional tournament in July, and you'll usually find a few Londoners up for travelling to any event in the south of England.</p>
                         <ul>
                             <li><a href="https://www.facebook.com/groups/493537727405068/">Our Facebook group</a>, the London City Grid. Questions are usually answered fairly promptly.</li>
-                            <li>#thamesidedeckclub for London chat and porg emojis - on <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>.</li>
+                            <li>#thamesidedeckclub for London chat and porg emojis - on <a href="https://stimslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>.</li>
                             <li>Contact Andi Thomas - andi.j.thomas [at] gmail.com (@twisty_b on Stimhack Slack) (in English) or Rufus Eyre-Varnier - reyrevarnier [at] gmail.com (@rusefus on Slack) (in English).</li>
                             <li>downstairs at <a href="https://goo.gl/maps/3j6Bb1jaa2XeQNnG9">The Old Thameside Inn</a>, London SE1 9DG - every Tuesday evening from about 6pm - unfortunately not wheelchair accessible - if booked, we'll be in <a href="https://goo.gl/maps/WsieqC8ZjXPj1DELA">The Sheaf</a> just down the road.</li>
                         </ul>
@@ -235,7 +235,7 @@
                         <p>The Greater Manchester Netrunner Server has Pubrunner events every Monday night, at The Wharf, Castlefield, and (roughly) monthly Game Night Kit events, sometimes at Fanboy 3. Many of us also travel around the country together to play.</p>
                         <ul>
                             <li><a href="https://www.facebook.com/groups/manchesterserver/">Facebook Group for Greater Manchester Server</a>, covering events and social posts.</li>
-                            <li><a href="https://app.slack.com/client/T0AV68M8C/C0JUWR67K">#uk</a> on <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>.</li>
+                            <li><a href="https://app.slack.com/client/T0AV68M8C/C0JUWR67K">#uk</a> on <a href="https://stimslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>.</li>
                             <li>Contact Mark - grenergi [at] hotmail.com (@mcg on Stimhack Slack) (in English) or Russell (@tolaasin on Stimhack Slack) (in English).</li>
                             <li><a href="https://www.brunningandprice.co.uk/thewharf/">The Wharf</a>, Castlefield - Monday evenings from 18:00.</li>
                         </ul>
@@ -243,7 +243,7 @@
                         <p>In Oxford we meet up Monday nights at "Thirsty Meeples", a gaming store. We generally play casually but hold the occasionaly "Game Night Kit" tournament. There's is a fee paid to the store every time we play but it's a nice cafe environment. We tend to have a reputation for a more... creative approach to the game than a competitive one but we do OK. We also form part of "Readoxershot" which is a group that includes us, Reading, and Aldershot - those keen on more tournaments can usually get lifts to there.</p>
                         <ul>
                             <li><a href="https://www.facebook.com/groups/700404386667402/">Our Facebook group</a> mainly used to check who is coming to our Monday meet ups. We will try to keep it updated on other things happening elsewhere.</li>
-                            <li>The #readox channel on <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>. It's a discussion point for a group that extends beyond Oxford to incorporate Reading and Aldershot, as well as surrounding areas.</li>
+                            <li>The #readox channel on <a href="https://stimslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>. It's a discussion point for a group that extends beyond Oxford to incorporate Reading and Aldershot, as well as surrounding areas.</li>
                             <li>Contact Guy - guypatching [at] googlemail.com (in English).</li>
                             <li><a href="https://goo.gl/maps/fhMKcevYVxERMQE4A">Thirsty Meeples</a>, Gloucester Green, Oxford - Monday evenings around 18.00.</li>
                         </ul>
@@ -273,7 +273,7 @@
                         <p>We've had a small group running for a year or so in Taunton, where we try to place the focus on welcoming new players and making people feel comfortable so they can enjoy the game. We also have a slight addiction to prize support, so no-one ever leaves one of our events empty handed! We've hosted countless Game Night Kit events, a Store Championship, and a Regional since NISEI came into existence and we're looking forward to hosting even more in the future!</p>
                         <ul>
                             <li><a href="https://www.facebook.com/groups/1971717656488151/">The Taunton Netrunners Facebook group</a> is a great place to start if you want to connect with other players in the Somerset and SW UK areas. We also have a FB chat group which we'd be happy to invite you to if you want!.</li>
-                            <li>#taunton on <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>.</li>
+                            <li>#taunton on <a href="https://stimslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>.</li>
                             <li>Contact Ian Witt - ianwittuk [at] gmail.com (@3N1GM4 on Stimhack Slack) (in English).</li>
                             <li>We have a regular meetup (<a href="https://www.facebook.com/events/287159272004136/">Facebook</a>) (<a href="https://alwaysberunning.net/tournaments/1173/taunton-casual-netrunner-wednesdays">Always Be Running</a>) on Wednesday evening at The Geek Lab UK on Station Road.</li>
                         </ul>
@@ -284,7 +284,7 @@
                     <p>Calgary area Netrunners!</p>
                     <ul>
                         <li><a href="https://www.facebook.com/groups/CalgaryLCG/">Our Facebook group</a>.</li>
-                        <li>See us on #yyc on <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>.</li>
+                        <li>See us on #yyc on <a href="https://stimslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>.</li>
                     </ul>
                 <p><strong>Alberta - Edmonton</strong></p>
                     <p>The Edmonton scene has been lively and fresh since the original release of ANR, meeting Wednesdays at Table Top Cafe since 2012, creating our own facebook profile in 2013. We average around 7-8 steady players with peaks in the 20's for some higher profile tournaments.</p>
@@ -312,7 +312,7 @@
                     <p>A group for people in the greater Vancouver area. We meet weekly for games at a pub, and usually have monthly tournaments.</p>
                     <ul>
                         <li><a href="https://www.facebook.com/groups/vancouvernetrunner/">Our Facebook group</a>, where all our local events and meetups are organized.</li>
-                        <li>#vancouver on <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>.</li>
+                        <li>#vancouver on <a href="https://stimslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>.</li>
                         <li>Contact Keith / thike - keith.gaudry [at] gmail.com (in English).</li>
                         <li><a href="http://www.lionspub.ca/">Lion's Pub</a> - Tuesday Evenings for casual play.</li>
                     </ul>
@@ -330,7 +330,7 @@
                     <p>We are a fun and friendly group who are still going strong!</p>
                     <ul>
                         <li><a href="https://www.facebook.com/groups/458432717581000/">Our Facebook group</a>, where we post all upcoming tournaments and meetups.</li>
-                        <li>Join the #peakefficiency channel on <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>.</li>
+                        <li>Join the #peakefficiency channel on <a href="https://stimslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>.</li>
                         <li>Contact Alexis Spicer - alexiscspicer [at] gmail.com (in English) or Elliott Hedman - hedman [at] buildempathy.com (in English).</li>
                         <li><a href="https://goo.gl/maps/kqZtUHeGu1N4co3C7">The Wizard's Chest</a> on Broadway - we typically meet there every Thursday at 6pm, please check the Facebook group to make sure the meet is happening. Free parking!</li>
                     </ul>
@@ -359,7 +359,7 @@
                 <p><strong>Midwest - Cincinnati</strong></p>
                     <p>It's down to just two of us, but we still play and attend regional events!</p>
                     <ul>
-                        <li>#cincinnati on <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>.</li>
+                        <li>#cincinnati on <a href="https://stimslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>.</li>
                         <li>Contact Noah Bogart - nbtheduke [at] gmail.com (in English).</li>
                         <li>We don't have a dedicated space anymore, as Arkham Games closed and the rest of the community dropped out. We schedule on Slack!</li>
                     </ul>
@@ -367,7 +367,7 @@
                     <p>Regular meetings in Pandemonium Books and Games.</p>
                     <ul>
                         <li><a href="https://alwaysberunning.net/tournaments/2293/pandemonium-weekly-meetup-boston-ma">Weekly meetup details</a> for Pandemonium Books and Games in Boston.</li>
-                        <li>#pandemonium on <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>, then ask in #general to be added to the channel.</li>
+                        <li>#pandemonium on <a href="https://stimslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>, then ask in #general to be added to the channel.</li>
                         <li>Contact Ben W - @solemnstorm on Stimhack Slack (in English).</li>
                         <li><a href="http://www.pandemoniumbooks.com">Pandemonium Books & Games</a> - 6-10pm Thursdays.</li>
                     </ul>
@@ -381,7 +381,7 @@
                 <p><strong>Rhode Island - Cranston</strong></p>
                     <p>A very small group that is slowly growing.  We meet at Brutopia in Cranston, which is a brewpub. Mostly inexperienced players with some new players</p>
                     <ul>
-                        <li>Join #boswash for the greater US Northeast and message @DanB on <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>.</li>
+                        <li>Join #boswash for the greater US Northeast and message @DanB on <a href="https://stimslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>.</li>
                         <li>Contact Dan Bouchard - mail [at] danbouchard.com (in English).</li>
                         <li><a href="https://g.page/revivalbrewing?share">Brutopia</a> in Cranston, RI on Thursday evenings.</li>
                     </ul>
@@ -389,7 +389,7 @@
                     <p>We’d love for people to join us at At Ease Games to play Netrunner! We welcome everyone from kitchen table players to competitive players, so you’re bound to find someone your speed to play with!</p>
                     <ul>
                         <li>Join us on the <a href="https://www.facebook.com/groups/West-Coast-Netrunners-102472489909018/">West Coast Netrunners Facebook group</a>.</li>
-                        <li>Join us at #socal on <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>.</li>
+                        <li>Join us at #socal on <a href="https://stimslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>.</li>
                         <li>Contact Patrick Burk - pburk89 [at] gmail.com/@bluehg on Stimslack (in English).</li>
                         <li><a href="https://goo.gl/maps/P74ugoakL7TrUVUy8">At Ease Games Gaming & Tournament Center</a> - Thursdays around 6/7 until close!</li>
                     </ul>
@@ -398,14 +398,14 @@
                     <ul>
                         <li><a href="http://sansanfrancisco.net">A website for all the local information</a>.</li>
                         <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeL5d2wCj7FQTTBTKZzSJPlTtSU1bLj47bpfkdfNkoKrfYsIg/viewform">A Google form</a> to join the Bay Area Slack. Fill out the form and we'll send you an invite.</li>
-                        <li>Contact @swan on <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a> or kirkaduran2 [at] gmail.com.</li>
+                        <li>Contact @swan on <a href="https://stimslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a> or kirkaduran2 [at] gmail.com.</li>
                         <li>Every Thursday night: <a href="https://goo.gl/maps/sL8yVoQRprsLm2957">GameScape</a> - 333 Divisadero St, San Francisco, CA 94117.</li>
                         <li>Every Wednesday night: <a href="https://goo.gl/maps/rbptnRp4rMNfDQJQ6">Victory Point</a> - 1797-A Shattuck Ave, Berkeley, CA 94709.</li>
                     </ul>
                 <p><strong>Texas - Austin</strong></p>
                     <p>Welcome to the Austin City Grid! We're a mix of old and new players who like to jam games and drink beverages, and we'd love to have you join us for a weekly meetup or a monthly Game Night Kit!</p>
                     <ul>
-                        <li>#austin-city-grid on <a href="https://stimhackslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>.</li>
+                        <li>#austin-city-grid on <a href="https://stimslackinvite.herokuapp.com/">Stimhack Slack - join and connect in a browser tab</a>.</li>
                         <li><a href="https://alwaysberunning.net/tournaments/2277/austin-city-grid-weekly-meetup">Our weekly Pubrunner meetups</a>. The Game Night Kit info comes out periodically as they get organized, but they're monthly, 3rd Saturday of the month.</li>
                         <li>Contact Brandon - brandon.gannicott [at] gmail.com (in English) or Cameron - errantmage [at] gmail.com (in English).</li>
                         <li><a href="https://www.facebook.com/Emerald.Tavern.Games.and.Cafe/">Emerald Tavern</a> - 6:30pm on Thursdays.</li>
