@@ -28,6 +28,7 @@
                         <li><a href="/op/kit-policies">Event Kit Policies & FAQ</a></li>
                         <li><a href="/files/Handwritten_Proxy_Template.pdf">Handwritten Proxy Template</a></li>
                         <li><a href="/files/Handwritten_Proxy_Template_%28Textless%29.pdf">Handwritten Proxy Template (Textless)</a></li>
+                        <li><a href="/files/Match_Slips.pdf">Match Slips for Tournaments</a></li>
                         <li><a href="/files/Double_Elimination_Bracket_-_4_Players.pdf">Double Elimination Bracket - 4 Players</a></li>
                         <li><a href="/files/Double_Elimination_Bracket_-_8_Players.pdf">Double Elimination Bracket - 8 Players</a></li>
                         <li><a href="/files/Double_Elimination_Bracket_-_16_Players.pdf">Double Elimination Bracket - 16 Players</a></li>
