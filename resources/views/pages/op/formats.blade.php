@@ -120,6 +120,7 @@
                 </ul>
                 <h4>Runner</h4>
                 <ul>
+                  <li>All cards with the "<b>current</b>" subtype</li>
                   <li>Aaron Marrón</li>
                   <li>Bloo Moose</li>
                   <li>Clan Vengeance</li>
@@ -131,7 +132,7 @@
                   <li>Gang Sign</li>
                   <li>GPI Net Tap</li>
                   <li>Laamb</li>
-                  <li>Liza Talking Thunder: Prominent Legislator</li>                  
+                  <li>Liza Talking Thunder: Prominent Legislator</li>
                   <li>Mad Dash</li>
                   <li>Mars for Martians</li>
                   <li>Salvaged Vanadis Armory</li>
