@@ -93,9 +93,9 @@
             </div>
 
             <div class="col-6">
-              <h3>Standard Ban List 20.06</h3>
-                <p class="font-italic">Effective from Friday 26th June 2020.
-                </br>Changes from <a href="http://nisei.net/article/MWL34b">MWL 3.4b</a> detailed <a href="http://nisei.net/article/BAN2006">here</a>.</p>
+              <h3>Standard Ban List 20.09</h3>
+                <p class="font-italic">Effective from Friday 25th September 2020.
+                </br>Changes from <a href="/article/BAN2006">20.06</a> detailed <a href="/article/BAN2009">here</a>.</p>
                 <h4>Corp</h4>
                 <ul>
                   <li>All cards with the "<b>current</b>" subtype</li>
@@ -107,6 +107,7 @@
                   <li>Clone Suffrage Movement</li>
                   <li>Friends in High Places</li>
                   <li>Gagarin Deep Space: Expanding the Horizon</li>
+                  <li>Gold Farmer</li>
                   <li>Hired Help</li>
                   <li>Jinteki: Potential Unleashed</li>
                   <li>Kakugo</li>
@@ -115,6 +116,7 @@
                   <li>Museum of History</li>
                   <li>Sensie Actors Union</li>
                   <li>Shipment from Tennin</li>
+                  <li>SSL Endorsement</li>
                   <li>Whampoa Reclamation</li>
                   <li>Zealous Judge</li>
                 </ul>
@@ -135,6 +137,7 @@
                   <li>Liza Talking Thunder: Prominent Legislator</li>
                   <li>Mad Dash</li>
                   <li>Mars for Martians</li>
+                  <li>Pad Tap</li>
                   <li>Salvaged Vanadis Armory</li>
                   <li>Şifr</li>
                   <li>Temüjin Contract</li>
