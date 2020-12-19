@@ -10,7 +10,7 @@
     "bootstrap": "^4.3.1",
     "cross-env": "^5.1",
     "imagesloaded": "^4.1.4",
-    "jquery": "^3.4",
+    "jquery": "^3.5",
     "laravel-mix": "^2.0",
     "lodash": "^4.17.15",
     "masonry-layout": "^4.2.2",
