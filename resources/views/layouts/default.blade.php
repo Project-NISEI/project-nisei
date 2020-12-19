@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="og:image" content="@yield('opengraph-image', url('/logo-large.png'))">
+    
+    <!-- Twitter cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ProjectNISEI">
+    <meta name="twitter:title" content="@yield('page-title')">
+    <!-- twitter:description would go here if we had page summaries -->
+    <meta name="twitter:image" content="@yield('opengraph-image', url('/logo-large.png'))">
+    <!-- end Twitter cards -->
+
 
     <title>@yield('page-title')</title>
 
