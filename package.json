@@ -12,7 +12,7 @@
     "imagesloaded": "^4.1.4",
     "jquery": "^3.5",
     "laravel-mix": "^2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "masonry-layout": "^4.2.2",
     "node-sass": "*",
     "popper.js": "^1.12"
