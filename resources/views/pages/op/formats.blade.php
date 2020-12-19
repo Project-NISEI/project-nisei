@@ -19,7 +19,7 @@
             <p>The flagship format of NISEI Organized Play, Standard is frequently changing to keep the meta exciting and engaging for players of all levels. Most official Organised Play events will follow the Standard format; if a format is not specified, assume Standard but contact your Tournament Organiser for clarity.</p>
             <div class="col-6">
               <h3>Legal Products</h3>
-              <p>Legal cardpool from 27th December 2019 (when Uprising became legal and Creation & Control and the Lunar Cycle were rotated):</p>
+              <p>Legal cardpool from 18th December 2020 (when Salvaged Memories became legal):</p>
               <ul>
                 <li><a href="https://netrunnerdb.com/en/set/hap" target="_blank">Honor and Profit</a></li>
                 <li><a href="https://netrunnerdb.com/en/set/oc" target="_blank">Order and Chaos</a></li>
@@ -89,6 +89,7 @@
                     <li><a href="https://netrunnerdb.com/en/set/ur" target="_blank">Uprising</a></li>
                   </ul>
                 </li>
+                <li><a href="https://netrunnerdb.com/en/set/sm" target="_blank">Salvaged Memories</a></li>
               </ul>
             </div>
 
@@ -288,7 +289,7 @@
             <p>Eternal is not affected by rotation and has a much less stringent Most Wanted List (aka banned & restricted list). The largest and most complex format, it encompasses nearly the entirety of the printed card pool and only grows larger with time.</p>
             <div class="col-6">
               <h3>Legal Products</h3>
-              <p>Legal cardpool from 20th September 2019 (prior to this date, Uprising Booster Pack not officially legal):</p>
+              <p>Legal cardpool from 27th December 2019 (when Uprising became legal):</p>
               <ul>
                 <li><a href="https://netrunnerdb.com/en/set/core" target="_blank">Original Core Set</a></li>
                 <li><a href="https://netrunnerdb.com/en/cycle/genesis" target="_blank">Genesis Cycle</a></li>
@@ -392,7 +393,7 @@
                 <li class="clear-list">
                   <ul>
                     <li><a href="https://netrunnerdb.com/en/set/df" target="_blank">Downfall</a></li>
-                    <li><a href="https://netrunnerdb.com/en/set/urbp" target="_blank">Uprising Booster Pack</a></li>
+                    <li><a href="https://netrunnerdb.com/en/set/ur" target="_blank">Uprising</a></li>
                   </ul>
                 </li>
               </ul>
