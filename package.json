@@ -6,7 +6,7 @@
     "watch:sass": "npm run build:sass && npm run build:sass -- -w"
   },
   "devDependencies": {
-    "axios": "^0.19",
+    "axios": "^0.21",
     "bootstrap": "^4.3.1",
     "cross-env": "^5.1",
     "imagesloaded": "^4.1.4",
